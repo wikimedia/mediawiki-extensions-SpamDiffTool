@@ -20,6 +20,11 @@ $specialPageAliases['ar'] = array(
 	'SpamDiffTool' => array( 'أداة_فرق_السبام' ),
 );
 
+/** Interlingua (Interlingua) */
+$specialPageAliases['ia'] = array(
+	'SpamDiffTool' => array( 'Lista_nigre_antispam' ),
+);
+
 /** Japanese (日本語) */
 $specialPageAliases['ja'] = array(
 	'SpamDiffTool' => array( 'スパム差分ツール' ),
