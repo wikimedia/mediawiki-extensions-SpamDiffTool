@@ -98,9 +98,9 @@ class SpecialSpamDiffTool extends UnlistedSpecialPage {
 			}
 			$wgOut->addHTML(
 				Xml::openElement( 'form', array( 'method' => 'post' ) ) . "\n" .
-				Xml::hidden( 'confirm', 'true' ) .
-				Xml::hidden( 'newurls', $text ) .
-				Xml::hidden( 'returnto', $wgRequest->getVal( 'returnto' ) ) . "\n" .
+				Html::hidden( 'confirm', 'true' ) .
+				Html::hidden( 'newurls', $text ) .
+				Html::hidden( 'returnto', $wgRequest->getVal( 'returnto' ) ) . "\n" .
 				wfMsg( 'spamdifftool_confirm',
 					'http://www.mediawiki.org/w/index.php?title=Extension_talk:SpamDiffTool&action=edit&section=new' ) .
 				"\n<pre>$text</pre>\n" .
@@ -179,7 +179,7 @@ class SpecialSpamDiffTool extends UnlistedSpecialPage {
 
 		$wgOut->addHTML(
 			Xml::openElement( 'form', array( 'method' => 'post' ) ) . "\n" .
-			Xml::hidden( 'returnto', $wgRequest->getVal( 'returnto' ) ) . "\n" .
+			Html::hidden( 'returnto', $wgRequest->getVal( 'returnto' ) ) . "\n" .
 			Xml::openElement( 'table', array( 'cellpadding' => 5, 'width' => '100%' ) ) . "\n"
 		);
 
