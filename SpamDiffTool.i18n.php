@@ -1471,6 +1471,7 @@ $messages['sl'] = array(
 	'spamdifftool_spam_link_text' => 'dodaj med spam',
 	'spamdifftool_option_domain' => 'vse iz te domene',
 	'spamdifftool_option_subdomain' => 'vse iz te poddomene',
+	'spamdifftool_option_directory' => 'ta poddomena in mapa',
 	'spamdifftool_option_none' => 'nič',
 	'spamdifftool_block' => 'Blokiraj:',
 	'spamdifftool_submit_buttom' => 'Pošlji',
