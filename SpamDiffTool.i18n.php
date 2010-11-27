@@ -1467,7 +1467,11 @@ Určite nezablokujte celé domény, ktoré úmožňujú tvorbu používateľský
  */
 $messages['sl'] = array(
 	'spamdifftool' => 'Upravljaj črni seznam spam',
+	'spamdifftool_cantedit' => 'Oprostite – nimate dovoljenja za urejanje črnega seznama smetja.',
+	'spamdifftool-no-title' => "'''Napaka:''' naslov strani ni določen.",
 	'spamdifftool_summary' => 'Dodajanje na črni seznam spam',
+	'spamdifftool_no_urls_detected' => "Odkrit ni bil noben URL.
+Kliknite <a href='$1'>tukaj</a> za vrnitev.",
 	'spamdifftool_spam_link_text' => 'dodaj med spam',
 	'spamdifftool_option_domain' => 'vse iz te domene',
 	'spamdifftool_option_subdomain' => 'vse iz te poddomene',
