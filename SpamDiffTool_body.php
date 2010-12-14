@@ -50,15 +50,8 @@ class SpecialSpamDiffTool extends UnlistedSpecialPage {
 							. "\n" . substr( $text, $i );
 				} else {  
 					$text .= "\n" . $wgRequest->getVal( 'newurls' );
-				} 
-				$watch = false;
-				if ( $wgUser->getID() > 0 ) 
-					$watch = $wgUser->isWatched( $sb );
-				if ( $insert ) {
-					$a->insertNewArticle( $text, wfMsgForContent( 'spamdifftool_summary' ), false, $watch );
-				} else {
-					$a->updateArticle( $text, wfMsgForContent( 'spamdifftool_summary' ), false, $watch );
 				}
+				$a->doEdit( $text, wfMsgForContent( 'spamdifftool_summary' ), EDIT_DEFER_UPDATES | EDIT_AUTOSUMMARY );
 				$returnto = $wgRequest->getVal( 'returnto' );
 				if ( $returnto != null && $returnto != '' )
 					$wgOut->redirect( $wgScript . "?" . urldecode( $returnto ) ); // clear the redirect set by updateArticle
