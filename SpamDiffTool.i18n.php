@@ -280,6 +280,13 @@ $messages['ca'] = array(
 	'spamdifftool_submit_buttom' => 'Envia',
 );
 
+/** Chechen (Нохчийн)
+ * @author Sasan700
+ */
+$messages['ce'] = array(
+	'spamdifftool_option_none' => 'хlумма цаоьшу',
+);
+
 /** Sorani (کوردی)
  * @author Marmzok
  */
