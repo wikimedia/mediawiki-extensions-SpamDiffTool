@@ -1795,10 +1795,11 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (‪中文(繁體)‬)
  * @author Liangent
+ * @author Mark85296341
  * @author Wrightbus
  */
 $messages['zh-hant'] = array(
-	'spamdifftool' => '管理垃圾信息黑名單',
+	'spamdifftool' => '管理垃圾郵件黑名單',
 	'spamdifftool_option_none' => '什麼也沒有',
 	'spamdifftool_submit_buttom' => '提交',
 );
