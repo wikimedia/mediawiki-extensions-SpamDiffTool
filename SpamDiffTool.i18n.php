@@ -1474,10 +1474,14 @@ Určite nezablokujte celé domény, ktoré úmožňujú tvorbu používateľský
  * @author Dbc334
  */
 $messages['sl'] = array(
-	'spamdifftool' => 'Upravljaj črni seznam spam',
+	'spamdifftool' => 'Upravljaj črni seznam smetja',
 	'spamdifftool_cantedit' => 'Oprostite – nimate dovoljenja za urejanje črnega seznama smetja.',
 	'spamdifftool-no-title' => "'''Napaka:''' naslov strani ni določen.",
-	'spamdifftool_summary' => 'Dodajanje na črni seznam spam',
+	'spamdifftool_notext' => "Ni besedila, ki bi ga dodal na črni seznam smetja.
+Kliknite <a href='$1'>tukaj</a> za nadaljevanje.",
+	'spamdifftool_confirm' => "Potrdite, da želite dodati te vnose na črni seznam smetja.
+(Kliknite <a href='$1' target='new'>tukaj</a>, da sporočite težavo.)",
+	'spamdifftool_summary' => 'Dodajanje na črni seznam smetja',
 	'spamdifftool_no_urls_detected' => "Odkrit ni bil noben URL.
 Kliknite <a href='$1'>tukaj</a> za vrnitev.",
 	'spamdifftool_spam_link_text' => 'dodaj med spam',
