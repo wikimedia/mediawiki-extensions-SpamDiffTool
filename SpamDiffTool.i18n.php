@@ -151,7 +151,7 @@ $messages['arz'] = array(
 	'spamdifftool_submit_buttom' => 'تنفيذ',
 );
 
-/** Belarusian (Taraškievica orthography) (Беларуская (тарашкевіца))
+/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -374,7 +374,7 @@ Stelle sicher, dass du nicht komplette Domains blockierst, die separate Benutzer
 	'spamdifftool_submit_buttom' => 'Speichern',
 );
 
-/** German (formal address) (Deutsch (Sie-Form))
+/** German (formal address) (‪Deutsch (Sie-Form)‬)
  * @author Imre
  * @author The Evil IP address
  * @author Umherirrender
@@ -1493,7 +1493,7 @@ Kliknite <a href='$1'>tukaj</a> za vrnitev.",
 	'spamdifftool_submit_buttom' => 'Pošlji',
 );
 
-/** Serbian Cyrillic ekavian (Српски (ћирилица))
+/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1509,7 +1509,7 @@ $messages['sr-ec'] = array(
 	'spamdifftool_submit_buttom' => 'Прихвати',
 );
 
-/** Serbian Latin ekavian (Srpski (latinica))
+/** Serbian Latin ekavian (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
