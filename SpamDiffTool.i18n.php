@@ -1793,6 +1793,13 @@ Välolös <a href='$1'>is</a> ad geikön.",
 	'spamdifftool_submit_buttom' => 'Sedön',
 );
 
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'spamdifftool_option_none' => 'גאָרנישט',
+);
+
 /** Simplified Chinese (‪中文(简体)‬)
  * @author Gzdavidwong
  * @author Liangent
