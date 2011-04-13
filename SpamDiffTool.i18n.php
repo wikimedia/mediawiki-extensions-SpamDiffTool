@@ -1326,7 +1326,7 @@ Carregue <a href='$1'>aqui</a> para voltar.",
 	'spamdifftool_option_directory' => 'este subdomínio e directório',
 	'spamdifftool_option_none' => 'nada',
 	'spamdifftool_block' => 'Bloquear:',
-	'spamdifftool_submit_buttom' => 'Submeter',
+	'spamdifftool_submit_buttom' => 'Enviar',
 );
 
 /** Brazilian Portuguese (Português do Brasil)
