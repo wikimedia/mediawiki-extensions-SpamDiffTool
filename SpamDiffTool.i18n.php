@@ -96,6 +96,7 @@ $messages['ang'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author OsamaK
  * @author Samer
  */
 $messages['ar'] = array(
@@ -120,7 +121,7 @@ $messages['ar'] = array(
 	'spamdifftool_option_directory' => 'هذا النطاق الفرعي والمجلد',
 	'spamdifftool_option_none' => 'لا شيء',
 	'spamdifftool_block' => 'منع:',
-	'spamdifftool_submit_buttom' => 'تنفيذ',
+	'spamdifftool_submit_buttom' => 'أرسل',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
