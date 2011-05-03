@@ -152,6 +152,13 @@ $messages['arz'] = array(
 	'spamdifftool_submit_buttom' => 'تنفيذ',
 );
 
+/** Azerbaijani (Azərbaycanca)
+ * @author Cekli829
+ */
+$messages['az'] = array(
+	'spamdifftool_submit_buttom' => 'Yolla',
+);
+
 /** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
