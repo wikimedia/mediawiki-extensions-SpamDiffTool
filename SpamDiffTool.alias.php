@@ -8,9 +8,7 @@
 
 $specialPageAliases = array();
 
-/** English
- * @author IAlex
- */
+/** English (English) */
 $specialPageAliases['en'] = array(
 	'SpamDiffTool' => array( 'SpamDiffTool' ),
 );
@@ -18,6 +16,11 @@ $specialPageAliases['en'] = array(
 /** Arabic (العربية) */
 $specialPageAliases['ar'] = array(
 	'SpamDiffTool' => array( 'أداة_فرق_السبام' ),
+);
+
+/** Haitian (Kreyòl ayisyen) */
+$specialPageAliases['ht'] = array(
+	'SpamDiffTool' => array( 'ZoutiDiferansPouryèl' ),
 );
 
 /** Interlingua (Interlingua) */
@@ -33,6 +36,16 @@ $specialPageAliases['ja'] = array(
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'SpamDiffTool' => array( 'Tool_fir_Spam_z\'ënnersichen' ),
+);
+
+/** Macedonian (Македонски) */
+$specialPageAliases['mk'] = array(
+	'SpamDiffTool' => array( 'АлатРазлЗаСпам' ),
+);
+
+/** Malayalam (മലയാളം) */
+$specialPageAliases['ml'] = array(
+	'SpamDiffTool' => array( 'പാഴെഴുത്ത്‌വ്യത്യാസഉപകരണം' ),
 );
 
 /** Dutch (Nederlands) */
