@@ -613,6 +613,10 @@ Assurez-vous de ne pas bloquer des domaines entiers qui hébergent certains comp
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'spamdifftool_spam_link_text' => 'apondre u spame',
+	'spamdifftool_option_domain' => 'tot dês ceti domêno',
+	'spamdifftool_option_subdomain' => 'tot dês ceti sot-domêno',
+	'spamdifftool_option_directory' => 'ceti sot-domêno et ceti rèpèrtouèro',
 	'spamdifftool_option_none' => 'ren',
 	'spamdifftool_block' => 'Blocar :',
 	'spamdifftool_submit_buttom' => 'Sometre',
