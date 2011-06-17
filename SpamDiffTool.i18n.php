@@ -487,13 +487,14 @@ Klaku <a href='$1'>ĉi tie</a> por reveni.",
 /** Spanish (Español)
  * @author Crazymadlover
  * @author Drini
+ * @author Fitoschido
  * @author Imre
  * @author Pertile
  * @author Sanbec
  */
 $messages['es'] = array(
-	'spamdifftool' => 'Administrar lista negra de spam',
-	'spamdifftool-desc' => 'Provee una manera básica de agregar entradas a la lista negra de spam desde diferentes páginas',
+	'spamdifftool' => 'Gestionar lista negra de spam',
+	'spamdifftool-desc' => 'Proporciona una manera básica de añadir entradas nuevas a la lista negra de spam desde páginas de diffs',
 	'spamdifftool_cantedit' => 'Disculpe - usted no tiene permiso para editar la lista negra de spam.',
 	'spamdifftool-no-title' => "'''Error:''' no se especificó ningún título de página.",
 	'spamdifftool_notext' => "No hay texto para agregar en la lista negra de spam.
@@ -505,8 +506,8 @@ Click <a href='$1'>aquí</a> para continuar.",
 Estas opciones se ordenan de la más restrictiva a la menos, bloqueando el dominion entero bloqueará todos los enlaces que provengan de él.
 
 Asegúrese se no bloquear dominios enteros que hospeden cuentas de usuario (como blogspot, geocities, etc.).',
-	'spamdifftool_no_urls_detected' => "Ningún urls fue borrado.
-Click <a href='$1'>aquí</a> para regresar.",
+	'spamdifftool_no_urls_detected' => "No se detextó ninguna URL.
+Pulsa <a href='$1'>aquí</a> para regresar.",
 	'spamdifftool_spam_link_text' => 'agregar a spam',
 	'spamdifftool_option_domain' => 'Todo de este dominio',
 	'spamdifftool_option_subdomain' => 'Todo de este subdominio',
