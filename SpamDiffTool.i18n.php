@@ -615,6 +615,7 @@ Assurez-vous de ne pas bloquer des domaines entiers qui hébergent certains comp
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
+	'spamdifftool-no-title' => "'''Èrror :''' gins de titro de pâge spècefiâ.",
 	'spamdifftool_spam_link_text' => 'apondre u spame',
 	'spamdifftool_option_domain' => 'tot dês ceti domêno',
 	'spamdifftool_option_subdomain' => 'tot dês ceti sot-domêno',
