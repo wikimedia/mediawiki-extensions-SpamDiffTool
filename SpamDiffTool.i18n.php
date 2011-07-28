@@ -1095,6 +1095,13 @@ $messages['mr'] = array(
 	'spamdifftool_submit_buttom' => 'पाठवा',
 );
 
+/** Malay (Bahasa Melayu)
+ * @author Anakmalaysia
+ */
+$messages['ms'] = array(
+	'spamdifftool_submit_buttom' => 'Serahkan',
+);
+
 /** Erzya (Эрзянь)
  * @author Botuzhaleny-sodamo
  */
