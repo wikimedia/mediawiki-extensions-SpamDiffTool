@@ -1239,7 +1239,7 @@ Asseguratz-vos de blocar pas de domenis entièrs que detenon d'unes comptadors d
 	'spamdifftool_submit_buttom' => 'Sometre',
 );
 
-/** Ossetic (Иронау)
+/** Ossetic (Ирон)
  * @author Amikeco
  */
 $messages['os'] = array(
