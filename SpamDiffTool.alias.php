@@ -18,6 +18,11 @@ $specialPageAliases['ar'] = array(
 	'SpamDiffTool' => array( 'أداة_فرق_السبام' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'SpamDiffTool' => array( 'ابزار_تفاوت_هرزنگاری' ),
+);
+
 /** Haitian (Kreyòl ayisyen) */
 $specialPageAliases['ht'] = array(
 	'SpamDiffTool' => array( 'ZoutiDiferansPouryèl' ),
@@ -46,6 +51,11 @@ $specialPageAliases['mk'] = array(
 /** Malayalam (മലയാളം) */
 $specialPageAliases['ml'] = array(
 	'SpamDiffTool' => array( 'പാഴെഴുത്ത്‌വ്യത്യാസഉപകരണം' ),
+);
+
+/** Nedersaksisch (Nedersaksisch) */
+$specialPageAliases['nds-nl'] = array(
+	'SpamDiffTool' => array( 'Moekverschillenhulpmiddel' ),
 );
 
 /** Dutch (Nederlands) */
