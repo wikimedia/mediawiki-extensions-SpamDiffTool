@@ -1463,7 +1463,7 @@ Fà click <a href='$1'>ccà</a> pi turnari arredi.",
 	'spamdifftool_submit_buttom' => 'Manna',
 );
 
-/** Serbo-Croatian (Srpskohrvatski / Српскохрватски)
+/** Serbo-Croatian (Srpskohrvatski)
  * @author OC Ripper
  */
 $messages['sh'] = array(
@@ -1524,7 +1524,7 @@ Kliknite <a href='$1'>tukaj</a> za vrnitev.",
 	'spamdifftool_submit_buttom' => 'Pošlji',
 );
 
-/** Serbian Cyrillic ekavian (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1540,7 +1540,7 @@ $messages['sr-ec'] = array(
 	'spamdifftool_submit_buttom' => 'Прихвати',
 );
 
-/** Serbian Latin ekavian (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪Srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1627,7 +1627,7 @@ $messages['te'] = array(
 	'spamdifftool_submit_buttom' => 'దాఖలుచెయ్యి',
 );
 
-/** Tajik (Cyrillic) (Тоҷикӣ (Cyrillic))
+/** Tajik (Cyrillic script) (Тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1639,7 +1639,7 @@ $messages['tg-cyrl'] = array(
 	'spamdifftool_submit_buttom' => 'Ирсол',
 );
 
-/** Tajik (Latin) (Тоҷикӣ (Latin))
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
