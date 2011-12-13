@@ -20,7 +20,7 @@ $wgExtensionCredits[version_compare($wgVersion, '1.17alpha', '>=') ? 'antispam' 
 	'name' => 'SpamDiffTool',
 	'author' => 'Travis Derouin',
 	'descriptionmsg' => 'spamdifftool-desc',
-	'url' => 'http://www.mediawiki.org/wiki/Extension:SpamDiffTool',
+	'url' => 'https://www.mediawiki.org/wiki/Extension:SpamDiffTool',
 );
 
 $wgSpamBlacklistArticle = "Project:Spam-Blacklist";
