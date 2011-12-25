@@ -1190,7 +1190,7 @@ Ikkje blokker heile domene til sider som er vert for mange brukarar, som blogspo
  * @author Jon Harald Søby
  * @author Nghtwlkr
  */
-$messages['no'] = array(
+$messages['nb'] = array(
 	'spamdifftool' => 'Håndtering av spamsvartelisten',
 	'spamdifftool-desc' => 'Gir en enkel måte å legge til nye elementer i spamsvartelisten fra diffsider',
 	'spamdifftool_cantedit' => 'Du har dessverre ikke rettighet til å redigere spamsvartelisten.',
