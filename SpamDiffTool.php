@@ -27,7 +27,7 @@ $wgSpamBlacklistArticle = "Project:Spam-Blacklist";
 
 $dir = dirname( __FILE__ ) . '/';
 $wgExtensionMessagesFiles['SpamDiffTool'] = $dir . 'SpamDiffTool.i18n.php';
-$wgExtensionAliasesFiles['SpamDiffTool'] = $dir . 'SpamDiffTool.alias.php';
+$wgExtensionMessagesFiles['SpamDiffToolAlias'] = $dir . 'SpamDiffTool.alias.php';
 
 $wgAutoloadClasses['SpecialSpamDiffTool'] = $dir . 'SpamDiffTool_body.php';
 $wgSpecialPages['SpamDiffTool'] = 'SpecialSpamDiffTool';
