@@ -544,8 +544,10 @@ Egizu klik <a href='$1'>hemen</a> itzultzeko.",
  * @author BlueDevil
  * @author Huji
  * @author Meisam
+ * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'spamdifftool' => 'مدیریت سیاههٔ هرزنگاری',
 	'spamdifftool_cantedit' => 'متاسفیم؛ شما اجازه ویرایش فهرست سیاه هرزنویسی را ندارید.',
 );
 
@@ -1124,6 +1126,33 @@ $messages['nah'] = array(
 	'spamdifftool_submit_buttom' => 'Tiquihuāz',
 );
 
+/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
+ * @author Jon Harald Søby
+ * @author Nghtwlkr
+ */
+$messages['nb'] = array(
+	'spamdifftool' => 'Håndtering av spamsvartelisten',
+	'spamdifftool-desc' => 'Gir en enkel måte å legge til nye elementer i spamsvartelisten fra diffsider',
+	'spamdifftool_cantedit' => 'Du har dessverre ikke rettighet til å redigere spamsvartelisten.',
+	'spamdifftool-no-title' => "'''Feil:''' ingen sidetittel ble oppgitt.",
+	'spamdifftool_notext' => 'Ingen tekst ble lagt til i spamsvartelisten. Klikk <a href=\'$1\'">her</a> for å fortsette.',
+	'spamdifftool_confirm' => "Bekreft at du vil legge til følgende poster i spamsvartelisten. (Rapporter et problem <a href='$1' target='new'>her</a>.)",
+	'spamdifftool_summary' => 'Legger til i spamsvartelisten',
+	'spamdifftool_urls_detected' => 'Nedenfr listes de URL-ene som ble funnet i redigeringen;
+hvilken av dem vil du legge til i spamsvartelisten?
+Disse valgmulighetene står i rekkefølgen strengest til mildest, blokkering av hele domenet vil blokkere alle lenker til alt som kommer fra det domenet.
+
+Ikke blikker hele domener til sider som er vert for mange brukere, type blogspot.com, geocities.com osv.',
+	'spamdifftool_no_urls_detected' => "Ingen URL-er funnet. <a href='$1'>Gå tilbake</a>.",
+	'spamdifftool_spam_link_text' => 'legg til i spamlisten',
+	'spamdifftool_option_domain' => 'hele domenet',
+	'spamdifftool_option_subdomain' => 'hele underdomenet',
+	'spamdifftool_option_directory' => 'dette underdomenet og mappen',
+	'spamdifftool_option_none' => 'ingenting',
+	'spamdifftool_block' => 'Blokker:',
+	'spamdifftool_submit_buttom' => 'Legg til',
+);
+
 /** Low German (Plattdüütsch)
  * @author Slomox
  */
@@ -1181,33 +1210,6 @@ Ikkje blokker heile domene til sider som er vert for mange brukarar, som blogspo
 	'spamdifftool_option_domain' => 'heile domenet',
 	'spamdifftool_option_subdomain' => 'heile underomenet',
 	'spamdifftool_option_directory' => 'detter underdomenet og mappa',
-	'spamdifftool_option_none' => 'ingenting',
-	'spamdifftool_block' => 'Blokker:',
-	'spamdifftool_submit_buttom' => 'Legg til',
-);
-
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
- * @author Nghtwlkr
- */
-$messages['nb'] = array(
-	'spamdifftool' => 'Håndtering av spamsvartelisten',
-	'spamdifftool-desc' => 'Gir en enkel måte å legge til nye elementer i spamsvartelisten fra diffsider',
-	'spamdifftool_cantedit' => 'Du har dessverre ikke rettighet til å redigere spamsvartelisten.',
-	'spamdifftool-no-title' => "'''Feil:''' ingen sidetittel ble oppgitt.",
-	'spamdifftool_notext' => 'Ingen tekst ble lagt til i spamsvartelisten. Klikk <a href=\'$1\'">her</a> for å fortsette.',
-	'spamdifftool_confirm' => "Bekreft at du vil legge til følgende poster i spamsvartelisten. (Rapporter et problem <a href='$1' target='new'>her</a>.)",
-	'spamdifftool_summary' => 'Legger til i spamsvartelisten',
-	'spamdifftool_urls_detected' => 'Nedenfr listes de URL-ene som ble funnet i redigeringen;
-hvilken av dem vil du legge til i spamsvartelisten?
-Disse valgmulighetene står i rekkefølgen strengest til mildest, blokkering av hele domenet vil blokkere alle lenker til alt som kommer fra det domenet.
-
-Ikke blikker hele domener til sider som er vert for mange brukere, type blogspot.com, geocities.com osv.',
-	'spamdifftool_no_urls_detected' => "Ingen URL-er funnet. <a href='$1'>Gå tilbake</a>.",
-	'spamdifftool_spam_link_text' => 'legg til i spamlisten',
-	'spamdifftool_option_domain' => 'hele domenet',
-	'spamdifftool_option_subdomain' => 'hele underdomenet',
-	'spamdifftool_option_directory' => 'dette underdomenet og mappen',
 	'spamdifftool_option_none' => 'ingenting',
 	'spamdifftool_block' => 'Blokker:',
 	'spamdifftool_submit_buttom' => 'Legg til',
