@@ -1474,11 +1474,13 @@ $messages['sh'] = array(
 
 /** Slovak (Slovenčina)
  * @author Helix84
+ * @author Teslaton
  */
 $messages['sk'] = array(
 	'spamdifftool' => 'Spravovať Čiernu listinu spamu',
 	'spamdifftool-desc' => 'Poskytuje základný spôsob pridávania nových záznamov na Čiernu listinu spamu zo stránok rozdielov revízií',
 	'spamdifftool_cantedit' => 'Prepáčte, nemáte oprávnenie upravovať Čiernu listinu spamu',
+	'spamdifftool-no-title' => "'''Chyba:''' nebol uvedený názov stránky.",
 	'spamdifftool_notext' => "Nie je čo pridať na Čiernu listinu spamu. Pokračujte <a href='$1'>kliknutím sem</a>",
 	'spamdifftool_confirm' => "Potvrďte, že chcete pridať tieto položky na Čiernu listinu spamu. (Môžete tiež <a href='$1' target='new'>nahlásiť problém</a>.)",
 	'spamdifftool_summary' => 'Pridanie na Čiernu listinu spamu',
