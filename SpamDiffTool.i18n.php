@@ -666,6 +666,7 @@ $messages['grc'] = array(
 );
 
 /** Swiss German (Alemannisch)
+ * @author Als-Chlämens
  * @author Als-Holder
  */
 $messages['gsw'] = array(
@@ -678,7 +679,7 @@ $messages['gsw'] = array(
 (Druck <a href='$1' target='new'>do</a> go ne Probläm mälde.)",
 	'spamdifftool_summary' => 'Zue dr Spam-Blacklist zuefiege',
 	'spamdifftool_urls_detected' => 'Die URL sin in dr Bearbeitig gfunde wore. Weli dervu wit zue dr Spam-Blacklist zuefiege?
-D Reihefolg goht vu arg yygschränkt bis weniger yygschränkt. S Yytrage vun ere ganze Domain blockiert alli Gleicher, wu vu däre Domain chemme.
+D Reihefolg goht vu arg yygschränkt bis weniger yygschränkt. S Yytrage vun ere ganze Domain blockiert alli Links, wu vu däre Domain chemme.
 
 Stell sicher, ass Du nit kompletti Domain blockiersch, wu separati Benutzerinhalt z Verfiegig stelle, wie z. B. blogspot.com, geocities.com usw.',
 	'spamdifftool_no_urls_detected' => "S sin kei URL gfunde wore. Druck <a href='$1'>do</a> zum zrugg z goh.",
