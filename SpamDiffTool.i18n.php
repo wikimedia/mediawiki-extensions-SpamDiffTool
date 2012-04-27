@@ -890,6 +890,7 @@ Fai click <a href='$1'>qui</a> per tornare.",
  * @author Aotake
  * @author Fryed-peach
  * @author Hosiryuhosi
+ * @author Shirayuki
  */
 $messages['ja'] = array(
 	'spamdifftool' => 'スパム用ブラックリストの管理',
@@ -899,11 +900,12 @@ $messages['ja'] = array(
 	'spamdifftool_notext' => "スパム用ブラックリストに追加する文字列はありません。<a href='$1'>ここ</a>をクリックして続行します。",
 	'spamdifftool_confirm' => "これらの項目をスパム用ブラックリストに追加したいか確認してください。(問題を報告するには<a href='$1' target='new'>ここ</a>をクリックします)",
 	'spamdifftool_summary' => 'スパム用ブラックリストに追加中',
-	'spamdifftool_urls_detected' => '以下のURLが編集から検出されました。スパム用ブラックリストに追加したいのはどれですか？
+	'spamdifftool_urls_detected' => '以下のURLが編集から検出されました。
+スパム用ブラックリストに追加したいのはどれですか？
 
-各オプションは制限の強いものから弱いものの順に並んでいます。ドメイン全体のブロックはそのドメインに属するあらゆるリンクをブロックします。
+各オプションは制限が強い順に並んでいます。ドメイン全体のブロックはそのドメインに属するあらゆるリンクをブロックします。
 
-blogspot.com や geocities.com といった、利用者アカウントを提供するものはドメイン全体をブロックしないように必ずしてください。',
+利用者アカウントを提供するもの（例：blogspot.com、geocities.com）はドメイン全体をブロックしないように注意してください。',
 	'spamdifftool_no_urls_detected' => "URLはひとつも検出されませんでした。<a href='$1'>ここ</a>をクリックして戻ります。",
 	'spamdifftool_spam_link_text' => 'スパムに追加',
 	'spamdifftool_option_domain' => 'このドメインのすべて',
