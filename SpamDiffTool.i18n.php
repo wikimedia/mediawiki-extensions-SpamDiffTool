@@ -1195,6 +1195,7 @@ Zorg dat u niet zomaar volledige domeinen blokkeert waar gebruikers bestaan, zoa
 /** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
  * @author Frokor
  * @author Harald Khan
+ * @author Njardarlogar
  */
 $messages['nn'] = array(
 	'spamdifftool' => 'Handtering av spamsvartelista',
@@ -1256,6 +1257,13 @@ $messages['os'] = array(
  * @author Xqt
  */
 $messages['pdc'] = array(
+	'spamdifftool_option_none' => 'nix',
+);
+
+/** Pälzisch (Pälzisch)
+ * @author Manuae
+ */
+$messages['pfl'] = array(
 	'spamdifftool_option_none' => 'nix',
 );
 
@@ -1646,7 +1654,7 @@ $messages['tg-cyrl'] = array(
 	'spamdifftool_submit_buttom' => 'Ирсол',
 );
 
-/** Tajik (Latin script) (tojikī)
+/** Tajik (Latin script) (Tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1780,7 +1788,7 @@ Struca <a href='$1'>qua</a> par tornar indrìo.",
 	'spamdifftool_submit_buttom' => 'Manda',
 );
 
-/** Veps (Vepsan kel')
+/** Veps (Vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
