@@ -334,9 +334,10 @@ Určitě nezablokujte celé domény, které umožňují tvorbu uživatelských �
 
 /** Welsh (Cymraeg)
  * @author Lloffiwr
+ * @author Xxglennxx
  */
 $messages['cy'] = array(
-	'spamdifftool_cantedit' => "Sylwer - nid yw'r gallu gennych i olygu'r rhestr spam gwaharddedig.",
+	'spamdifftool_cantedit' => "Sylwer - nid yw'r gallu gennych i olygu'r rhestr sbam gwaharddedig.",
 );
 
 /** Danish (Dansk)
