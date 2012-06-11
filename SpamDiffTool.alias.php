@@ -18,6 +18,11 @@ $specialPageAliases['ar'] = array(
 	'SpamDiffTool' => array( 'أداة_فرق_السبام' ),
 );
 
+/** Zazaki (Zazaki) */
+$specialPageAliases['diq'] = array(
+	'SpamDiffTool' => array( 'FerqêHacetandêSpami' ),
+);
+
 /** Persian (فارسی) */
 $specialPageAliases['fa'] = array(
 	'SpamDiffTool' => array( 'ابزار_تفاوت_هرزنگاری' ),
@@ -28,7 +33,7 @@ $specialPageAliases['ht'] = array(
 	'SpamDiffTool' => array( 'ZoutiDiferansPouryèl' ),
 );
 
-/** Interlingua (Interlingua) */
+/** Interlingua (interlingua) */
 $specialPageAliases['ia'] = array(
 	'SpamDiffTool' => array( 'Lista_nigre_antispam' ),
 );
@@ -38,12 +43,17 @@ $specialPageAliases['ja'] = array(
 	'SpamDiffTool' => array( 'スパム差分ツール' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'SpamDiffTool' => array( '스팸비교도구' ),
+);
+
 /** Luxembourgish (Lëtzebuergesch) */
 $specialPageAliases['lb'] = array(
 	'SpamDiffTool' => array( 'Tool_fir_Spam_z\'ënnersichen' ),
 );
 
-/** Macedonian (Македонски) */
+/** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'SpamDiffTool' => array( 'АлатРазлЗаСпам' ),
 );
