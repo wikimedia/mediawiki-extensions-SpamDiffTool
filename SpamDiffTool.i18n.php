@@ -153,7 +153,7 @@ $messages['arz'] = array(
 	'spamdifftool_submit_buttom' => 'تنفيذ',
 );
 
-/** Azerbaijani (Azərbaycanca)
+/** Azerbaijani (azərbaycanca)
  * @author Cekli829
  * @author Wertuose
  */
@@ -190,7 +190,7 @@ $messages['be-tarask'] = array(
 	'spamdifftool_submit_buttom' => 'Адправіць',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  * @author Spiritia
  */
@@ -221,7 +221,7 @@ $messages['bn'] = array(
 	'spamdifftool_confirm' => "স্প্যাম কালোতালিকায় এই ভুক্তিগুলি যোগ করার ব্যাপারটি নিশ্চিত করুন। (সমস্যা হলে <a href='$1' target='new'>এখানে</a> ক্লিক করুন।)",
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fohanno
  * @author Fulup
  * @author Gwenn-Ael
@@ -254,7 +254,7 @@ Klikit <a href='$1'>amañ</a> evit distreiñ.",
 	'spamdifftool_submit_buttom' => 'Kas',
 );
 
-/** Bosnian (Bosanski)
+/** Bosnian (bosanski)
  * @author CERminator
  */
 $messages['bs'] = array(
@@ -282,7 +282,7 @@ Kliknite <a href='$1'>ovdje</a> za povratak.",
 	'spamdifftool_submit_buttom' => 'Pošalji',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Solde
  */
 $messages['ca'] = array(
@@ -297,7 +297,7 @@ $messages['ce'] = array(
 	'spamdifftool_option_none' => 'хlумма цаоьшу',
 );
 
-/** Sorani (کوردی)
+/** Sorani Kurdish (کوردی)
  * @author Marmzok
  */
 $messages['ckb'] = array(
@@ -305,7 +305,7 @@ $messages['ckb'] = array(
 	'spamdifftool_submit_buttom' => 'ناردن',
 );
 
-/** Czech (Česky)
+/** Czech (česky)
  * @author Matěj Grabovský
  * @author Mormegil
  */
@@ -340,7 +340,7 @@ $messages['cy'] = array(
 	'spamdifftool_cantedit' => "Sylwer - nid yw'r gallu gennych i olygu'r rhestr sbam gwaharddedig.",
 );
 
-/** Danish (Dansk)
+/** Danish (dansk)
  * @author Froztbyte
  */
 $messages['da'] = array(
@@ -487,7 +487,7 @@ Klaku <a href='$1'>ĉi tie</a> por reveni.",
 	'spamdifftool_submit_buttom' => 'Ek',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Crazymadlover
  * @author Drini
  * @author Fitoschido
@@ -520,7 +520,7 @@ Pulsa <a href='$1'>aquí</a> para regresar.",
 	'spamdifftool_submit_buttom' => 'Enviar',
 );
 
-/** Estonian (Eesti)
+/** Estonian (eesti)
  * @author Avjoska
  */
 $messages['et'] = array(
@@ -529,7 +529,7 @@ $messages['et'] = array(
 	'spamdifftool_block' => 'Blokeeri:',
 );
 
-/** Basque (Euskara)
+/** Basque (euskara)
  * @author An13sa
  * @author Kobazulo
  */
@@ -552,7 +552,7 @@ $messages['fa'] = array(
 	'spamdifftool_cantedit' => 'متاسفیم؛ شما اجازه ویرایش فهرست سیاه هرزنویسی را ندارید.',
 );
 
-/** Finnish (Suomi)
+/** Finnish (suomi)
  * @author Centerlink
  * @author Cimon Avaro
  * @author Crt
@@ -584,7 +584,7 @@ Napsauta <a href='$1'>palataksesi</a>.",
 	'spamdifftool_submit_buttom' => 'Lähetä',
 );
 
-/** French (Français)
+/** French (français)
  * @author Grondin
  * @author IAlex
  * @author Sherbrooke
@@ -614,7 +614,7 @@ Assurez-vous de ne pas bloquer des domaines entiers qui hébergent certains comp
 	'spamdifftool_submit_buttom' => 'Soumettre',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author Cedric31
  * @author ChrisPtDe
  */
@@ -754,7 +754,7 @@ Zawěsć so, zo njeby cyle domejny blokował, kotrež wužiwarske konta hospoduj
 	'spamdifftool_submit_buttom' => 'Wotesłać',
 );
 
-/** Hungarian (Magyar)
+/** Hungarian (magyar)
  * @author Dani
  * @author Glanthor Reviol
  */
@@ -784,7 +784,7 @@ Kattints <a href='$1'>ide</a> a visszatéréshez.",
 	'spamdifftool_submit_buttom' => 'Küldés',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -853,12 +853,12 @@ $messages['io'] = array(
 	'spamdifftool_option_none' => 'nulo',
 );
 
-/** Icelandic (Íslenska) */
+/** Icelandic (íslenska) */
 $messages['is'] = array(
 	'spamdifftool_option_none' => 'ekkert',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Civvì
  * @author Darth Kule
  */
@@ -1029,7 +1029,7 @@ $messages['mg'] = array(
 	'spamdifftool_submit_buttom' => 'Alefa',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -1065,7 +1065,7 @@ $messages['ml'] = array(
 	'spamdifftool_submit_buttom' => 'സമർപ്പിക്കുക',
 );
 
-/** Mongolian (Монгол)
+/** Mongolian (монгол)
  * @author Chinneeb
  */
 $messages['mn'] = array(
@@ -1193,7 +1193,7 @@ Zorg dat u niet zomaar volledige domeinen blokkeert waar gebruikers bestaan, zoa
 	'spamdifftool_submit_buttom' => 'OK',
 );
 
-/** Norwegian Nynorsk (‪Norsk (nynorsk)‬)
+/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
  * @author Frokor
  * @author Harald Khan
  * @author Njardarlogar
@@ -1220,7 +1220,7 @@ Ikkje blokker heile domene til sider som er vert for mange brukarar, som blogspo
 	'spamdifftool_submit_buttom' => 'Legg til',
 );
 
-/** Occitan (Occitan)
+/** Occitan (occitan)
  * @author Cedric31
  */
 $messages['oc'] = array(
@@ -1268,7 +1268,7 @@ $messages['pfl'] = array(
 	'spamdifftool_option_none' => 'nix',
 );
 
-/** Polish (Polski)
+/** Polish (polski)
  * @author Airwolf
  * @author Maikking
  * @author Sp5uhe
@@ -1338,7 +1338,7 @@ $messages['ps'] = array(
 	'spamdifftool_submit_buttom' => 'سپارل',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author Hamilton Abreu
  * @author Lijealso
  * @author Malafaya
@@ -1368,7 +1368,7 @@ Carregue <a href='$1'>aqui</a> para voltar.",
 	'spamdifftool_submit_buttom' => 'Enviar',
 );
 
-/** Brazilian Portuguese (Português do Brasil)
+/** Brazilian Portuguese (português do Brasil)
  * @author Eduardo.mps
  * @author Giro720
  */
@@ -1397,7 +1397,7 @@ Clique <a href='$1'>aqui</a> para voltar.",
 	'spamdifftool_submit_buttom' => 'Enviar',
 );
 
-/** Romanian (Română)
+/** Romanian (română)
  * @author Firilacroco
  */
 $messages['ro'] = array(
@@ -1410,7 +1410,7 @@ $messages['ro'] = array(
 	'spamdifftool_submit_buttom' => 'Trimite',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -1421,7 +1421,7 @@ $messages['roa-tara'] = array(
 	'spamdifftool_submit_buttom' => 'Conferme',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author Aleksandrit
  * @author Александр Сигачёв
  */
@@ -1450,7 +1450,7 @@ $messages['ru'] = array(
 	'spamdifftool_submit_buttom' => 'Отправить',
 );
 
-/** Sicilian (Sicilianu)
+/** Sicilian (sicilianu)
  * @author Santu
  */
 $messages['scn'] = array(
@@ -1477,14 +1477,14 @@ Fà click <a href='$1'>ccà</a> pi turnari arredi.",
 	'spamdifftool_submit_buttom' => 'Manna',
 );
 
-/** Serbo-Croatian (Srpskohrvatski)
+/** Serbo-Croatian (srpskohrvatski / српскохрватски)
  * @author OC Ripper
  */
 $messages['sh'] = array(
 	'spamdifftool_submit_buttom' => 'Unesi',
 );
 
-/** Slovak (Slovenčina)
+/** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
  */
@@ -1511,7 +1511,7 @@ Určite nezablokujte celé domény, ktoré úmožňujú tvorbu používateľský
 	'spamdifftool_submit_buttom' => 'Odoslať',
 );
 
-/** Slovenian (Slovenščina)
+/** Slovenian (slovenščina)
  * @author Dbc334
  */
 $messages['sl'] = array(
@@ -1540,7 +1540,7 @@ Kliknite <a href='$1'>tukaj</a> za vrnitev.",
 	'spamdifftool_submit_buttom' => 'Pošlji',
 );
 
-/** Serbian (Cyrillic script) (‪Српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1556,7 +1556,7 @@ $messages['sr-ec'] = array(
 	'spamdifftool_submit_buttom' => 'Прихвати',
 );
 
-/** Serbian (Latin script) (‪Srpski (latinica)‬)
+/** Serbian (Latin script) (‪srpski (latinica)‬)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1597,7 +1597,7 @@ Staal sicher, dät du nit komplette Domains blokkierst, do der separate Benutser
 	'spamdifftool_submit_buttom' => 'Spiekerje',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author Lejonel
  * @author M.M.S.
  * @author Per
@@ -1643,7 +1643,7 @@ $messages['te'] = array(
 	'spamdifftool_submit_buttom' => 'దాఖలుచెయ్యి',
 );
 
-/** Tajik (Cyrillic script) (Тоҷикӣ)
+/** Tajik (Cyrillic script) (тоҷикӣ)
  * @author Ibrahim
  */
 $messages['tg-cyrl'] = array(
@@ -1655,7 +1655,7 @@ $messages['tg-cyrl'] = array(
 	'spamdifftool_submit_buttom' => 'Ирсол',
 );
 
-/** Tajik (Latin script) (Tojikī)
+/** Tajik (Latin script) (tojikī)
  * @author Liangent
  */
 $messages['tg-latn'] = array(
@@ -1733,7 +1733,7 @@ Geri dönmek için <a href='$1'>buraya</a> tıklayın.",
 	'spamdifftool_submit_buttom' => 'Gönder',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Aleksandrit
  * @author Тест
  */
@@ -1762,7 +1762,7 @@ $messages['uk'] = array(
 	'spamdifftool_submit_buttom' => 'Відправити',
 );
 
-/** Vèneto (Vèneto)
+/** vèneto (vèneto)
  * @author Candalua
  */
 $messages['vec'] = array(
@@ -1841,7 +1841,7 @@ $messages['yi'] = array(
 	'spamdifftool_option_none' => 'גאָרנישט',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Gzdavidwong
  * @author Liangent
  */
@@ -1851,7 +1851,7 @@ $messages['zh-hans'] = array(
 	'spamdifftool_submit_buttom' => '提交',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Liangent
  * @author Mark85296341
  * @author Wrightbus
