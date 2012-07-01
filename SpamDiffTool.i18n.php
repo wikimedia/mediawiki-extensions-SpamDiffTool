@@ -83,7 +83,7 @@ Kliek <a href='$1'>hier</a> om terug te keer.",
 	'spamdifftool_submit_buttom' => 'OK',
 );
 
-/** Aragonese (Aragonés)
+/** Aragonese (aragonés)
  * @author Juanpabl
  */
 $messages['an'] = array(
@@ -161,7 +161,7 @@ $messages['az'] = array(
 	'spamdifftool_submit_buttom' => 'Təsdiq et',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -402,7 +402,7 @@ Stellen Sie sicher, dass Sie nicht komplette Domains blockieren, die separate Be
 	'spamdifftool_no_urls_detected' => "Es wurden keine URLs gefunden. Klicken Sie <a href='$1'>hier</a>, um zurückzugehen.",
 );
 
-/** Lower Sorbian (Dolnoserbski)
+/** Lower Sorbian (dolnoserbski)
  * @author Michawiki
  */
 $messages['dsb'] = array(
@@ -629,7 +629,7 @@ $messages['frp'] = array(
 	'spamdifftool_submit_buttom' => 'Sometre',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Alma
  * @author Toliño
  */
@@ -729,7 +729,7 @@ $messages['hi'] = array(
 	'spamdifftool_submit_buttom' => 'भेजें',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(
