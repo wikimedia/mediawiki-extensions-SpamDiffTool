@@ -290,7 +290,7 @@ $messages['ca'] = array(
 	'spamdifftool_submit_buttom' => 'Envia',
 );
 
-/** Chechen (Нохчийн)
+/** Chechen (нохчийн)
  * @author Sasan700
  */
 $messages['ce'] = array(
@@ -1109,7 +1109,7 @@ $messages['ms'] = array(
 	'spamdifftool_submit_buttom' => 'Serahkan',
 );
 
-/** Erzya (Эрзянь)
+/** Erzya (эрзянь)
  * @author Botuzhaleny-sodamo
  */
 $messages['myv'] = array(
@@ -1130,8 +1130,7 @@ $messages['nah'] = array(
 	'spamdifftool_submit_buttom' => 'Tiquihuāz',
 );
 
-/** Norwegian (bokmål)‬ (‪Norsk (bokmål)‬)
- * @author Jon Harald Søby
+/** Norwegian Bokmål (‪norsk (bokmål)‬)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1789,7 +1788,7 @@ Struca <a href='$1'>qua</a> par tornar indrìo.",
 	'spamdifftool_submit_buttom' => 'Manda',
 );
 
-/** Veps (Vepsän kel’)
+/** Veps (vepsän kel’)
  * @author Игорь Бродский
  */
 $messages['vep'] = array(
