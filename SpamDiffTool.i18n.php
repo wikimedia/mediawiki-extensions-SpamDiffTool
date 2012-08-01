@@ -979,7 +979,8 @@ dänne drop lijje, wi zem Beispell blogspot.com, geocities.com, un esu.',
 	'spamdifftool_option_subdomain' => 'alles fun he dä Ongerdomain',
 	'spamdifftool_option_directory' => 'hee di Ongerdomain un dat Verzeichnis',
 	'spamdifftool_option_none' => 'nix',
-	'spamdifftool_block' => 'Sperre:',
+	'spamdifftool_block' => 'Schpärr:
+',
 	'spamdifftool_submit_buttom' => 'Faßhallde!',
 );
 
