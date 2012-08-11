@@ -122,7 +122,7 @@ $messages['ar'] = array(
 	'spamdifftool_option_directory' => 'هذا النطاق الفرعي والمجلد',
 	'spamdifftool_option_none' => 'لا شيء',
 	'spamdifftool_block' => 'منع:',
-	'spamdifftool_submit_buttom' => 'أرسل',
+	'spamdifftool_submit_buttom' => 'إرسال',
 );
 
 /** Egyptian Spoken Arabic (مصرى)
@@ -924,6 +924,15 @@ $messages['jv'] = array(
 	'spamdifftool_spam_link_text' => 'tambahna ing spam',
 	'spamdifftool_option_none' => 'ora ana',
 	'spamdifftool_submit_buttom' => 'Kirim',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'spamdifftool_spam_link_text' => 'სპამში დამატება',
+	'spamdifftool_block' => 'დაბლოკვა:',
+	'spamdifftool_submit_buttom' => 'მიღება',
 );
 
 /** Khmer (ភាសាខ្មែរ)
