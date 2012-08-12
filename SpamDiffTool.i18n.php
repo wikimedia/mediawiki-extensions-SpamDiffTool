@@ -1493,6 +1493,15 @@ $messages['sh'] = array(
 	'spamdifftool_submit_buttom' => 'Unesi',
 );
 
+/** Sinhala (සිංහල)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['si'] = array(
+	'spamdifftool_option_none' => 'කිසිවක් නැත',
+	'spamdifftool_block' => 'වාරණය:',
+	'spamdifftool_submit_buttom' => 'යොමන්න',
+);
+
 /** Slovak (slovenčina)
  * @author Helix84
  * @author Teslaton
