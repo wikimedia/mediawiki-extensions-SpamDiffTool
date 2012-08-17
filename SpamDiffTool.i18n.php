@@ -1780,6 +1780,14 @@ $messages['uk'] = array(
 	'spamdifftool_submit_buttom' => 'Відправити',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'spamdifftool_option_none' => 'کچھ بھی نہیں',
+	'spamdifftool_submit_buttom' => 'جمع کرائیں',
+);
+
 /** vèneto (vèneto)
  * @author Candalua
  */
