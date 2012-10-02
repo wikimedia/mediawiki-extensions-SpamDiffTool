@@ -161,7 +161,7 @@ $messages['az'] = array(
 	'spamdifftool_submit_buttom' => 'Təsdiq et',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -385,7 +385,7 @@ Stelle sicher, dass du nicht komplette Domains blockierst, die separate Benutzer
 	'spamdifftool_submit_buttom' => 'Speichern',
 );
 
-/** German (formal address) (‪Deutsch (Sie-Form)‬)
+/** German (formal address) (Deutsch (Sie-Form)‎)
  * @author Imre
  * @author The Evil IP address
  * @author Umherirrender
@@ -1140,7 +1140,7 @@ $messages['nah'] = array(
 	'spamdifftool_submit_buttom' => 'Tiquihuāz',
 );
 
-/** Norwegian Bokmål (‪norsk (bokmål)‬)
+/** Norwegian Bokmål (norsk (bokmål)‎)
  * @author Nghtwlkr
  */
 $messages['nb'] = array(
@@ -1202,7 +1202,7 @@ Zorg dat u niet zomaar volledige domeinen blokkeert waar gebruikers bestaan, zoa
 	'spamdifftool_submit_buttom' => 'OK',
 );
 
-/** Norwegian Nynorsk (‪norsk (nynorsk)‬)
+/** Norwegian Nynorsk (norsk (nynorsk)‎)
  * @author Frokor
  * @author Harald Khan
  * @author Njardarlogar
@@ -1558,7 +1558,7 @@ Kliknite <a href='$1'>tukaj</a> za vrnitev.",
 	'spamdifftool_submit_buttom' => 'Pošlji',
 );
 
-/** Serbian (Cyrillic script) (‪српски (ћирилица)‬)
+/** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Sasa Stefanovic
  * @author Михајло Анђелковић
  */
@@ -1574,7 +1574,7 @@ $messages['sr-ec'] = array(
 	'spamdifftool_submit_buttom' => 'Прихвати',
 );
 
-/** Serbian (Latin script) (‪srpski (latinica)‬)
+/** Serbian (Latin script) (srpski (latinica)‎)
  * @author Michaello
  */
 $messages['sr-el'] = array(
@@ -1867,7 +1867,7 @@ $messages['yi'] = array(
 	'spamdifftool_option_none' => 'גאָרנישט',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Gzdavidwong
  * @author Liangent
  */
@@ -1877,7 +1877,7 @@ $messages['zh-hans'] = array(
 	'spamdifftool_submit_buttom' => '提交',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Liangent
  * @author Mark85296341
  * @author Wrightbus
