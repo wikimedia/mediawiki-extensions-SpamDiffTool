@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gzdavidwong",
+			"Liangent"
+		]
+	},
+	"spamdifftool": "管理垃圾信息黑名单",
+	"spamdifftool-option-none": "什么也没有",
+	"spamdifftool-submit": "提交"
+}

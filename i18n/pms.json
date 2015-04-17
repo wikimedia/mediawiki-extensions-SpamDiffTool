@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Borichèt",
+			"Dragonòt"
+		]
+	},
+	"spamdifftool": "Gëstiss la blacklist dë spam",
+	"spamdifftool-desc": "A dà na manera base ëd gionté neuve intrade a la blacklist dë spam da pàgine diferente",
+	"spamdifftool-cant-edit": "Spasent - it l'has pa ël përmess ëd modifiché la blacklist dë spam.",
+	"spamdifftool-no-title": "'''Eror:''' gnun tìtol ëd pàgina a l'é stàit specificà.",
+	"spamdifftool-no-text": "A-i é pa ëd test da gionté a la blacklist dë spam.\nSgnaca <a href='$1'>here</a> për continué.",
+	"spamdifftool-confirm": "Conferma ch'it veule gionté ste intrade-sì a la blacklist dë spam.\n(Sgnaca <a href='$1' target='new'>sì</a> për arporté un problema.)",
+	"spamdifftool-summary": "Gionté a la blacklist dë spam.",
+	"spamdifftool-urls-detected": "Le URL sota a son ëstàite trovà ant le modìfiche.\nCola i veule gionté a la blacklist dë spam?\nSte opsion-sì a son ordinà da la pì restritiva a la meno restritiva, bloché l'inter domini a blocherà tùit ij colegament a minca còsa rivanta da col domini.\n\nSicurte ëd pa bloché inter domini che a òspito cont utent, com blogspot.com, shoutwiki.com, etc.",
+	"spamdifftool-no-urls-detected": "Pa gnun-e URL a son ëstàite trovà.\nSgaca <a href='$1'>sì</a>  për artorné.",
+	"spamdifftool-spam-link-text": "gionta a spam",
+	"spamdifftool-option-domain": "tut da sto domini-sì",
+	"spamdifftool-option-subdomain": "tut da sto sotdomini-sì",
+	"spamdifftool-option-directory": "sto sotdomini e directory-sì",
+	"spamdifftool-option-none": "gnente",
+	"spamdifftool-block": "Blòca:",
+	"spamdifftool-submit": "Spediss"
+}

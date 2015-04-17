@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Froztbyte"
+		]
+	},
+	"spamdifftool-cant-edit": "Beklager - du har desværre ikke tilladelse til at redigere den sorte liste over spam.",
+	"spamdifftool-no-title": "'''Fejl:''' ingen sidetitel blev angivet.",
+	"spamdifftool-no-urls-detected": "Ingen URL'er blev fundet.\nKlik <a href='$1'>her</a> for at gå tilbage.",
+	"spamdifftool-option-domain": "alt fra dette domæne",
+	"spamdifftool-option-directory": "dette underdomæne og katalog",
+	"spamdifftool-option-none": "ingenting",
+	"spamdifftool-block": "Bloker:"
+}

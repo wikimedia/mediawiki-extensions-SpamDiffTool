@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"AnakngAraw"
+		]
+	},
+	"spamdifftool": "Pangasiwaan ang talaan ng pinagbabawalang mga \"manlulusbo\" (''spam'')",
+	"spamdifftool-desc": "Nagbibigay ng isang payak na paraan ng pagdaragdag ng bagong mga entrada/lahok sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'') mula sa iba't ibang mga pahina",
+	"spamdifftool-cant-edit": "Paumanhin - wala kang pahintulot na baguhin ang talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').",
+	"spamdifftool-no-title": "'''Kamalian:''' walang tinukoy na pamagat ng pahina.",
+	"spamdifftool-no-text": "Walang tekstong mapagdaragdagan ng talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').\nPindutin <a href='$1'>dito</a> upang makapagpatuloy.",
+	"spamdifftool-confirm": "Tiyakin kung ibig mong idagdag ang mga lahok (entrada) na ito sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').\n(Pindutin <a href='$1' target='bago'>dito</a> upang makapag-ulat ng suliranin/problema.)",
+	"spamdifftool-summary": "Idinaragdag sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').",
+	"spamdifftool-urls-detected": "Napansin ang sumusunod na mga URL sa loob ng (mga) pagbabago, alin sa mga ito ang nais mong idagdag sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'')?\n\nNakaayos ang mga pagpipiliang ito mula sa mas mahigpit magpahanggang sa mas maluwag, ang pagharang sa buong dominyo ay makahahadlang sa lahat ng mga kawing patungo sa anumang bagay na manggagaling mula sa dominyong iyon.\n\nTiyaking hindi mahaharang/mahahadlangan ang kabuoan ng mga dominyong nagpapasinaya sa mga kuwenta/akawnt ng tagagamit, katulad ng blogspot.com, shoutwiki.com, atbp.",
+	"spamdifftool-no-urls-detected": "Walang napansing mga ''url''.\nPindutin <a href='$1'>dito</a> para makabalik.",
+	"spamdifftool-spam-link-text": "idagdag sa mga \"manlulusob\" (''spam'')",
+	"spamdifftool-option-domain": "lahat ng nagmula sa dominyong ito",
+	"spamdifftool-option-subdomain": "lahat ng mula sa kabahaging dominyong (subdominyo) ito",
+	"spamdifftool-option-directory": "ang kabahaging dominyo (subdominyo) at direktoryong ito",
+	"spamdifftool-option-none": "wala",
+	"spamdifftool-block": "Harang:",
+	"spamdifftool-submit": "Ipasa"
+}

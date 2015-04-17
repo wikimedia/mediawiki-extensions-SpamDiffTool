@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Frokor",
+			"Harald Khan",
+			"Njardarlogar"
+		]
+	},
+	"spamdifftool": "Handtering av spamsvartelista",
+	"spamdifftool-desc": "Gjev ein enkel måte å legge til nye element i spamsvartelista fra diffsider",
+	"spamdifftool-cant-edit": "Du har diverre ikkje tilgang til å endre spamsvartelista.",
+	"spamdifftool-no-text": "Ingen tekst vart lagt til i spamsvartelista. Klikk <a href='$1'\">her</a> for å halde fram.",
+	"spamdifftool-confirm": "Stadfest at du vil legge til følgjande postar i spamsvartelista. (Rapporter eit problem <a href='$1' target='new'>her</a>.)",
+	"spamdifftool-summary": "Legg til i spamsvartelista",
+	"spamdifftool-urls-detected": "Under er ei liste over URL-ar som vart funne i endringa. \nVelg dei du vil legge til i spamsvartelista. \nDesse vala står i rekkefølgja strengast til mildast, blokkering av heile domenet vil blokkere alle lenkjer til alt som kjem frå dette domenet.\n\nIkkje blokker heile domene til sider som er vert for mange brukarar, som blogspot.com, shoutwiki.com osv.",
+	"spamdifftool-no-urls-detected": "Fann ingen URL-ar. <a href='$1'>Gå tilbake</a>.",
+	"spamdifftool-spam-link-text": "legg til i spamlista",
+	"spamdifftool-option-domain": "heile domenet",
+	"spamdifftool-option-subdomain": "heile underomenet",
+	"spamdifftool-option-directory": "detter underdomenet og mappa",
+	"spamdifftool-option-none": "ingenting",
+	"spamdifftool-block": "Blokker:",
+	"spamdifftool-submit": "Legg til"
+}

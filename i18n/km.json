@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Chhorran",
+			"Lovekhmer",
+			"Thearith"
+		]
+	},
+	"spamdifftool": "គ្រប់គ្រង​បញ្ជីខ្មៅ​សារឥតបានការ",
+	"spamdifftool-desc": "ផ្ដល់​វិធីសាស្ត្រ​មូលដ្ឋាន​នៃ​ការ​បន្ថែម​ធាតុបញ្ចូល​ថ្មី​ទៅ​ក្នុងបញ្ជីខ្មៅ​សារឥតបានការ​ពី​ទំព័រផ្សេងគ្នា",
+	"spamdifftool-cant-edit": "សូម​អភ័យទោស-អ្នក​មិនមាន​សិទ្ធិ​ក្នុង​ការកែប្រែ​បញ្ជីខ្មៅ​សារឥតបានការ​ទេ​។​",
+	"spamdifftool-no-text": "មិនមាន​អត្ថបទ​សម្រាប់​បន្ថែម​បញ្ជីខ្មៅ​សារឥតបានការ​។ ចុច<a href='$1'>ទីនេះ</a>ដើម្បី​បន្ត​។",
+	"spamdifftool-confirm": "សូមបព្ជាក់​ថា​អ្នក​ពិតជា​ចង់​បន្ថែម​ធាតុបញ្ចូល​ទាំងនេះ​ទៅ​ក្នុង​បញ្ជីខ្មៅ​សារឥតបានការ​​។\n(ចុច<a href='$1' target='new'>ទីនេះ</a> ដើម្បី​រាយការណ៍​ពី​បញ្ហា)",
+	"spamdifftool-summary": "បន្ថែម​ទៅក្នុង​បញ្ជីខ្មៅ​សារឥតបានការ​",
+	"spamdifftool-no-urls-detected": "រកមិនឃើញ url ។ ចុច <a href='$1'>ទីនេះ</a> ដើម្បី ត្រឡប់ក្រោយ ។",
+	"spamdifftool-spam-link-text": "បន្ថែម​ចូលទៅ​ជា​សារឥតបានការ (spam)",
+	"spamdifftool-option-domain": "ទាំងអស់​ពី​ដែន​នេះ",
+	"spamdifftool-option-subdomain": "ទាំងអស់​ពី​ដែនរង​នេះ",
+	"spamdifftool-option-directory": "ដែនរង និង​ថត​នេះ",
+	"spamdifftool-option-none": "ទទេ",
+	"spamdifftool-block": "ការហាមឃាត់៖",
+	"spamdifftool-submit": "ដាក់ស្នើ"
+}

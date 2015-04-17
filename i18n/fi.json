@@ -1,0 +1,27 @@
+{
+	"@metadata": {
+		"authors": [
+			"Centerlink",
+			"Cimon Avaro",
+			"Crt",
+			"Str4nd",
+			"ZeiP"
+		]
+	},
+	"spamdifftool": "Hallitse mainosestolistaa",
+	"spamdifftool-desc": "Mahdollistaa yksinkertaisen tavan lisätä uusia kohteita mainosestolistaan erovaisuussivuilta.",
+	"spamdifftool-cant-edit": "Sinulla ei ole oikeuksia muokata mainosestolistaa.",
+	"spamdifftool-no-title": "'''Virhe:''' sivuotsikkoa ei oltu määritelty",
+	"spamdifftool-no-text": "Ei ole tekstiä lisättäväksi mainosestolistalle.\n<a href='$1'>Napsauta jatkaaksesi</a>.",
+	"spamdifftool-confirm": "Vahvista, että haluat lisätä nämä mainosestolistalle. (Napsauta <a href='$1' target='new'>tästä</a> ilmoittaaksesi ongelmasta.)",
+	"spamdifftool-summary": "Lisätään mainosestolistalle",
+	"spamdifftool-urls-detected": "Seuraavat URL:it havaittiin muokkauksissa.\nMitkä näistä haluat lisätä roskamuokkausten mustalle listalle?\nVaihtoehdot ovat järjestyksessä rajoittavimmasta vähiten rajoittavaan, koko domain-nimen estäminen estää kaikki linkit jotka osoittavat johonkin domain-nimessä olevaan.\n\nVarmista ettet estä kokonaisia domaineja jotka sisältävät käyttäjätunnuksia, kuten blogspot.com, shoutwiki.com, jne.",
+	"spamdifftool-no-urls-detected": "Osoitteita ei havaittu.\nNapsauta <a href='$1'>palataksesi</a>.",
+	"spamdifftool-spam-link-text": "lisää mainosestolistaan",
+	"spamdifftool-option-domain": "kaikki tästä verkkotunnuksesta",
+	"spamdifftool-option-subdomain": "kaikki tästä aliverkkotunnuksesta",
+	"spamdifftool-option-directory": "tämä aliverkkotunnus ja hakemisto",
+	"spamdifftool-option-none": "ei mitään",
+	"spamdifftool-block": "Estä:",
+	"spamdifftool-submit": "Lähetä"
+}

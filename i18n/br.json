@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fohanno",
+			"Fulup",
+			"Gwenn-Ael",
+			"Y-M D"
+		]
+	},
+	"spamdifftool": "Merañ roll du ar stroboù",
+	"spamdifftool-desc": "a bourchas un doare eeun da ouzhpennañ monedoù da roll du ar stroboù diwar ar pajennoù disheñvel",
+	"spamdifftool-cant-edit": "Ho tigarez - n'oc'h ket aotreet kemmañ marilh du ar stroboù",
+	"spamdifftool-no-title": "'''Fazi :''' n'eus bet merket titl pajenn ebet.",
+	"spamdifftool-no-text": "N'eus testenn ebet da ouzhpennañ da roll du ar stroboù.\nKlikit <a href='$1'>amañ</a> evit kenderc'hel.",
+	"spamdifftool-confirm": "Kadarnait ho peus c'hoant da ouzhpennañ ar c'hasadennoù-mañ e roll du ar stroboù.\n(Klikit <a href='$1' target='new'>amañ</a> evit menegiñ neb kudenn.)",
+	"spamdifftool-summary": "Ouzhpennañ da roll du ar stroboù",
+	"spamdifftool-urls-detected": "Dionoet eo bet an URLoù-mañ er c'hemmoù-mañ.\nPe re hoc'h eus c'hoant da ouzhpennañ da roll du ar stroboù ?\nRenket eo an deskrivoù-se eus ar re strishañ d'ar re laoskañ.\nPa vez stanket un anv domani klok e vez stanket an holl liammoù o  tont adalek an domani-mañ.\n\nBezit sur ne vo ket stanket an domanioù klok zo herberc'hiet enno kontoù implijerien zo evel blogspot.com, shoutwiki.com, h.a.",
+	"spamdifftool-no-urls-detected": "N'eus bet dinoet url ebet.\nKlikit <a href='$1'>amañ</a> evit distreiñ.",
+	"spamdifftool-spam-link-text": "ouzhpennañ d'ar stroboù",
+	"spamdifftool-option-domain": "pep tra adalek an domani-mañ",
+	"spamdifftool-option-subdomain": "pep tra adalek an is-domani-mañ",
+	"spamdifftool-option-directory": "an is-domani-mañ hag ar c'havlec'h-mañ",
+	"spamdifftool-option-none": "netra",
+	"spamdifftool-block": "Stankañ :",
+	"spamdifftool-submit": "Kas"
+}

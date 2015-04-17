@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Joetaras"
+		]
+	},
+	"spamdifftool": "Gestisce 'a blacklist d'u spam",
+	"spamdifftool-spam-link-text": "aggiunge a 'u spam",
+	"spamdifftool-option-none": "ninde",
+	"spamdifftool-block": "Blocche:",
+	"spamdifftool-submit": "Conferme"
+}

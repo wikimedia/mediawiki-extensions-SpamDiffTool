@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Fryed-peach",
+			"Jon Harald Søby",
+			"Purodha",
+			"Raymond",
+			"The Evil IP address"
+		]
+	},
+	"spamdifftool-desc": "{{desc}}",
+	"spamdifftool-option-none": "{{Identical|Nothing}}",
+	"spamdifftool-submit": "{{Identical|Submit}}"
+}

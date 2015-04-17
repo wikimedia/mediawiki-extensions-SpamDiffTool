@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Civvì",
+			"Darth Kule"
+		]
+	},
+	"spamdifftool": "Gestisci la spam blacklist",
+	"spamdifftool-desc": "Fornisce un semplice modo per aggiungere nuovi valori alla spam blacklist dalle pagine del confronto fra versioni",
+	"spamdifftool-cant-edit": "Spiacente - non hai i permessi per modificare la spam blacklist.",
+	"spamdifftool-no-title": "'''Errore:''' non è stato specificato il titolo della pagina.",
+	"spamdifftool-no-text": "Non c'è alcun testo da aggiungere alla spam blacklist.\nFai clic <a href='$1'>qui</a> per continuare.",
+	"spamdifftool-confirm": "Conferma che hai intenzione di aggiungere questi valori alla spam blacklist.\n(Fai clic <a href='$1' target='new'>qui</a> per segnalare un problema.)",
+	"spamdifftool-summary": "Aggiungo alla spam blacklist",
+	"spamdifftool-urls-detected": "I seguenti URL sono stai rilevai nelle modifiche, quale vorresti aggiungere alla spam blacklist?\nQueste opzioni sono ordinate dalla più restrittiva alla meno restrittiva, bloccare l'intero dominio bloccherà tutti i collegamenti diretti a qualcosa proveniente da quel dominio.\n\nAssicurati di non bloccare quei domini che hostano altri account utente come blogspot.com, shoutwiki.com, ecc.",
+	"spamdifftool-no-urls-detected": "Nessun URL è stato rilevato.\nFai click <a href='$1'>qui</a> per tornare.",
+	"spamdifftool-spam-link-text": "aggiungi a spam",
+	"spamdifftool-option-domain": "tutti da questo dominio",
+	"spamdifftool-option-subdomain": "tutti da questo sottodominio",
+	"spamdifftool-option-directory": "questo sottodominio e directory",
+	"spamdifftool-option-none": "niente",
+	"spamdifftool-block": "Blocca:",
+	"spamdifftool-submit": "Invia"
+}

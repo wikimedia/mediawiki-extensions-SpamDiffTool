@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"DCLXVI",
+			"Spiritia"
+		]
+	},
+	"spamdifftool": "Управление на Черния списък за спам",
+	"spamdifftool-cant-edit": "Нямате права да редактирате Черния списък за спам.",
+	"spamdifftool-no-text": "Не е въведен текст, който да бъде добавен в Черния списък за спам. <a href='$1'>Продължаване</a>.",
+	"spamdifftool-confirm": "Необходимо е потвърждение за добавяне на записите в списъка със спам (Нередности могат да се съобщават <a href='$1' target='new'>на тази страница</a>.)",
+	"spamdifftool-summary": "Добавяне към черния списък със спам",
+	"spamdifftool-no-urls-detected": "Не бяха засечени уеб адреси.\nНатиснете <a href='$1'>тук</a> за връщане.",
+	"spamdifftool-spam-link-text": "добавяне в спам",
+	"spamdifftool-option-domain": "всичко от този домейн",
+	"spamdifftool-option-subdomain": "всичко от този поддомейн",
+	"spamdifftool-option-directory": "този поддомейн и директория",
+	"spamdifftool-option-none": "нищо",
+	"spamdifftool-block": "Блокиране:",
+	"spamdifftool-submit": "Съхранение"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dbc334"
+		]
+	},
+	"spamdifftool": "Upravljaj črni seznam smetja",
+	"spamdifftool-desc": "Na preprost način nudi dodajanje novih vnosov na črni seznam smetja iz primerjave strani",
+	"spamdifftool-cant-edit": "Oprostite – nimate dovoljenja za urejanje črnega seznama smetja.",
+	"spamdifftool-no-title": "'''Napaka:''' naslov strani ni določen.",
+	"spamdifftool-no-text": "Ni besedila, ki bi ga dodal na črni seznam smetja.\nKliknite <a href='$1'>tukaj</a> za nadaljevanje.",
+	"spamdifftool-confirm": "Potrdite, da želite dodati te vnose na črni seznam smetja.\n(Kliknite <a href='$1' target='new'>tukaj</a>, da sporočite težavo.)",
+	"spamdifftool-summary": "Dodajanje na črni seznam smetja",
+	"spamdifftool-urls-detected": "V urejanju so bili zaznani naslednji URL-naslovi.\nKatere želite dodati na črni seznam smetja?\nMožnosti so razvrščene od bolj do manj omejevalnih; blokiranje celotne domene bo blokiralo vse povezave do česar koli, kar prihaja s te domene.\n\nPazite, da ne boste blokirali celotnih domen, ki gostijo uporabniške račune, kot so blogspot.com, shoutwiki.com itn.",
+	"spamdifftool-no-urls-detected": "Odkrit ni bil noben URL.\nKliknite <a href='$1'>tukaj</a> za vrnitev.",
+	"spamdifftool-spam-link-text": "dodaj med spam",
+	"spamdifftool-option-domain": "vse iz te domene",
+	"spamdifftool-option-subdomain": "vse iz te poddomene",
+	"spamdifftool-option-directory": "ta poddomena in mapa",
+	"spamdifftool-option-none": "nič",
+	"spamdifftool-block": "Blokiraj:",
+	"spamdifftool-submit": "Pošlji"
+}

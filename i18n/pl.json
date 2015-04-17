@@ -1,0 +1,26 @@
+{
+	"@metadata": {
+		"authors": [
+			"Airwolf",
+			"Maikking",
+			"Sp5uhe",
+			"Wpedzich"
+		]
+	},
+	"spamdifftool": "Zarządzaj czarną listą dla spamu",
+	"spamdifftool-desc": "Umożliwia na stronie porównania wersji dodawanie nowych wpisów do czarnej listy spamu",
+	"spamdifftool-cant-edit": "Nie masz uprawnień do edytowania tej strony.",
+	"spamdifftool-no-title": "'''Błąd –''' nie określono tytułu strony.",
+	"spamdifftool-no-text": "Brak tekstu do dodania do czarnej listy spamu.\nKliknij <a href='$1'>tutaj,</a> aby kontynuować.",
+	"spamdifftool-confirm": "Potwierdź, że chcesz dodać wpisy do czarnej listy spam.\n(Kliknij <a href='$1' target='new'>tutaj,</a> aby zgłosić problem.)",
+	"spamdifftool-summary": "Dodawanie do czarnej listy spamu",
+	"spamdifftool-urls-detected": "Poniższe adresy URL zostały wykryte w edycji (edycjach). Określ które z nich chcesz dodać do czarnej listy filtru antyspamowego.\nOpcje posortowane są w kolejności od bardziej do mniej restrykcyjnych. Zablokowanie całej domeny spowoduje blokadę wszystkich linków prowadzących gdziekolwiek do tej domeny.\n\nPamiętaj, aby nie blokować całych domen obsługujących wiele stron użytkowników jak home.pl, prv.pl itp.",
+	"spamdifftool-no-urls-detected": "Nie wykryto żadnych adresów URL.\nKliknij <a href='$1'>tutaj</a>, żeby wrócić do poprzedniej strony.",
+	"spamdifftool-spam-link-text": "dodaj do spamu",
+	"spamdifftool-option-domain": "wszystkie z tej domeny",
+	"spamdifftool-option-subdomain": "wszystkie z tej domeny",
+	"spamdifftool-option-directory": "ta poddomena i katalog",
+	"spamdifftool-option-none": "nic",
+	"spamdifftool-block": "Blokuj:",
+	"spamdifftool-submit": "Wyślij"
+}

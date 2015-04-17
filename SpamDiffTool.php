@@ -1,41 +1,52 @@
 <?php
-if ( ! defined( 'MEDIAWIKI' ) )
-	die();
-    
-/**#@+
- * An extension that allows users to rate articles.
- * 
+/**
+ * SpamDiffTool extension -- provides a basic way of adding new entries to the
+ * Spam Blacklist from diff pages
+ *
  * @file
  * @ingroup Extensions
- *
- * @link http://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
- *
- *
  * @author Travis Derouin <travis@wikihow.com>
+ * @author Alexandre Emsenhuber
+ * @author Jack Phoenix <jack@countervandalism.net>
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
+
+$wgSpamBlacklistArticle = 'Project:Spam_Blacklist';
 
 $wgExtensionCredits['antispam'][] = array(
 	'path' => __FILE__,
 	'name' => 'SpamDiffTool',
-	'author' => 'Travis Derouin',
-	'descriptionmsg' => 'spamdifftool-desc',
+	'version' => '1.0',
+	'license-name' => 'GPLv2+',
+	'author' => array( 'Travis Derouin', 'Alexandre Emsenhuber', 'Jack Phoenix' ),
+	'description' => 'Provides a basic way of adding new entries to the Spam Blacklist from diff pages',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SpamDiffTool',
 );
 
-$wgSpamBlacklistArticle = "Project:Spam-Blacklist";
+$wgResourceModules['ext.spamdifftool.styles'] = array(
+	'styles' => 'ext.spamdifftool.css',
+	'localBasePath' => __DIR__,
+	'remoteExtPath' => 'SpamDiffTool',
+	'position' => 'top'
+);
 
-$dir = dirname( __FILE__ ) . '/';
-$wgExtensionMessagesFiles['SpamDiffTool'] = $dir . 'SpamDiffTool.i18n.php';
-$wgExtensionMessagesFiles['SpamDiffToolAlias'] = $dir . 'SpamDiffTool.alias.php';
+$wgMessagesDirs['SpamDiffTool'] = __DIR__ . '/i18n';
+$wgExtensionMessagesFiles['SpamDiffToolAlias'] = __DIR__ . '/SpamDiffTool.alias.php';
 
-$wgAutoloadClasses['SpecialSpamDiffTool'] = $dir . 'SpamDiffTool_body.php';
-$wgSpecialPages['SpamDiffTool'] = 'SpecialSpamDiffTool';
+$wgSpecialPages['SpamDiffTool'] = 'SpamDiffTool';
+$wgAutoloadClasses['SpamDiffTool'] = __DIR__ . '/SpamDiffTool.body.php';
 
-$wgHooks['DiffViewHeader'][] = 'wfSpamDiffToolOnDiffView';
-
-function wfSpamDiffToolOnDiffView( $diffEngine, $oldRev, $newRev ) {
-	global $wgOut, $wgUser, $wgSpamBlacklistArticle;
+/**
+ * Adds the "add to spam [blacklist]" link to the diff view.
+ *
+ * @param DifferenceEngine $diffEngine
+ * @param Revision $oldRev Revision object for the older revision
+ * @param Revision $newRev Revision object for the newer revision
+ * @return bool
+ */
+$wgHooks['DiffViewHeader'][] = function( $diffEngine, $oldRev, $newRev ) {
+	global $wgOut, $wgSpamBlacklistArticle;
 
 	$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
 	if ( !$sb->userCan( 'edit' ) ) {
@@ -48,9 +59,13 @@ function wfSpamDiffToolOnDiffView( $diffEngine, $oldRev, $newRev ) {
 
 	$wgOut->addHTML(
 		'<table style="width:100%"><tr><td style="width:50%"></td><td style="width:50%">
-		<div style="text-align:center">[' . $wgUser->getSkin()->link(
+		<div style="text-align:center">[' .
+		// The parameters used here are slightly different than those used in
+		// SpamDiffTool::getDiffLink(), hence why this reimplements some of its
+		// functionality. Eventually this should also be cleaned up.
+		Linker::link(
 			SpecialPage::getTitleFor( 'SpamDiffTool' ),
-			wfMsgHtml( 'spamdifftool_spam_link_text' ),
+			wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 			array(),
 			array(
 				'target' => $diffEngine->getTitle()->getPrefixedDBkey(),
@@ -58,28 +73,36 @@ function wfSpamDiffToolOnDiffView( $diffEngine, $oldRev, $newRev ) {
 				'diff2' => $newRev->getId(),
 				'returnto' => $_SERVER['QUERY_STRING']
 			) ) .
-		']</div></td></tr></table>' );
+		']</div></td></tr></table>'
+	);
 
 	return true;
-}
-
-function wfSpamDiffLink( $title ) {
-	global $wgUser, $wgRequest, $wgSpamBlacklistArticle;
-	$sk = $wgUser->getSkin();
-	$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
-	if ( !$sb->userCan( 'edit' ) ) {
-		return '';
+};
+/** This is original-ish ashley code which looks ugly; the above version (by iAlex) is so much better.
+$wgHooks['DiffRevisionTools'][] = function( Revision $newRev, &$revisionTools, $oldRev ) {
+	global $wgUser;
+	$t = $newRev->getTitle();
+	if ( $wgUser->isAllowed( 'rollback' ) && $t instanceof Title && $t->userCan( 'edit' ) ) {
+		$spamLink = '<br />&nbsp;&nbsp;&nbsp;<strong>' .
+			SpamDiffTool::getDiffLink( $t ) . '</strong>';
 	}
-	$link = '[' . $sk->makeKnownLinkObj( SpecialPage::getTitleFor( 'SpamDiffTool' ),
-		wfMsg( 'spamdifftool_spam_link_text' ),
-		'target=' . $title->getPrefixedURL().
-		'&oldid2=' . $wgRequest->getVal( 'oldid' ) .
-		'&rcid='. $wgRequest->getVal( 'rcid' ) .
-		'&diff2='. $wgRequest->getVal( 'diff' )  .
-		'&returnto=' . urlencode( $_SERVER['QUERY_STRING'] )
-		) .
-		']';
+	$revisionTools['mw-diff-spamdifftool'] = $spamLink;
+	return true;
+};
+**/
 
-	return $link;
-}
-
+/*
+$wgHooks['ArticleViewFooter'][] = function( $article, $patrolFooterShown ) {
+	if ( $patrolFooterShown ) {
+		// @todo FIXME: this would need to go *inside* the div.patrollink div,
+		// but Article::showPatrolFooter() (=our $patrolFooterShown variable)
+		// appends to OutputPage via ->addHTML() instead of returning a string,
+		// so we can't do nifty str_replace() voodoo here and expect the code to
+		// perform well...
+		//$article->getContext()->getOutput(
+		SpamDiffTool::getDiffLink( $article->getTitle() );
+		//);
+	}
+	return true;
+};
+*/

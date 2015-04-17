@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Dani",
+			"Glanthor Reviol"
+		]
+	},
+	"spamdifftool": "Spam-feketelista kezelése",
+	"spamdifftool-desc": "Egyszerű lehetőség új bejegyzések hozzáadására a spam feketelistához lapváltoztatásokból",
+	"spamdifftool-cant-edit": "Sajnáljuk, de nincs jogosultságod szerkeszteni a spam-feketelistát.",
+	"spamdifftool-no-title": "'''Hiba:''' nem adtál meg lapcímet.",
+	"spamdifftool-no-text": "Nincs hozzáadandó szöveg a spam feketelistához.\nKattints <a href='$1'>ide</a> a folytatáshoz.",
+	"spamdifftool-confirm": "Erősítsd meg, hogy hozzá szeretnéd adni ezeket a bejegyzéseket a spam feketelistához.\n(Kattints <a href='$1' target='new'>ide</a> probléma jelentéséhez.)",
+	"spamdifftool-summary": "Hozzáadás a spam-feketelistához",
+	"spamdifftool-urls-detected": "Az alább látható URL-ek találhatóak a szerkesztés(ek)ben.\nMelyikeket szeretnéd hozzáadni a spam feketelistához?\nA lehetőségek a nagyon korlátozótól a kevésbé korlátozóig vannak felsorolva, az egész tartomány blokkolása az onnan jövő összes hivatkozást blokkolni fogja, bárhová is mutat.\n\nBizonyosodj meg róla, hogy nem blokkolsz egész felhasználói fiókokat hosztoló tartományokat, mint például blogspot.com, shoutwiki.com, stb.",
+	"spamdifftool-no-urls-detected": "Nem találtam URL-t.\nKattints <a href='$1'>ide</a> a visszatéréshez.",
+	"spamdifftool-spam-link-text": "hozzáadás a spamekhez",
+	"spamdifftool-option-domain": "mind ebből a tartományból",
+	"spamdifftool-option-subdomain": "mind ebből az al-tartományból",
+	"spamdifftool-option-directory": "ez az al-tartomány és könyvtár",
+	"spamdifftool-option-none": "semmi",
+	"spamdifftool-block": "Blokkolás:",
+	"spamdifftool-submit": "Küldés"
+}

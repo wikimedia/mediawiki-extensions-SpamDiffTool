@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Nghtwlkr"
+		]
+	},
+	"spamdifftool": "Håndtering av spamsvartelisten",
+	"spamdifftool-desc": "Gir en enkel måte å legge til nye elementer i spamsvartelisten fra diffsider",
+	"spamdifftool-cant-edit": "Du har dessverre ikke rettighet til å redigere spamsvartelisten.",
+	"spamdifftool-no-title": "'''Feil:''' ingen sidetittel ble oppgitt.",
+	"spamdifftool-no-text": "Ingen tekst ble lagt til i spamsvartelisten. Klikk <a href='$1'\">her</a> for å fortsette.",
+	"spamdifftool-confirm": "Bekreft at du vil legge til følgende poster i spamsvartelisten. (Rapporter et problem <a href='$1' target='new'>her</a>.)",
+	"spamdifftool-summary": "Legger til i spamsvartelisten",
+	"spamdifftool-urls-detected": "Nedenfr listes de URL-ene som ble funnet i redigeringen;\nhvilken av dem vil du legge til i spamsvartelisten?\nDisse valgmulighetene står i rekkefølgen strengest til mildest, blokkering av hele domenet vil blokkere alle lenker til alt som kommer fra det domenet.\n\nIkke blikker hele domener til sider som er vert for mange brukere, type blogspot.com, shoutwiki.com osv.",
+	"spamdifftool-no-urls-detected": "Ingen URL-er funnet. <a href='$1'>Gå tilbake</a>.",
+	"spamdifftool-spam-link-text": "legg til i spamlisten",
+	"spamdifftool-option-domain": "hele domenet",
+	"spamdifftool-option-subdomain": "hele underdomenet",
+	"spamdifftool-option-directory": "dette underdomenet og mappen",
+	"spamdifftool-option-none": "ingenting",
+	"spamdifftool-block": "Blokker:",
+	"spamdifftool-submit": "Legg til"
+}

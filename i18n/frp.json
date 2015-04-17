@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cedric31",
+			"ChrisPtDe"
+		]
+	},
+	"spamdifftool-no-title": "'''Èrror :''' gins de titro de pâge spècefiâ.",
+	"spamdifftool-spam-link-text": "apondre u spame",
+	"spamdifftool-option-domain": "tot dês ceti domêno",
+	"spamdifftool-option-subdomain": "tot dês ceti sot-domêno",
+	"spamdifftool-option-directory": "ceti sot-domêno et ceti rèpèrtouèro",
+	"spamdifftool-option-none": "ren",
+	"spamdifftool-block": "Blocar :",
+	"spamdifftool-submit": "Sometre"
+}

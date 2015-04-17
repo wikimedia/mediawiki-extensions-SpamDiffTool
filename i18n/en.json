@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": []
+	},
+	"spamdifftool": "Manage Spam Blacklist",
+	"spamdifftool-block": "Block:",
+	"spamdifftool-cant-edit": "Sorry - you don't have permission to edit the Spam Blacklist.",
+	"spamdifftool-confirm": "Confirm that you want to add these entries to the Spam Blacklist. (Click <a href='$1' target='new'>here</a> to report a problem.)",
+	"spamdifftool-desc": "Provides a basic way of adding new entries to the spam blacklist from diff pages",
+	"spamdifftool-no-text": "There is no text to add to the Spam Blacklist. Click <a href='$1'>here</a> to continue.",
+	"spamdifftool-no-title": "'''Error:''' no page title was specified.",
+	"spamdifftool-no-urls-detected": "No URLs were detected. Click <a href='$1'>here</a> to return.",
+	"spamdifftool-option-domain": "all from this domain",
+	"spamdifftool-option-subdomain": "all from this subdomain",
+	"spamdifftool-option-directory": "this subdomain and directory",
+	"spamdifftool-option-none": "nothing",
+	"spamdifftool-spam-link-text": "add to spam",
+	"spamdifftool-submit": "Submit",
+	"spamdifftool-summary": "Adding to Spam Blacklist",
+	"spamdifftool-tool": "Spam Tool",
+	"spamdifftool-top-level-domains": "\\.uk\n\\.au",
+	"spamdifftool-urls-detected": "The following URLs were detected in the edit(s), which ones would you like to add to the Spam Blacklist? These options order from more restrictive to less restrictive, blocking the entire domain will block all links to anything coming from that domain. <br /><br />Be sure not to block entire domains that host user accounts, like blogspot.com, shoutwiki.com, etc."
+}

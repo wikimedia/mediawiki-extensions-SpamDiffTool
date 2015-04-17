@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ghaly",
+			"Meno25"
+		]
+	},
+	"spamdifftool": "التحكم فى قائمة السبام السوداء",
+	"spamdifftool-desc": "يوفر طريقة أساسية لإضافة مدخلات جديدة للقائمة السوداء للسبام من صفحات الفرق",
+	"spamdifftool-cant-edit": "عذرا - أنت لا تمتلك الصلاحية لتعديل قائمة السبام السوداء.",
+	"spamdifftool-no-text": "لا يوجد نص لإضافته إلى قائمة السبام السوداء.\nاضغط <a href='$1'>هنا</a> للمتابعة.",
+	"spamdifftool-confirm": "أكد أنك تريد إضافة هذه المدخلات إلى قائمة السبام السوداء.\n(اضغط <a href='$1' target='new'>هنا</a> للإبلاغ عن مشكلة.)",
+	"spamdifftool-summary": "إضافة إلى قائمة السبام السوداء",
+	"spamdifftool-urls-detected": "المسارات التالية تم التعرف عليها فى التعديل(ات)، أى واحده عاوز تيضفها لقائمة السبام السودا؟\nالخيارات دى مرتبة من الأكثر منع للأقل منع، منع النطاق بأكمله هايمنع كل الوصلات لأى شىء من  النطاق ده.\n\nاتأكد من عدم منع كل النطاقات اللى تستضيف حسابات يوزرز، زى blogspot.com، shoutwiki.com، لآخره.",
+	"spamdifftool-no-urls-detected": "لم يتم التعرف على أية مسارات.\nاضغط <a href='$1'>هنا</a> للعودة.",
+	"spamdifftool-spam-link-text": "أضف إلى السبام",
+	"spamdifftool-option-domain": "الكل من هذا النطاق",
+	"spamdifftool-option-subdomain": "الكل من هذا النطاق الفرعي",
+	"spamdifftool-option-directory": "هذا النطاق الفرعى والمجلد",
+	"spamdifftool-option-none": "لا شيء",
+	"spamdifftool-block": "منع:",
+	"spamdifftool-submit": "تنفيذ"
+}

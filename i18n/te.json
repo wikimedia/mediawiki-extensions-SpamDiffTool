@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Veeven"
+		]
+	},
+	"spamdifftool-option-domain": "ఈ డొమైన్ నుండి అన్నీ",
+	"spamdifftool-option-subdomain": "ఈ ఉపడొమైను నుండి అన్నీ",
+	"spamdifftool-option-none": "ఏమీలేదు",
+	"spamdifftool-block": "నిరోధం:",
+	"spamdifftool-submit": "దాఖలుచెయ్యి"
+}

@@ -1,0 +1,23 @@
+{
+	"@metadata": {
+		"authors": [
+			"Michawiki"
+		]
+	},
+	"spamdifftool": "Corna lisćina spama zastojaś",
+	"spamdifftool-desc": "Zmóžnja pśidawanje nowych zapiskow k cornej lisćinje spama z rozdźělowych bokow.",
+	"spamdifftool-cant-edit": "Wódaj - njamaš pšawo cornu lisćinu spama wobźěłaś.",
+	"spamdifftool-no-title": "'''Zmólka:''' žeden bokowy titel pódany.",
+	"spamdifftool-no-text": "Njejo tekst, kótaryž dajo se k cornej lisćinje spama pśidaś.\nKlikni <a href='$1'>sem</a>, aby pókšacował.",
+	"spamdifftool-confirm": "Wobkšuś, až coš toś te zapiski k cornej lisćinje spama pśidaś.\n(Klikni <a href='$1' target='new'>sem</a>, aby dał problem k wěsći.)",
+	"spamdifftool-summary": "K cornej lisćinje spama pśidaś",
+	"spamdifftool-urls-detected": "Slědujuce URL su se nadejšli w změnach, kótarež coš cornej lišćinje spama pśidaś?\nToś te opcije su w rěźe wót wjelgin restriktiwne až mjenjej restriktiwne, blokěrowanje cełeje domeny buźo wšykne wótkaze blokěrowaś, kótarež pśidu z toś teje domeny.\n\nPšosym se wobwěsć, až njeblokěrujoš cełe domeny, kótarež góspóduju wužywarske konta, ako na pśikład blogspot.com, shoutwiki.com atd.",
+	"spamdifftool-no-urls-detected": "Žedne URL su se namakali.\nKlikni <a href='$1'>sem</a>, aby se wróśił.",
+	"spamdifftool-spam-link-text": "K spamoju pśidaś",
+	"spamdifftool-option-domain": "wšykne z toś teje domeny",
+	"spamdifftool-option-subdomain": "wšykne z toś teje póddomeny",
+	"spamdifftool-option-directory": "toś ta póddomena a zapis",
+	"spamdifftool-option-none": "nic",
+	"spamdifftool-block": "Blokěrowanje:",
+	"spamdifftool-submit": "Wótpósłaś"
+}

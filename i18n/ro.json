@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Firilacroco"
+		]
+	},
+	"spamdifftool-spam-link-text": "adaugă la spam",
+	"spamdifftool-option-domain": "toate din acest domeniu",
+	"spamdifftool-option-subdomain": "toate de pe acest subdomeniu",
+	"spamdifftool-option-directory": "acest subdomeniu și directorul",
+	"spamdifftool-option-none": "nimic",
+	"spamdifftool-block": "Blocare:",
+	"spamdifftool-submit": "Trimite"
+}
