@@ -57,6 +57,13 @@ $wgHooks['DiffViewHeader'][] = function( $diffEngine, $oldRev, $newRev ) {
 		return true;
 	}
 
+	// Don't add SpamDiffTool links to the diff view when viewing diffs via
+	// Special:RCPatrol because then target will be *that* page, which in turn
+	// causes line 205 of the body file to generate a fatal!
+	if ( $diffEngine->getTitle()->getNamespace() < 0 ) {
+		return true;
+	}
+
 	$wgOut->addHTML(
 		'<table style="width:100%"><tr><td style="width:50%"></td><td style="width:50%">
 		<div style="text-align:center">[' .
