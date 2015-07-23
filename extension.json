@@ -1,0 +1,47 @@
+{
+	"name": "SpamDiffTool",
+	"version": "1.1",
+	"author": [
+		"Travis Derouin",
+		"Alexandre Emsenhuber",
+		"Jack Phoenix"
+	],
+	"license-name": "GPL-2.0+",
+	"url": "https://www.mediawiki.org/wiki/Extension:SpamDiffTool",
+	"description": "Provides a basic way of adding new entries to the Spam Blacklist from diff pages",
+	"type": "antispam",
+	"config": {
+		"SpamBlacklistArticle": "Project:Spam_Blacklist"
+	},
+	"MessagesDirs": {
+		"SpamDiffTool": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"SpamDiffToolAlias": "SpamDiffTool.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpamDiffTool": "SpamDiffTool.body.php",
+		"SpamDiffToolHooks": "SpamDiffToolHooks.php",
+	},
+	"SpecialPages": {
+		"SpamDiffTool": "SpamDiffTool"
+	},
+	"Hooks": {
+		"DiffViewHeader": [
+			"SpamDiffToolHooks::onDiffViewHeader"
+		]
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "SpamDiffTool"
+	},
+	"ResourceModules": {
+		"ext.spamdifftool.styles": {
+			"styles": "ext.spamdifftool.css",
+			"position": "top"
+		}
+	},
+	"manifest_version": 1
+}

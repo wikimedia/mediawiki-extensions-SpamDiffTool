@@ -1,5 +1,16 @@
 <?php
-
+/**
+ * SpamDiffTool extension -- provides a basic way of adding new entries to the
+ * Spam Blacklist from diff pages
+ *
+ * @file
+ * @ingroup Extensions
+ * @author Travis Derouin <travis@wikihow.com>
+ * @author Alexandre Emsenhuber
+ * @author Jack Phoenix <jack@countervandalism.net>
+ * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
+ */
 class SpamDiffTool extends UnlistedSpecialPage {
 
 	public function __construct() {
