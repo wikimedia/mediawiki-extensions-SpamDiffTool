@@ -8,7 +8,7 @@
 	],
 	"license-name": "GPL-2.0+",
 	"url": "https://www.mediawiki.org/wiki/Extension:SpamDiffTool",
-	"description": "Provides a basic way of adding new entries to the Spam Blacklist from diff pages",
+	"descriptionmsg": "spamdifftool-desc",
 	"type": "antispam",
 	"config": {
 		"SpamBlacklistArticle": "Project:Spam_Blacklist"
