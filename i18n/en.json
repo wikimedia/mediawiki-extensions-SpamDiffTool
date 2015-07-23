@@ -3,10 +3,10 @@
 		"authors": []
 	},
 	"spamdifftool": "Manage Spam Blacklist",
+	"spamdifftool-desc": "Provides a basic way of adding new entries to the Spam Blacklist from diff pages",
 	"spamdifftool-block": "Block:",
 	"spamdifftool-cant-edit": "Sorry - you don't have permission to edit the Spam Blacklist.",
 	"spamdifftool-confirm": "Confirm that you want to add these entries to the Spam Blacklist. (Click <a href='$1' target='new'>here</a> to report a problem.)",
-	"spamdifftool-desc": "Provides a basic way of adding new entries to the spam blacklist from diff pages",
 	"spamdifftool-no-text": "There is no text to add to the Spam Blacklist. Click <a href='$1'>here</a> to continue.",
 	"spamdifftool-no-title": "'''Error:''' no page title was specified.",
 	"spamdifftool-no-urls-detected": "No URLs were detected. Click <a href='$1'>here</a> to return.",

@@ -8,7 +8,7 @@
 			"The Evil IP address"
 		]
 	},
-	"spamdifftool-desc": "{{desc}}",
+	"spamdifftool-desc": "{{desc|name=SpamDiffTool|url=https://www.mediawiki.org/wiki/Extension:SpamDiffTool}}",
 	"spamdifftool-option-none": "{{Identical|Nothing}}",
 	"spamdifftool-submit": "{{Identical|Submit}}"
 }

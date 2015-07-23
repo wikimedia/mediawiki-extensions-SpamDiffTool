@@ -20,7 +20,7 @@ $wgExtensionCredits['antispam'][] = array(
 	'version' => '1.1',
 	'license-name' => 'GPL-2.0+',
 	'author' => array( 'Travis Derouin', 'Alexandre Emsenhuber', 'Jack Phoenix' ),
-	'description' => 'Provides a basic way of adding new entries to the Spam Blacklist from diff pages',
+	'descriptionmsg' => 'spamdifftool-desc',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:SpamDiffTool',
 );
 
