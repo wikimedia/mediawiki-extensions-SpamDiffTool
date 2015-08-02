@@ -23,7 +23,7 @@
 	},
 	"AutoloadClasses": {
 		"SpamDiffTool": "SpamDiffTool.body.php",
-		"SpamDiffToolHooks": "SpamDiffToolHooks.php",
+		"SpamDiffToolHooks": "SpamDiffToolHooks.php"
 	},
 	"SpecialPages": {
 		"SpamDiffTool": "SpamDiffTool"
