@@ -6,17 +6,17 @@
 	},
 	"spamdifftool": "Spam-Blacklist beoarbaidje",
 	"spamdifftool-desc": "Rakt n Wai näie Iendraage bietoutouföigjen tou ju Spamblacklist uut Versionsunnerscheede",
+	"spamdifftool-block": "Speere:",
 	"spamdifftool-cant-edit": "Du hääst neen Begjuchtigenge tou ju Beoarbaidenge fon ju Spam-Blacklist.",
-	"spamdifftool-no-text": "Dät rakt naan Text, die der an ju Spam-Blacklist bietouföiged wäide kuude. Klik <a href='$1'>hier</a> toun Fääregungen.",
 	"spamdifftool-confirm": "Bestäätigje, dät du disse Iendraage an ju Spam-Blacklist bietouföigje moatest. (Klik <a href='$1' target='new'>hier</a>, uum n Problem tou mäldjen.)",
-	"spamdifftool-summary": "Tou ju Spam-Blacklist bietouföigje",
-	"spamdifftool-urls-detected": "Do foulgjende URLs wuuden in ju Beoarbaidenge fuunen;\nwäkke deerfon moatest du ju Spam-Blacklist bietouföigje?\nJu Riegenfoulge gungt fon gjucht ienäängjend bit minner ienäängjend;\ndät Iendreegen fon n gans Domain blokkiert aal Ferbiendengen, do der fon dissen Domain kuume.\n\nStaal sicher, dät du nit komplette Domains blokkierst, do der separate Benutserinhoolde kloorstaale, as t.B. blogspot.com, shoutwiki.com usw.",
+	"spamdifftool-no-text": "Dät rakt naan Text, die der an ju Spam-Blacklist bietouföiged wäide kuude. Klik <a href='$1'>hier</a> toun Fääregungen.",
 	"spamdifftool-no-urls-detected": "Der wuuden neen URLs fuunen. Klik <a href='$1'>hier</a>, uum touräächtougungen.",
-	"spamdifftool-spam-link-text": "tou Spam bietouföigje",
 	"spamdifftool-option-domain": "aal fon dissen Domain",
 	"spamdifftool-option-subdomain": "aal fon dissen Subdomain",
 	"spamdifftool-option-directory": "disse Subdomain un dit Ferteeknis",
 	"spamdifftool-option-none": "niks",
-	"spamdifftool-block": "Speere:",
-	"spamdifftool-submit": "Spiekerje"
+	"spamdifftool-spam-link-text": "tou Spam bietouföigje",
+	"spamdifftool-submit": "Spiekerje",
+	"spamdifftool-summary": "Tou ju Spam-Blacklist bietouföigje",
+	"spamdifftool-urls-detected": "Do foulgjende URLs wuuden in ju Beoarbaidenge fuunen;\nwäkke deerfon moatest du ju Spam-Blacklist bietouföigje?\nJu Riegenfoulge gungt fon gjucht ienäängjend bit minner ienäängjend;\ndät Iendreegen fon n gans Domain blokkiert aal Ferbiendengen, do der fon dissen Domain kuume.\n\nStaal sicher, dät du nit komplette Domains blokkierst, do der separate Benutserinhoolde kloorstaale, as t.B. blogspot.com, shoutwiki.com usw."
 }

@@ -1,21 +1,24 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Meno25",
+			"Samer"
+		]
 	},
 	"spamdifftool": "التحكم في قائمة السبام السوداء",
 	"spamdifftool-desc": "يوفر طريقة أساسية لإضافة مدخلات جديدة للقائمة السوداء للسبام من صفحات الفرق",
+	"spamdifftool-block": "منع:",
 	"spamdifftool-cant-edit": "عذرا - أنت لا تمتلك الصلاحية لتعديل قائمة السبام السوداء.",
-	"spamdifftool-no-title": "'''خطأ:''' لم يحدد عنوان صفحة.",
-	"spamdifftool-no-text": "لا يوجد نص لإضافته إلى قائمة السبام السوداء.\nاضغط <a href='$1'>هنا</a> للمتابعة.",
 	"spamdifftool-confirm": "أكد أنك تريد إضافة هذه المدخلات إلى قائمة السبام السوداء.\n(اضغط <a href='$1' target='new'>هنا</a> للإبلاغ عن مشكلة.)",
-	"spamdifftool-summary": "إضافة إلى قائمة السبام السوداء",
-	"spamdifftool-urls-detected": "المسارات التالية تم التعرف عليها في التعديل(ات)، أيها تود إضافتها إلى قائمة السبام السوداء؟\nهذه الخيارات مرتبة من الأكثر منعا إلى الأقل منعا، منع النطاق بأكمله سيمنع كل الوصلات لأي شيء من هذا النطاق.\n\nتأكد من عدم منع كل النطاقات التي تستضيف حسابات مستخدمين، مثل blogspot.com، shoutwiki.com، إلى آخره.",
+	"spamdifftool-no-text": "لا يوجد نص لإضافته إلى قائمة السبام السوداء.\nاضغط <a href='$1'>هنا</a> للمتابعة.",
+	"spamdifftool-no-title": "'''خطأ:''' لم يحدد عنوان صفحة.",
 	"spamdifftool-no-urls-detected": "لم يتم التعرف على أية مسارات.\nاضغط <a href='$1'>هنا</a> للعودة.",
-	"spamdifftool-spam-link-text": "أضف إلى السبام",
 	"spamdifftool-option-domain": "الكل من هذا النطاق",
 	"spamdifftool-option-subdomain": "الكل من هذا النطاق الفرعي",
 	"spamdifftool-option-directory": "هذا النطاق الفرعي والمجلد",
 	"spamdifftool-option-none": "لا شيء",
-	"spamdifftool-block": "منع:",
-	"spamdifftool-submit": "إرسال"
+	"spamdifftool-spam-link-text": "أضف إلى السبام",
+	"spamdifftool-submit": "إرسال",
+	"spamdifftool-summary": "إضافة إلى قائمة السبام السوداء",
+	"spamdifftool-urls-detected": "المسارات التالية تم التعرف عليها في التعديل(ات)، أيها تود إضافتها إلى قائمة السبام السوداء؟\nهذه الخيارات مرتبة من الأكثر منعا إلى الأقل منعا، منع النطاق بأكمله سيمنع كل الوصلات لأي شيء من هذا النطاق.\n\nتأكد من عدم منع كل النطاقات التي تستضيف حسابات مستخدمين، مثل blogspot.com، shoutwiki.com، إلى آخره."
 }

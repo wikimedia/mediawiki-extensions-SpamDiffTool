@@ -4,11 +4,11 @@
 			"Firilacroco"
 		]
 	},
-	"spamdifftool-spam-link-text": "adaugă la spam",
+	"spamdifftool-block": "Blocare:",
 	"spamdifftool-option-domain": "toate din acest domeniu",
 	"spamdifftool-option-subdomain": "toate de pe acest subdomeniu",
 	"spamdifftool-option-directory": "acest subdomeniu și directorul",
 	"spamdifftool-option-none": "nimic",
-	"spamdifftool-block": "Blocare:",
+	"spamdifftool-spam-link-text": "adaugă la spam",
 	"spamdifftool-submit": "Trimite"
 }

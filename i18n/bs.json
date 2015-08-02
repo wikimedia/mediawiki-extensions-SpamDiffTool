@@ -1,23 +1,24 @@
 {
 	"@metadata": {
 		"authors": [
-			"CERminator"
+			"CERminator",
+			"Srdjan m"
 		]
 	},
 	"spamdifftool": "Upravljaj s nepoželjnim spiskom spama",
 	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki na zabranjeni spisak spama sa diff stranica",
-	"spamdifftool-cant-edit": "Žao nam je - nemate dopuštenja za uređivanje nedopuštenog spiska spama.",
-	"spamdifftool-no-title": "'''Greška:''' nije određen naslov stranice.",
-	"spamdifftool-no-text": "Nema teksta za dodavanje na zabranjeni spisak spama.\nKliknite <a href='$1'>ovdje</a> za nastavak.",
-	"spamdifftool-confirm": "Potvrdite da stvarno želite dodati ove stavke na spisak nepoželjnog spama.\n(Kliknite <a href='$1' target='new'>ovdje</a> za prijavu problema.)",
-	"spamdifftool-summary": "Dodavanje na zabranjeni spisak spama",
-	"spamdifftool-urls-detected": "Slijedeći URLovi su otkriveni u izmjeni(izmjenama), koji od njih bi željeli dodati na spisak nepoželjnog spama?\nTe opcije su poredane od više ograničavajućih ka manje ograničavajućim, blokiranje cijele domene će blokirati sve linkove te sve drugo što dolazi s te domene.\n\nBudite pažljivi da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl.",
-	"spamdifftool-no-urls-detected": "Nisu pronađeni urlovi.\nKliknite <a href='$1'>ovdje</a> za povratak.",
-	"spamdifftool-spam-link-text": "dodaj u spam",
-	"spamdifftool-option-domain": "sve iz ove domene",
-	"spamdifftool-option-subdomain": "sve iz ove subdomene",
-	"spamdifftool-option-directory": "ovu subdomenu i direktorijum",
-	"spamdifftool-option-none": "ništa",
 	"spamdifftool-block": "Blokada:",
-	"spamdifftool-submit": "Pošalji"
+	"spamdifftool-cant-edit": "Žao nam je - nemate dopuštenja za uređivanje spiska neželjene pošte.",
+	"spamdifftool-confirm": "Potvrdite da stvarno želite dodati ove stavke na spisak neželjene pošte. (Kliknite <a href='$1' target='new'>ovdje</a> za prijavu problema.)",
+	"spamdifftool-no-text": "Nema teksta za dodavanje na spisak neželjene pošte. Kliknite <a href='$1'>ovdje</a> za nastavak.",
+	"spamdifftool-no-title": "'''Greška:''' nije određen naslov stranice.",
+	"spamdifftool-no-urls-detected": "Nisu pronađeni linkovi. Kliknite <a href='$1'>ovdje</a> za povratak.",
+	"spamdifftool-option-domain": "sve sa ove domene",
+	"spamdifftool-option-subdomain": "sve iz ove poddomene",
+	"spamdifftool-option-directory": "ovu poddomenu i direktorij",
+	"spamdifftool-option-none": "ništa",
+	"spamdifftool-spam-link-text": "dodaj kao neželjenu poštu",
+	"spamdifftool-submit": "Pošalji",
+	"spamdifftool-summary": "Dodavanje na spisak neželjene pošte",
+	"spamdifftool-urls-detected": "Slijedeći URLovi su otkriveni u izmjeni(izmjenama), koji od njih bi željeli dodati na spisak neželjene pošte?\nTe opcije su poredane od više ograničavajućih ka manje ograničavajućim, blokiranje cijele domene će blokirati sve linkove te sve drugo što dolazi s te domene.\n\nBudite pažljivi da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
 }

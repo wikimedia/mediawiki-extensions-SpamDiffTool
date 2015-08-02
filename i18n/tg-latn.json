@@ -5,9 +5,9 @@
 		]
 	},
 	"spamdifftool": "Fehristi sijohi xarobkoriro idora kuned",
-	"spamdifftool-cant-edit": "Bubaxşed - şumo içozai viroişi fehristi sijohi haraznomaro nadored.",
-	"spamdifftool-spam-link-text": "ba haraznoma ilova kuned",
-	"spamdifftool-option-none": "heçciz",
 	"spamdifftool-block": "Bastan:",
+	"spamdifftool-cant-edit": "Bubaxşed - şumo içozai viroişi fehristi sijohi haraznomaro nadored.",
+	"spamdifftool-option-none": "heçciz",
+	"spamdifftool-spam-link-text": "ba haraznoma ilova kuned",
 	"spamdifftool-submit": "Irsol"
 }

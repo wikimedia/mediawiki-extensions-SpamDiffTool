@@ -6,17 +6,17 @@
 	},
 	"spamdifftool": "Guverna la spam blacklist",
 	"spamdifftool-desc": "Prucura nu sèmprici modu pi mintìri valuri novi a la  spam blacklist dê pàggini dû parauni ntra li virsioni",
+	"spamdifftool-block": "Abblocca:",
 	"spamdifftool-cant-edit": "Hà scusari, ma nun pussedi li pirmessi pi canciari la spam blacklist.",
-	"spamdifftool-no-text": "Non cìè nuddu testu di jùnciri a la spam blacklist.\nFà clic <a href='$1'>ccà</a> pi jiri avanti.",
 	"spamdifftool-confirm": "Cunferma la tà ntinzioni di juncìricci chisti valuri a la spam blacklist.\n(Fà clic <a href='$1' target='new'>ccà</a> pi signaliari nu prubbrema.)",
-	"spamdifftool-summary": "Junciuta di spam blacklist",
-	"spamdifftool-urls-detected": "Li URL ccà di sèculu foru scupruti ntê mudifichi, quali d'iddi vulissi juncìricci a la spam blacklist?\nL'òrdini di sti opzioni sunnu misi di la cchiossai a la cchiù picca ristrittiva, abbluccari tuttu lu dumìniu voli diri abbluccari tutti li culligamenti a quarcosa ca veni di ddù dumìniu.\n\nAccura a non bluccari ssi dumìnii ca hostanu àutri account utenti comu putìssiru èssiri  blogspot.com, shoutwiki.com, ecc.",
+	"spamdifftool-no-text": "Non cìè nuddu testu di jùnciri a la spam blacklist.\nFà clic <a href='$1'>ccà</a> pi jiri avanti.",
 	"spamdifftool-no-urls-detected": "Nuddu URL vinni rilivatu.\nFà click <a href='$1'>ccà</a> pi turnari arredi.",
-	"spamdifftool-spam-link-text": "Jùnciri a li spam",
 	"spamdifftool-option-domain": "tutti di chistu dumìniu",
 	"spamdifftool-option-subdomain": "tutti di chistu suttadumìniu",
 	"spamdifftool-option-directory": "Stu suttadumìniu e directory",
 	"spamdifftool-option-none": "nenti",
-	"spamdifftool-block": "Abblocca:",
-	"spamdifftool-submit": "Manna"
+	"spamdifftool-spam-link-text": "Jùnciri a li spam",
+	"spamdifftool-submit": "Manna",
+	"spamdifftool-summary": "Junciuta di spam blacklist",
+	"spamdifftool-urls-detected": "Li URL ccà di sèculu foru scupruti ntê mudifichi, quali d'iddi vulissi juncìricci a la spam blacklist?\nL'òrdini di sti opzioni sunnu misi di la cchiossai a la cchiù picca ristrittiva, abbluccari tuttu lu dumìniu voli diri abbluccari tutti li culligamenti a quarcosa ca veni di ddù dumìniu.\n\nAccura a non bluccari ssi dumìnii ca hostanu àutri account utenti comu putìssiru èssiri  blogspot.com, shoutwiki.com, ecc."
 }

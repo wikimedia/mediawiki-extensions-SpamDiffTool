@@ -8,7 +8,7 @@
 			"The Evil IP address"
 		]
 	},
-	"spamdifftool": "This is saying Manage Spam Blacklist",
+	"spamdifftool": "This is saying Manage Spam Blacklist\n\n:-)\nWow, unbelievable!\n\n\nNo quotes!",
 	"spamdifftool-desc": "{{desc|name=SpamDiffTool|url=https://www.mediawiki.org/wiki/Extension:SpamDiffTool}}",
 	"spamdifftool-block": "used for saying Block:",
 	"spamdifftool-cant-edit": "Used for saying you doint have permission to edit the Spam Blacklist.",
@@ -22,7 +22,7 @@
 	"spamdifftool-option-none": "{{Identical|Nothing}}",
 	"spamdifftool-spam-link-text": "Used for saying do you want to add to spam",
 	"spamdifftool-submit": "{{Identical|Submit}}",
-	"spamdifftool-summary": "Used for saying add to spam blacklist.",
+	"spamdifftool-summary": "Used for saying add to spam blacklist.\n\nNo: \"Adding to Spam Blacklist\"",
 	"spamdifftool-tool": "Name of tool called Spam Tool",
 	"spamdifftool-top-level-domains": "{{notranslate}}",
 	"spamdifftool-urls-detected": "Used for saying the following URLs were detected in the edit(s)."

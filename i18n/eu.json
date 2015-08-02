@@ -6,7 +6,7 @@
 		]
 	},
 	"spamdifftool-no-urls-detected": "Ez da url-rik detektatu.\nEgizu klik <a href='$1'>hemen</a> itzultzeko.",
-	"spamdifftool-spam-link-text": "spamera gehitu",
 	"spamdifftool-option-none": "ezer",
+	"spamdifftool-spam-link-text": "spamera gehitu",
 	"spamdifftool-submit": "Bidali"
 }

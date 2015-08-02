@@ -5,12 +5,12 @@
 			"Михајло Анђелковић"
 		]
 	},
+	"spamdifftool-block": "Блок:",
 	"spamdifftool-no-urls-detected": "Нису пронађени ликови.\nКликните <a href='$1'>овде</a> да се вратите.",
-	"spamdifftool-spam-link-text": "додај као спам",
 	"spamdifftool-option-domain": "све од овог домена",
 	"spamdifftool-option-subdomain": "све од овог поддомена",
 	"spamdifftool-option-directory": "овај поддомен и директоријум",
 	"spamdifftool-option-none": "ништа",
-	"spamdifftool-block": "Блок:",
+	"spamdifftool-spam-link-text": "додај као спам",
 	"spamdifftool-submit": "Прихвати"
 }

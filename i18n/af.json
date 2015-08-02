@@ -5,13 +5,13 @@
 		]
 	},
 	"spamdifftool": "Bestuur spam-swartlys",
+	"spamdifftool-block": "Blokkeer:",
 	"spamdifftool-cant-edit": "Jammer, maar u het nie toestemming om die spam-swartlys te wysig nie.",
 	"spamdifftool-no-urls-detected": "Geen URL's was gevind nie.\nKliek <a href='$1'>hier</a> om terug te keer.",
-	"spamdifftool-spam-link-text": "voeg by spam",
 	"spamdifftool-option-domain": "alles van hierdie domein",
 	"spamdifftool-option-subdomain": "alles van die subdomein",
 	"spamdifftool-option-directory": "hierdie subdomein en gids",
 	"spamdifftool-option-none": "niks",
-	"spamdifftool-block": "Blokkeer:",
+	"spamdifftool-spam-link-text": "voeg by spam",
 	"spamdifftool-submit": "OK"
 }

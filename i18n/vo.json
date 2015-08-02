@@ -5,8 +5,8 @@
 			"Smeira"
 		]
 	},
+	"spamdifftool-block": "Blokön:",
 	"spamdifftool-no-urls-detected": "Els URL nonik petuvons.\nVälolös <a href='$1'>is</a> ad geikön.",
 	"spamdifftool-option-none": "nos",
-	"spamdifftool-block": "Blokön:",
 	"spamdifftool-submit": "Sedön"
 }

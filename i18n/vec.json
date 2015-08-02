@@ -6,17 +6,17 @@
 	},
 	"spamdifftool": "Gestion de la lista nera del spam",
 	"spamdifftool-desc": "Fornisse na senpliçe maniera par zontar valori novi a la lista nera del spam da le pàxene del confronto fra versioni",
+	"spamdifftool-block": "Bloca:",
 	"spamdifftool-cant-edit": "No ti gà i parmessi necessari par modificar la lista nera del spam.",
-	"spamdifftool-no-text": "No ghe xe nissun testo da zontar a la lista nera del spam.\nStruca <a href='$1'>qua</a> par continuar.",
 	"spamdifftool-confirm": "Conferma che te voli zontar sti valori a la lista nera del spam.\n(Struca <a href='$1' target='new'>qua</a> par segnalar un problema.)",
-	"spamdifftool-summary": "Zonto a la lista nera del spam",
-	"spamdifftool-urls-detected": "In tele modifiche xe stà catà i seguenti URL, quale vuto zontar a la lista nera del spam?\nSte opzioni le xe ordinà da la pi restritiva a la manco restritiva: blocar l'intero dominio blocarà tuti i colegamenti direti a calcossa che vien da quel dominio.\n\nStà tento a no blocar quei domini che ospita altri account utente come blogspot.com, shoutwiki.com, ecc.",
+	"spamdifftool-no-text": "No ghe xe nissun testo da zontar a la lista nera del spam.\nStruca <a href='$1'>qua</a> par continuar.",
 	"spamdifftool-no-urls-detected": "No xe stà rilevà nissun URL.\nStruca <a href='$1'>qua</a> par tornar indrìo.",
-	"spamdifftool-spam-link-text": "zonta al spam",
 	"spamdifftool-option-domain": "tuti da sto dominio",
 	"spamdifftool-option-subdomain": "tuti da sto sotodominio",
 	"spamdifftool-option-directory": "sto sotodominio e directory",
 	"spamdifftool-option-none": "gnente",
-	"spamdifftool-block": "Bloca:",
-	"spamdifftool-submit": "Manda"
+	"spamdifftool-spam-link-text": "zonta al spam",
+	"spamdifftool-submit": "Manda",
+	"spamdifftool-summary": "Zonto a la lista nera del spam",
+	"spamdifftool-urls-detected": "In tele modifiche xe stà catà i seguenti URL, quale vuto zontar a la lista nera del spam?\nSte opzioni le xe ordinà da la pi restritiva a la manco restritiva: blocar l'intero dominio blocarà tuti i colegamenti direti a calcossa che vien da quel dominio.\n\nStà tento a no blocar quei domini che ospita altri account utente come blogspot.com, shoutwiki.com, ecc."
 }

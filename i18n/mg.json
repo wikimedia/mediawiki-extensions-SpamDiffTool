@@ -6,13 +6,13 @@
 	},
 	"spamdifftool": "Fikojakojana ny lisitra maintin'ny spam",
 	"spamdifftool-desc": "Manome fomba tsotra anampiana ny fampidirana ao amin'ny lisitra maintin'ny spam avy amin'ny fampitahana.",
+	"spamdifftool-block": "Hanakana :",
 	"spamdifftool-cant-edit": "Azafady - Tsy manana alalana manova ny lisitra maintin'ny spam ianao.",
-	"spamdifftool-summary": "Nampiana tami'nny lisitra maintin'ny spam",
-	"spamdifftool-spam-link-text": "ampiana amin'ny spam",
 	"spamdifftool-option-domain": "rehetra avy amin'io sehatra io",
 	"spamdifftool-option-subdomain": "rehetra avy amin'io zana-tsehatra io",
 	"spamdifftool-option-directory": "io zanan-tsehatra io sy io petra-drakitra io",
 	"spamdifftool-option-none": "tsy misy",
-	"spamdifftool-block": "Hanakana :",
-	"spamdifftool-submit": "Alefa"
+	"spamdifftool-spam-link-text": "ampiana amin'ny spam",
+	"spamdifftool-submit": "Alefa",
+	"spamdifftool-summary": "Nampiana tami'nny lisitra maintin'ny spam"
 }
