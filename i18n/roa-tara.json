@@ -6,7 +6,10 @@
 	},
 	"spamdifftool": "Gestisce 'a blacklist d'u spam",
 	"spamdifftool-block": "Blocche:",
+	"spamdifftool-option-domain": "tutte da stu dominie",
+	"spamdifftool-option-directory": "'u sottodominie e 'a cartelle",
 	"spamdifftool-option-none": "ninde",
 	"spamdifftool-spam-link-text": "aggiunge a 'u spam",
-	"spamdifftool-submit": "Conferme"
+	"spamdifftool-submit": "Conferme",
+	"spamdifftool-tool": "Strumende p'u spam"
 }

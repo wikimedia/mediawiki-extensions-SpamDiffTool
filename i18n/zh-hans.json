@@ -2,10 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Gzdavidwong",
-			"Liangent"
+			"Liangent",
+			"Liuxinyu970226"
 		]
 	},
-	"spamdifftool": "管理垃圾信息黑名单",
+	"spamdifftool": "管理破坏黑名单",
+	"spamdifftool-desc": "提供一个基础的从差异页面添加新记录至破坏黑名单的方式",
+	"spamdifftool-block": "封禁：",
+	"spamdifftool-cant-edit": "对不起——您没有权限编辑破坏黑名单。",
+	"spamdifftool-confirm": "确认您希望添加这些记录至破坏黑名单。（<a href='$1' target='new'>点此</a>报告问题。）",
+	"spamdifftool-no-text": "这里没有需要添加至破坏黑名单的文本。<a href='$1'>点此</a>继续。",
+	"spamdifftool-no-title": "'''错误：'''没有指定页面标题。",
+	"spamdifftool-no-urls-detected": "未检测到URL。<a href='$1'>点此</a>以返回。",
+	"spamdifftool-option-domain": "所有来自此域名",
+	"spamdifftool-option-subdomain": "所有来自此子域名",
+	"spamdifftool-option-directory": "此子域名和目录",
 	"spamdifftool-option-none": "什么也没有",
-	"spamdifftool-submit": "提交"
+	"spamdifftool-spam-link-text": "添加至破坏",
+	"spamdifftool-submit": "提交",
+	"spamdifftool-summary": "添加至破坏黑名单",
+	"spamdifftool-tool": "破坏工具",
+	"spamdifftool-urls-detected": "在编辑中已检测到以下URL，您希望将哪一个URL添加至破坏黑名单呢？这些选项的顺序依限制程度从大到小，封禁全部域名将封禁所有链接至来自那个域名的任何事物。<br /><br />请确保不要封禁全部运作用户账户的域名，例如blogspot.com、shoutwiki.com等。"
 }

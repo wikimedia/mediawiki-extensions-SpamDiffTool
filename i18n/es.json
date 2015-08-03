@@ -6,23 +6,24 @@
 			"Fitoschido",
 			"Imre",
 			"Pertile",
-			"Sanbec"
+			"Sanbec",
+			"Macofe"
 		]
 	},
 	"spamdifftool": "Gestionar lista negra de spam",
 	"spamdifftool-desc": "Proporciona una manera básica de añadir entradas nuevas a la lista negra de spam desde páginas de diffs",
 	"spamdifftool-block": "Bloqueo:",
-	"spamdifftool-cant-edit": "Disculpe - usted no tiene permiso para editar la lista negra de spam.",
-	"spamdifftool-confirm": "Confirme que desea añadir estas entradas a la lista negra de Spam.\n(Haga click <a href='$1' target='new'>aquí</a> para reportar un problema).",
-	"spamdifftool-no-text": "No hay texto para agregar en la lista negra de spam.\nClick <a href='$1'>aquí</a> para continuar.",
+	"spamdifftool-cant-edit": "No tienes permiso para editar la lista negra de spam.",
+	"spamdifftool-confirm": "Confirma que quieres añadir estas entradas a la lista negra de spam. (Haz clic <a href='$1' target='new'>aquí</a> para reportar un problema).",
+	"spamdifftool-no-text": "No hay texto que agregar en la lista negra de spam. Haz clic <a href='$1'>aquí</a> para continuar.",
 	"spamdifftool-no-title": "'''Error:''' no se especificó ningún título de página.",
-	"spamdifftool-no-urls-detected": "No se detextó ninguna URL.\nPulsa <a href='$1'>aquí</a> para regresar.",
-	"spamdifftool-option-domain": "Todo de este dominio",
-	"spamdifftool-option-subdomain": "Todo de este subdominio",
-	"spamdifftool-option-directory": "Este subdominio y directorio",
+	"spamdifftool-no-urls-detected": "No se detectó ningún URL. Pulsa <a href='$1'>aquí</a> para regresar.",
+	"spamdifftool-option-domain": "todo de este dominio",
+	"spamdifftool-option-subdomain": "todo de este subdominio",
+	"spamdifftool-option-directory": "este subdominio y directorio",
 	"spamdifftool-option-none": "nada",
 	"spamdifftool-spam-link-text": "agregar a spam",
 	"spamdifftool-submit": "Enviar",
 	"spamdifftool-summary": "Agregando a la lista negra de spam",
-	"spamdifftool-urls-detected": "Las siguientes URLS fueron detectadas en la edición. ¿Cuales desea que se añadan a la lista negra de spam?\nEstas opciones se ordenan de la más restrictiva a la menos, bloqueando el dominion entero bloqueará todos los enlaces que provengan de él.\n\nAsegúrese se no bloquear dominios enteros que hospeden cuentas de usuario (como blogspot, geocities, etc.)."
+	"spamdifftool-urls-detected": "Los siguientes URL se detectaron en la edición. ¿Cuáles quieres añadir a la lista negra de spam? Estas opciones se ordenan de la más restrictiva a la menos. Bloquear el dominio entero bloqueará todos los enlaces que provengan de él. <br /><br />Asegúrate de no bloquear dominios enteros que hospeden cuentas de usuario, como blogspot.com, shoutwiki.com, etc."
 }

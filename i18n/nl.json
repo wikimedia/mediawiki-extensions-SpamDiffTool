@@ -3,14 +3,15 @@
 		"authors": [
 			"SPQRobin",
 			"Siebrand",
-			"Tvdm"
+			"Tvdm",
+			"Mbch331"
 		]
 	},
 	"spamdifftool": "Zwarte lijst tegen spam beheren",
-	"spamdifftool-desc": "Maakt het mogelijk nieuwe regels aan de zwarte lijst voor spam toe te voegen op basis van verschillen",
+	"spamdifftool-desc": "Biedt een eenvoudige manier voor het toevoegen van nieuwe items aan de zwarte lijst voor spam op basis van verschilpagina's",
 	"spamdifftool-block": "Blokkeren:",
 	"spamdifftool-cant-edit": "U hebt geen rechten om de zwarte lijst tegen spam te bewerken.",
-	"spamdifftool-confirm": "Bevestig dat u deze namen aan de zwarte lijst tegen spam wil toevoegen (klik <a href='$1' target='new'>hier</a> om een probleem te melden).",
+	"spamdifftool-confirm": "Bevestig dat u deze namen aan de zwarte lijst tegen spam wilt toevoegen (klik <a href='$1' target='new'>hier</a> om een probleem te melden).",
 	"spamdifftool-no-text": "Er is geen tekst om toe te voegen aan de zwarte lijst tegen spam. Klik <a href='$1'>hier</a> om door te gaan.",
 	"spamdifftool-no-title": "'''Fout:''' er is geen paginanaam opgegeven.",
 	"spamdifftool-no-urls-detected": "Er werden geen URL's gevonden. Klik <a href='$1'>hier</a> om terug te keren.",
@@ -21,5 +22,5 @@
 	"spamdifftool-spam-link-text": "toevoegen aan spam",
 	"spamdifftool-submit": "OK",
 	"spamdifftool-summary": "Toevoegen aan de zwarte lijst tegen spam",
-	"spamdifftool-urls-detected": "In de bewerking(en) zijn de volgende URL's aangetroffen.\nWelke wilt u toevoegen aan de zwarte lijst voor spam?\nDeze opties gaan van meer beperkend naar minder beperkend.\nHet blokkeren van een volledig domein betekent dat geen enkele verwijzing naar dat domein wordt toegelaten.\n\nZorg dat u niet zomaar volledige domeinen blokkeert waar gebruikers bestaan, zoals blogspot.com, shoutwiki.com, enzovoort."
+	"spamdifftool-urls-detected": "In de bewerking(en) zijn de volgende URL's aangetroffen, welke wilt u toevoegen aan de zwarte lijst voor spam?\nDeze opties gaan van meer beperkend naar minder beperkend, het blokkeren van een volledig domein betekent dat geen enkele verwijzing naar dat domein wordt toegelaten.\n\nZorg dat u niet zomaar volledige domeinen blokkeert waar gebruikers bestaan, zoals blogspot.com, shoutwiki.com, enzovoort."
 }
