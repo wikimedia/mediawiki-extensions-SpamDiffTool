@@ -5,12 +5,13 @@
 			"Jon Harald Søby",
 			"Purodha",
 			"Raymond",
-			"The Evil IP address"
+			"The Evil IP address",
+			"Liuxinyu970226"
 		]
 	},
 	"spamdifftool": "This is saying Manage Spam Blacklist\n\n:-)\nWow, unbelievable!\n\n\nNo quotes!",
 	"spamdifftool-desc": "{{desc|name=SpamDiffTool|url=https://www.mediawiki.org/wiki/Extension:SpamDiffTool}}",
-	"spamdifftool-block": "used for saying Block:",
+	"spamdifftool-block": "used for saying Block:\n{{Identical|Block}}",
 	"spamdifftool-cant-edit": "Used for saying you doint have permission to edit the Spam Blacklist.",
 	"spamdifftool-confirm": "This is used to confirm that you want to add these entries to the Spam Blacklist.",
 	"spamdifftool-no-text": "Used for saying there is no text to add to the Spam Blacklist.",

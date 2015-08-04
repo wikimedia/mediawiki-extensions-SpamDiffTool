@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Froztbyte"
+			"Froztbyte",
+			"Mads Haupt"
 		]
 	},
 	"spamdifftool-block": "Bloker:",
@@ -10,5 +11,5 @@
 	"spamdifftool-no-urls-detected": "Ingen URL'er blev fundet.\nKlik <a href='$1'>her</a> for at gå tilbage.",
 	"spamdifftool-option-domain": "alt fra dette domæne",
 	"spamdifftool-option-directory": "dette underdomæne og katalog",
-	"spamdifftool-option-none": "ingenting"
+	"spamdifftool-option-none": "intet"
 }
