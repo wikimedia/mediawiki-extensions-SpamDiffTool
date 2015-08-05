@@ -6,7 +6,8 @@
 			"Purodha",
 			"Raymond",
 			"The Evil IP address",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Wladek92"
 		]
 	},
 	"spamdifftool": "This is saying Manage Spam Blacklist\n\n:-)\nWow, unbelievable!\n\n\nNo quotes!",
@@ -24,7 +25,7 @@
 	"spamdifftool-spam-link-text": "Used for saying do you want to add to spam",
 	"spamdifftool-submit": "{{Identical|Submit}}",
 	"spamdifftool-summary": "Used for saying add to spam blacklist.\n\nNo: \"Adding to Spam Blacklist\"",
-	"spamdifftool-tool": "Name of tool called Spam Tool",
+	"spamdifftool-tool": "Name of tool called Spam Tool. Keep name unchanged.",
 	"spamdifftool-top-level-domains": "{{notranslate}}",
 	"spamdifftool-urls-detected": "Used for saying the following URLs were detected in the edit(s)."
 }
