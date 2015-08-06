@@ -3,10 +3,12 @@
 		"authors": [
 			"Liangent",
 			"Mark85296341",
-			"Wrightbus"
+			"Wrightbus",
+			"Cwlin0416"
 		]
 	},
 	"spamdifftool": "管理垃圾郵件黑名單",
+	"spamdifftool-block": "封銷：",
 	"spamdifftool-option-none": "什麼也沒有",
 	"spamdifftool-submit": "提交"
 }
