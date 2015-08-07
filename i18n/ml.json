@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Shijualex"
+			"Shijualex",
+			"Nesi"
 		]
 	},
+	"spamdifftool-option-domain": "ഈ ഡൊമൈനിൽ നിന്ന് ഉള്ളതെല്ലാം",
 	"spamdifftool-submit": "സമർപ്പിക്കുക"
 }
