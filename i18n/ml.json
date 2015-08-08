@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Shijualex",
-			"Nesi"
+			"Nesi",
+			"Praveenp"
 		]
 	},
 	"spamdifftool-option-domain": "ഈ ഡൊമൈനിൽ നിന്ന് ഉള്ളതെല്ലാം",
+	"spamdifftool-spam-link-text": "പാഴെഴുത്തിലേക്ക് ചേർക്കുക",
 	"spamdifftool-submit": "സമർപ്പിക്കുക"
 }
