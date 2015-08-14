@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saosukham"
+		]
+	},
+	"spamdifftool-block": "ပလွၵ်ႉ",
+	"spamdifftool-cant-edit": "ၵဵင်ၸႂ်- ၸဝ်ႈၵဝ်ႇ ဢမ်ႇမီးသုၼ်ႇ တႃႇတေထတ်း တမ်ႈတီႈ Spam Blacklist",
+	"spamdifftool-option-domain": "တႃႇတူဝ်ႇမဵင်းၼႆႉ တင်းသဵင်ႈ",
+	"spamdifftool-option-subdomain": "တႃႇသၢပ်ႉတူဝ်ႇမဵင်းၼႆႉ တင်းသဵင်ႈ",
+	"spamdifftool-option-none": "ဢမ်ႇၸႂ်ႈသင်",
+	"spamdifftool-spam-link-text": "သႂ်ႇၵႂႃႇတီႈ ဢမ်ႇလူဝ်ႇ",
+	"spamdifftool-submit": "တၢင်ႇၼႄ"
+}
