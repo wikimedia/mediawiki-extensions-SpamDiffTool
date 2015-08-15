@@ -3,7 +3,8 @@
 		"authors": [
 			"Lejonel",
 			"M.M.S.",
-			"Per"
+			"Per",
+			"WikiPhoenix"
 		]
 	},
 	"spamdifftool": "Hantera svarta listan för spam",
@@ -21,5 +22,6 @@
 	"spamdifftool-spam-link-text": "lägg till i spamlistan",
 	"spamdifftool-submit": "Lägg till",
 	"spamdifftool-summary": "Utökar svarta listan för spam",
+	"spamdifftool-tool": "Spamverktyg",
 	"spamdifftool-urls-detected": "Härunder listas de URL:er som hittades i redigeringen.\nVälj de du vill lägga till i svarta lista för spam.\nBlockeringsalternativen är ordnade från mer omfattande till mindre omfattande blockering.\nOm en hel domän blockeras så stoppas alla länkar till den domänen.\n\nUndvik att helt blockera domäner som är värd för många olika användare, såsom blogspot.com, shoutwiki.com, m.fl."
 }
