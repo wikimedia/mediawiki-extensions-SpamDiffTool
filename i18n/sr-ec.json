@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Sasa Stefanovic",
-			"Михајло Анђелковић"
+			"Михајло Анђелковић",
+			"Milicevic01"
 		]
 	},
 	"spamdifftool-block": "Блок:",
@@ -12,5 +13,5 @@
 	"spamdifftool-option-directory": "овај поддомен и директоријум",
 	"spamdifftool-option-none": "ништа",
 	"spamdifftool-spam-link-text": "додај као спам",
-	"spamdifftool-submit": "Прихвати"
+	"spamdifftool-submit": "Пошаљи"
 }
