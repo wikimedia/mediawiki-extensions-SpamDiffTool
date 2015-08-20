@@ -1,9 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Marmzok"
+			"Marmzok",
+			"Diyariq"
 		]
 	},
 	"spamdifftool-option-none": "هیچ‌شتێک",
-	"spamdifftool-submit": "ناردن"
+	"spamdifftool-submit": "پەخشێن"
 }
