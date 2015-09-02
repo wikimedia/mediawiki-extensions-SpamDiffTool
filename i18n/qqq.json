@@ -17,7 +17,7 @@
 	"spamdifftool-confirm": "This is used to confirm that you want to add these entries to the Spam Blacklist.",
 	"spamdifftool-no-text": "Used for saying there is no text to add to the Spam Blacklist.",
 	"spamdifftool-no-title": "Saying there is an error and that there was no page title was specified.",
-	"spamdifftool-no-urls-detected": "There was no URLs detected.",
+	"spamdifftool-no-urls-detected": "There were no URLs detected.",
 	"spamdifftool-option-domain": "Used for saying all from this domain",
 	"spamdifftool-option-subdomain": "Used for saying all from this subdomain",
 	"spamdifftool-option-directory": "Used for saying this subdomain and directory",
