@@ -24,7 +24,7 @@
 	"spamdifftool-option-none": "{{Identical|Nothing}}",
 	"spamdifftool-spam-link-text": "Used for saying do you want to add to spam",
 	"spamdifftool-submit": "{{Identical|Submit}}",
-	"spamdifftool-summary": "Used for saying add to spam blacklist.\n\nNo: \"Adding to Spam Blacklist\"",
+	"spamdifftool-summary": "Used for saying \"add to spam blacklist.\" in an edit summary.\n\nNo: \"Adding to Spam Blacklist\"\n\nThis is the text of an edit summary. SpamDiffTool doesn't let you specify a custom edit summary (to save time etc. which is kinda the main point of using this extension in the first place); this message is used instead.",
 	"spamdifftool-tool": "Name of tool called Spam Tool. Keep name unchanged.",
 	"spamdifftool-top-level-domains": "{{notranslate}}",
 	"spamdifftool-urls-detected": "Used for saying the following URLs were detected in the edit(s)."
