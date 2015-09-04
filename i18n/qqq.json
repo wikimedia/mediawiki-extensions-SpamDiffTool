@@ -25,7 +25,7 @@
 	"spamdifftool-spam-link-text": "Used for saying do you want to add to spam",
 	"spamdifftool-submit": "{{Identical|Submit}}",
 	"spamdifftool-summary": "Used for saying \"add to spam blacklist.\" in an edit summary.\n\nNo: \"Adding to Spam Blacklist\"\n\nThis is the text of an edit summary. SpamDiffTool doesn't let you specify a custom edit summary (to save time etc. which is kinda the main point of using this extension in the first place); this message is used instead.",
-	"spamdifftool-tool": "Name of tool called Spam Tool. Keep name unchanged.",
+	"spamdifftool-tool": "Display name of the tool called SpamDiffTool by its proper name.\n\nIt should be translated.\n\nThe message is a page title — or rather, \"HTML title\". That is, the text displayed on the browser's window/tab — of the Special:SpamDiffTool page. It isn't shown anywhere else. You might want to take a look at [[mw:Extension:SpamDiffTool]] for a screenshot of the extension in action and more.",
 	"spamdifftool-top-level-domains": "{{notranslate}}",
 	"spamdifftool-urls-detected": "Used for saying the following URLs were detected in the edit(s)."
 }
