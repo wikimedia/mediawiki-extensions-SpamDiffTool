@@ -1,15 +1,17 @@
 {
 	"@metadata": {
-		"authors": []
+		"authors": [
+			"Purodha"
+		]
 	},
 	"spamdifftool": "Manage Spam Blacklist",
 	"spamdifftool-desc": "Provides a basic way of adding new entries to the Spam Blacklist from diff pages",
 	"spamdifftool-block": "Block:",
 	"spamdifftool-cant-edit": "Sorry - you don't have permission to edit the Spam Blacklist.",
-	"spamdifftool-confirm": "Confirm that you want to add these entries to the Spam Blacklist. (Click <a href='$1' target='new'>here</a> to report a problem.)",
-	"spamdifftool-no-text": "There is no text to add to the Spam Blacklist. Click <a href='$1'>here</a> to continue.",
+	"spamdifftool-confirm": "Confirm that you want to add these entries to the Spam Blacklist. (<a href='$1' target='new'>Report a problem</a>.)",
+	"spamdifftool-no-text": "There is no text to add to the Spam Blacklist. <a href='$1'>Continue</a>.",
 	"spamdifftool-no-title": "'''Error:''' no page title was specified.",
-	"spamdifftool-no-urls-detected": "No URLs were detected. Click <a href='$1'>here</a> to return.",
+	"spamdifftool-no-urls-detected": "No URLs were detected. <a href='$1'>Return</a>.",
 	"spamdifftool-option-domain": "all from this domain",
 	"spamdifftool-option-subdomain": "all from this subdomain",
 	"spamdifftool-option-directory": "this subdomain and directory",
