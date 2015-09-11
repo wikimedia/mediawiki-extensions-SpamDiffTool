@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Civvì",
-			"Darth Kule"
+			"Darth Kule",
+			"Macofe"
 		]
 	},
 	"spamdifftool": "Gestisci la spam blacklist",
 	"spamdifftool-desc": "Fornisce un semplice modo per aggiungere nuovi valori alla spam blacklist dalle pagine del confronto fra versioni",
 	"spamdifftool-block": "Blocca:",
 	"spamdifftool-cant-edit": "Spiacente - non hai i permessi per modificare la spam blacklist.",
-	"spamdifftool-confirm": "Conferma che hai intenzione di aggiungere questi valori alla spam blacklist.\n(Fai clic <a href='$1' target='new'>qui</a> per segnalare un problema.)",
-	"spamdifftool-no-text": "Non c'è alcun testo da aggiungere alla spam blacklist.\nFai clic <a href='$1'>qui</a> per continuare.",
+	"spamdifftool-confirm": "Conferma che hai intenzione di aggiungere questi valori alla spam blacklist.\n(<a href='$1' target='new'>segnalare un problema</a>.)",
+	"spamdifftool-no-text": "Non c'è alcun testo da aggiungere alla spam blacklist. <a href='$1'>Continuare</a>.",
 	"spamdifftool-no-title": "'''Errore:''' non è stato specificato il titolo della pagina.",
-	"spamdifftool-no-urls-detected": "Nessun URL è stato rilevato.\nFai click <a href='$1'>qui</a> per tornare.",
+	"spamdifftool-no-urls-detected": "Nessun URL è stato rilevato. <a href='$1'>Tornare</a>.",
 	"spamdifftool-option-domain": "tutti da questo dominio",
 	"spamdifftool-option-subdomain": "tutti da questo sottodominio",
 	"spamdifftool-option-directory": "questo sottodominio e directory",

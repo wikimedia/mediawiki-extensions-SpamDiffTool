@@ -3,7 +3,8 @@
 		"authors": [
 			"Joseph",
 			"Karduelis",
-			"Vito Genovese"
+			"Vito Genovese",
+			"KorkmazO"
 		]
 	},
 	"spamdifftool": "Spam kara listesini yönet",
@@ -11,7 +12,7 @@
 	"spamdifftool-block": "Engelle:",
 	"spamdifftool-cant-edit": "Üzgünüz - spam karalistesini değiştirmek için izniniz yok.",
 	"spamdifftool-confirm": "Bu girdileri spam karalistesine eklemek istediğinizi onaylayın.\n(Bir sorun bildirmek için <a href='$1' target='new'>buraya</a> tıklayın.)",
-	"spamdifftool-no-text": "Spam karalistesine eklenecek metin yok.\nDevam etmek için <a href='$1'>buraya</a> tıklayın.",
+	"spamdifftool-no-text": "ISpam karalistesine eklenecek metin yok.\nDevam etmek için <a href='$1'>buraya</a> tıklayın.",
 	"spamdifftool-no-title": "'''Hata:''' sayfa başlığı belirtilmemiş.",
 	"spamdifftool-no-urls-detected": "Hiçbir url algılanmadı.\nGeri dönmek için <a href='$1'>buraya</a> tıklayın.",
 	"spamdifftool-option-domain": "bu alan adından gelenlerin hepsi",

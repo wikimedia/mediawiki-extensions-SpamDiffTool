@@ -13,7 +13,7 @@
 	"spamdifftool-confirm": "Подтвердите, что вы хотите добавить эти записи в чёрный список спама.\n(Нажмите <a href='$1' target='new'>здесь</a>, чтобы сообщить о проблеме.)",
 	"spamdifftool-no-text": "Нет текста для добавления в чёрный список спама.\nНажмите <a href='$1'>здесь</a>, чтобы продолжить.",
 	"spamdifftool-no-title": "'''Ошибка.''' Не указано название страницы.",
-	"spamdifftool-no-urls-detected": "Не обнаружено адресов.\nНажмите <a href='$1'>здесь</a>, чтобы вернуться.",
+	"spamdifftool-no-urls-detected": "Не обнаружено адресов. <a href='$1'>Вернуться</a>.",
 	"spamdifftool-option-domain": "всё из этого домена",
 	"spamdifftool-option-subdomain": "всё из этого поддомена",
 	"spamdifftool-option-directory": "этого субдомена и директории",

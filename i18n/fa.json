@@ -4,9 +4,11 @@
 			"BlueDevil",
 			"Huji",
 			"Meisam",
-			"ZxxZxxZ"
+			"ZxxZxxZ",
+			"Mahdy Saffar"
 		]
 	},
 	"spamdifftool": "مدیریت سیاههٔ هرزنگاری",
-	"spamdifftool-cant-edit": "متاسفیم؛ شما اجازه ویرایش فهرست سیاه هرزنویسی را ندارید."
+	"spamdifftool-cant-edit": "متاسفیم؛ شما اجازه ویرایش فهرست سیاه هرزنویسی را ندارید.",
+	"spamdifftool-no-text": "متنی برای افزودن به فهرست سیاه هرزنامه جود ندارد. <a href='$1'>ادامه</a>"
 }

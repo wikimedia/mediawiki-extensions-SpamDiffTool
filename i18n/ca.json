@@ -1,9 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Solde"
+			"Solde",
+			"Vriullop"
 		]
 	},
+	"spamdifftool-confirm": "Confirmeu que voleu afegir aquestes entrades a la llista negra de brossa. (<a href='$1' target='new'>Informa d'un problema</a>.)",
+	"spamdifftool-no-text": "No hi ha cap text per afegir a la llista negra de brossa. <a href='$1'>Continua</a>.",
+	"spamdifftool-no-urls-detected": "No s'ha detectat cap URL. <a href='$1'>Torna</a>.",
 	"spamdifftool-option-none": "res",
 	"spamdifftool-submit": "Envia"
 }
