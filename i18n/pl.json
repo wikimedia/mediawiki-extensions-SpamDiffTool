@@ -4,17 +4,19 @@
 			"Airwolf",
 			"Maikking",
 			"Sp5uhe",
-			"Wpedzich"
+			"Wpedzich",
+			"Chrumps",
+			"Mateon1"
 		]
 	},
 	"spamdifftool": "Zarządzaj czarną listą dla spamu",
 	"spamdifftool-desc": "Umożliwia na stronie porównania wersji dodawanie nowych wpisów do czarnej listy spamu",
 	"spamdifftool-block": "Blokuj:",
 	"spamdifftool-cant-edit": "Nie masz uprawnień do edytowania tej strony.",
-	"spamdifftool-confirm": "Potwierdź, że chcesz dodać wpisy do czarnej listy spam.\n(Kliknij <a href='$1' target='new'>tutaj,</a> aby zgłosić problem.)",
-	"spamdifftool-no-text": "Brak tekstu do dodania do czarnej listy spamu.\nKliknij <a href='$1'>tutaj,</a> aby kontynuować.",
+	"spamdifftool-confirm": "Potwierdź, że chcesz dodać wpisy do czarnej listy spamu. (<a href='$1' target='new'>Zgłoś problem</a>.)",
+	"spamdifftool-no-text": "Brak tekstu do dodania do czarnej listy spamu.\n<a href='$1'>Kontynuuj</a>.",
 	"spamdifftool-no-title": "'''Błąd –''' nie określono tytułu strony.",
-	"spamdifftool-no-urls-detected": "Nie wykryto żadnych adresów URL.\nKliknij <a href='$1'>tutaj</a>, żeby wrócić do poprzedniej strony.",
+	"spamdifftool-no-urls-detected": "Nie wykryto żadnych adresów URL. <a href='$1'>Powróć</a>.",
 	"spamdifftool-option-domain": "wszystkie z tej domeny",
 	"spamdifftool-option-subdomain": "wszystkie z tej domeny",
 	"spamdifftool-option-directory": "ta poddomena i katalog",
