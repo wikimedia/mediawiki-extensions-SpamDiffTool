@@ -5,17 +5,18 @@
 			"IAlex",
 			"Sherbrooke",
 			"Urhixidur",
-			"Wladek92"
+			"Wladek92",
+			"Orlodrim"
 		]
 	},
 	"spamdifftool": "Gestion de la liste noire des polluriels",
 	"spamdifftool-desc": "Fournit une méthode simple pour ajouter des entrées dans la liste noire des polluriels à partir des diff",
 	"spamdifftool-block": "Bloquer :",
 	"spamdifftool-cant-edit": "Désolé — Vous n’avez pas la permission d’éditer la liste noire des polluriels.",
-	"spamdifftool-confirm": "Confirmez que vous voulez ajouter ces entrées à la liste noire des polluriels. (Cliquez <a href='$1' target='new'>ici</a> pour signaler tout problème.)",
-	"spamdifftool-no-text": "Il n’y a pas de texte à ajouter à la liste noire des polluriels. Cliquez <a href='$1'>ici</a> pour continuer.",
+	"spamdifftool-confirm": "Confirmez que vous voulez ajouter ces entrées à la liste noire des liens externes. (<a href='$1' target='new'>Signaler un problème</a>.)",
+	"spamdifftool-no-text": "Il n’y a pas de texte à ajouter à la liste noire des liens externes. <a href='$1'>Continuer</a>.",
 	"spamdifftool-no-title": "'''Erreur :''' pas de titre de page spécifié.",
-	"spamdifftool-no-urls-detected": "Aucune URL n’a été détectée. Cliquez <a href='$1'>ici</a> pour revenir en arrière.",
+	"spamdifftool-no-urls-detected": "Aucune URL n’a été détectée. <a href='$1'>Retour</a>.",
 	"spamdifftool-option-domain": "tout depuis ce domaine",
 	"spamdifftool-option-subdomain": "tout depuis ce sous-domaine",
 	"spamdifftool-option-directory": "ce sous-domaine et ce répertoire",
