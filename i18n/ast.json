@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Xuacu"
+		]
+	},
+	"spamdifftool": "Xestionar Llista negra de puxarra",
+	"spamdifftool-desc": "Ufre una manera básica d'añadir entraes nueves a la Llista negra de puxarra dende páxines diff",
+	"spamdifftool-block": "Bloquiar:",
+	"spamdifftool-cant-edit": "Nun tienes permisu pa editar la Llista negra de puxarra.",
+	"spamdifftool-confirm": "Confirma que quies añadir estes entraes a la Llista negra de puxarra. (<a href='$1' target='new'>Informa d'un problema</a>).",
+	"spamdifftool-no-text": "Nun hai testu qu'amestar na Llista negra de puxarra. <a href='$1'>Siguir</a>.",
+	"spamdifftool-no-title": "'''Error:''' nun s'especificó nengún títulu de páxina.",
+	"spamdifftool-no-urls-detected": "Nun se detectó nenguna URL. <a href='$1'>Tornar</a>.",
+	"spamdifftool-option-domain": "too d'esti dominiu",
+	"spamdifftool-option-subdomain": "too d'esti subdominiu",
+	"spamdifftool-option-directory": "esti subdominiu y direutoriu",
+	"spamdifftool-option-none": "nada",
+	"spamdifftool-spam-link-text": "amestar a puxarra",
+	"spamdifftool-submit": "Unviar",
+	"spamdifftool-summary": "Amestando a la Llista negra de puxarra",
+	"spamdifftool-tool": "Spam Tool",
+	"spamdifftool-urls-detected": "Detectáronse na edición les siguientes URL. ¿Cuales quies añadir a la Llista negra de puxarra? Estes opciones ordénense de la más restrictiva a la menos. Bloquiar el dominiu enteru va bloquiar tolos enllaces que provengan d'él. <br /><br />Asegúrate de nun bloquiar dominios enteros qu'agospien cuentes d'usuariu, como blogspot.com, shoutwiki.com, etc."
+}
