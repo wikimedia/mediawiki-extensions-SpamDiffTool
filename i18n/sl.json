@@ -19,5 +19,6 @@
 	"spamdifftool-spam-link-text": "dodaj med spam",
 	"spamdifftool-submit": "Pošlji",
 	"spamdifftool-summary": "Dodajanje na črni seznam smetja",
+	"spamdifftool-tool": "Orodje za smetje",
 	"spamdifftool-urls-detected": "V urejanju so bili zaznani naslednji URL-naslovi.\nKatere želite dodati na črni seznam smetja?\nMožnosti so razvrščene od bolj do manj omejevalnih; blokiranje celotne domene bo blokiralo vse povezave do česar koli, kar prihaja s te domene.\n\nPazite, da ne boste blokirali celotnih domen, ki gostijo uporabniške račune, kot so blogspot.com, shoutwiki.com itn."
 }
