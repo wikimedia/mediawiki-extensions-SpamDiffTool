@@ -3,7 +3,8 @@
 		"authors": [
 			"Civvì",
 			"Darth Kule",
-			"Macofe"
+			"Macofe",
+			"Beta16"
 		]
 	},
 	"spamdifftool": "Gestisci la spam blacklist",
@@ -21,5 +22,6 @@
 	"spamdifftool-spam-link-text": "aggiungi a spam",
 	"spamdifftool-submit": "Invia",
 	"spamdifftool-summary": "Aggiungo alla spam blacklist",
+	"spamdifftool-tool": "Strumento per lo spam",
 	"spamdifftool-urls-detected": "I seguenti URL sono stai rilevai nelle modifiche, quale vorresti aggiungere alla spam blacklist?\nQueste opzioni sono ordinate dalla più restrittiva alla meno restrittiva, bloccare l'intero dominio bloccherà tutti i collegamenti diretti a qualcosa proveniente da quel dominio.\n\nAssicurati di non bloccare quei domini che hostano altri account utente come blogspot.com, shoutwiki.com, ecc."
 }
