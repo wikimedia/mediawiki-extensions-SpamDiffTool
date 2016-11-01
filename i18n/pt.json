@@ -24,5 +24,6 @@
 	"spamdifftool-spam-link-text": "adicionar como spam",
 	"spamdifftool-submit": "Enviar",
 	"spamdifftool-summary": "A adicionar à lista negra de spam",
+	"spamdifftool-tool": "Ferramenta de spam",
 	"spamdifftool-urls-detected": "Foram detetados os seguintes URL na edição ou edições. Quais pretende que sejam adicionados à lista negra de spam?\nEstas opções estão ordenadas desde a mais restritiva até à menos restritiva. O bloqueio de um domínio inteiro irá bloquear todas as ligações provenientes daquele domínio.\n\nCertifique-se de que não bloqueia domínios inteiros que sejam anfitriões de contas de utilizadores, tais como blogspot.com, shoutwiki.com, etc."
 }
