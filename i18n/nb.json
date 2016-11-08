@@ -1,15 +1,16 @@
 {
 	"@metadata": {
 		"authors": [
-			"Nghtwlkr"
+			"Nghtwlkr",
+			"Jon Harald Søby"
 		]
 	},
 	"spamdifftool": "Håndtering av spamsvartelisten",
 	"spamdifftool-desc": "Gir en enkel måte å legge til nye elementer i spamsvartelisten fra diffsider",
 	"spamdifftool-block": "Blokker:",
 	"spamdifftool-cant-edit": "Du har dessverre ikke rettighet til å redigere spamsvartelisten.",
-	"spamdifftool-confirm": "Bekreft at du vil legge til følgende poster i spamsvartelisten. (Rapporter et problem <a href='$1' target='new'>her</a>.)",
-	"spamdifftool-no-text": "Ingen tekst ble lagt til i spamsvartelisten. Klikk <a href='$1'\">her</a> for å fortsette.",
+	"spamdifftool-confirm": "Bekreft at du vil legge til følgende poster i spamsvartelisten. (<a href='$1' target='new'>Rapporter et problem</a>.)",
+	"spamdifftool-no-text": "Ingen tekst ble lagt til i spamsvartelisten. <a href='$1'\">Fortsett</a>.",
 	"spamdifftool-no-title": "'''Feil:''' ingen sidetittel ble oppgitt.",
 	"spamdifftool-no-urls-detected": "Ingen URL-er funnet. <a href='$1'>Gå tilbake</a>.",
 	"spamdifftool-option-domain": "hele domenet",
@@ -19,5 +20,6 @@
 	"spamdifftool-spam-link-text": "legg til i spamlisten",
 	"spamdifftool-submit": "Legg til",
 	"spamdifftool-summary": "Legger til i spamsvartelisten",
+	"spamdifftool-tool": "Spamverktøy",
 	"spamdifftool-urls-detected": "Nedenfr listes de URL-ene som ble funnet i redigeringen;\nhvilken av dem vil du legge til i spamsvartelisten?\nDisse valgmulighetene står i rekkefølgen strengest til mildest, blokkering av hele domenet vil blokkere alle lenker til alt som kommer fra det domenet.\n\nIkke blikker hele domener til sider som er vert for mange brukere, type blogspot.com, shoutwiki.com osv."
 }

@@ -19,7 +19,7 @@
 	"spamdifftool-no-urls-detected": "Não foram detetados nenhuns URL. <a href='$1'>Voltar</a>.",
 	"spamdifftool-option-domain": "todos deste domínio",
 	"spamdifftool-option-subdomain": "todos deste subdomínio",
-	"spamdifftool-option-directory": "este subdomínio e directório",
+	"spamdifftool-option-directory": "este subdomínio e diretório",
 	"spamdifftool-option-none": "nada",
 	"spamdifftool-spam-link-text": "adicionar como spam",
 	"spamdifftool-submit": "Enviar",
