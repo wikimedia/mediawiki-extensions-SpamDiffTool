@@ -8,10 +8,10 @@
 	"spamdifftool-desc": "Forni un modo simple de adder nove entratas al lista nigre antispam ab le comparation inter versiones",
 	"spamdifftool-block": "Blocar:",
 	"spamdifftool-cant-edit": "Pardono - tu non ha le permission de modificar le lista nigre antispam.",
-	"spamdifftool-confirm": "Confirma que tu vole adder iste entratas al lista nigre antispam.\n(Clicca <a href='$1' target='new'>hic</a> pro reportar un problema.)",
-	"spamdifftool-no-text": "Il non ha texto a adder al lista nigre antispam.\nClicca <a href='$1'>hic</a> pro continuar.",
+	"spamdifftool-confirm": "Confirma que tu vole adder iste entratas al lista nigre antispam.\n(<a href='$1' target='new'>Reportar un problema</a>)",
+	"spamdifftool-no-text": "Il non ha texto a adder al lista nigre antispam.\n<a href='$1'>Continuar</a>",
 	"spamdifftool-no-title": "'''Error:''' nulle titulo de pagina specificate.",
-	"spamdifftool-no-urls-detected": "Nulle adresse URL esseva detecite.\nClicca <a href='$1'>hic</a> pro retornar.",
+	"spamdifftool-no-urls-detected": "Nulle adresse URL esseva detegite.\n<a href='$1'>Retornar</a>",
 	"spamdifftool-option-domain": "totes ab iste dominio",
 	"spamdifftool-option-subdomain": "totes ab iste subdominio",
 	"spamdifftool-option-directory": "iste subdominio e directorio",
@@ -19,5 +19,6 @@
 	"spamdifftool-spam-link-text": "adder como spam",
 	"spamdifftool-submit": "Submitter",
 	"spamdifftool-summary": "Addition al lista nigre antispam",
+	"spamdifftool-tool": "Instrumento antispam",
 	"spamdifftool-urls-detected": "Le sequente adresses URL esseva detegite in le modification(es). Quales vole tu adder al lista nigre antispam?\nIste optiones es ordinate del plus restrictive al minus restrictive. Le blocada de un dominio integre blocara tote le ligamines verso omne cosa proveniente de ille dominio.\n\nAssecura te de non blocar dominios integre que alberga multe sitos de usatores, como blogspot.com, shoutwiki.com, etc."
 }
