@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo.mps",
-			"Giro720"
+			"Giro720",
+			"!Silent"
 		]
 	},
 	"spamdifftool": "Gerenciar a lista negra de spam",
 	"spamdifftool-desc": "Fornece uma forma básica de adicionar novas entradas à lista negra de spam a partir de páginas de diferenças",
 	"spamdifftool-block": "Bloquear:",
 	"spamdifftool-cant-edit": "As nossas desculpas - você não tem permissão para editar a lista negra de spam.",
-	"spamdifftool-confirm": "Confirme que pretende adicionar estas entradas à lista negra de spam.\n(Clique <a href='$1' target='new'>aqui</a> para reportar um problema.)",
-	"spamdifftool-no-text": "Não há qualquer texto para adicionar à lista negra de spam.\nClique <a href='$1'>aqui</a> para continuar.",
+	"spamdifftool-confirm": "Confirme que pretende adicionar estas entradas à Lista Negra de spam (<a href='$1' target='new'>reportar um problema</a>).",
+	"spamdifftool-no-text": "Não há existe qualquer texto para adicionar à lista negra de spam. <a href='$1'>Continuar</a>.",
 	"spamdifftool-no-title": "'''Erro:''' não foi especificado nenhum título de página.",
-	"spamdifftool-no-urls-detected": "Nenhuma URL foi detectada.\nClique <a href='$1'>aqui</a> para voltar.",
+	"spamdifftool-no-urls-detected": "Nenhuma URL foi detectada. <a href='$1'>Retornar</a>.",
 	"spamdifftool-option-domain": "todos deste domínio",
 	"spamdifftool-option-subdomain": "todos deste subdomínio",
 	"spamdifftool-option-directory": "este subdomínio e diretório",
@@ -20,5 +21,6 @@
 	"spamdifftool-spam-link-text": "adicionar como spam",
 	"spamdifftool-submit": "Enviar",
 	"spamdifftool-summary": "Adicionando a lista negra de spam",
+	"spamdifftool-tool": "Ferramenta de spam",
 	"spamdifftool-urls-detected": "As seguintes URLs foram detectadas na(s) edição(ões). Quais pretende que sejam adicionadas à lista negra de spam?\nEstas opções estão ordenadas da mais restritiva para a menos restritiva. O bloqueio de um domínio inteiro irá bloquear todas a ligações provenientes daquele domínio.\n\nCertifique-se de que não bloqueia domínios inteiros que sejam servidores de contas de utilizadores, tais como blogspot.com, shoutwiki.com, etc."
 }
