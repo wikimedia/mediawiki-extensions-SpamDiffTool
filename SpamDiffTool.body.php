@@ -242,8 +242,10 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 			$de = new DifferenceEngine( $title, $oldid, $diff, $rcid );
 			$de->loadText();
-			$otext = $de->mOldRev->getText();
-			$ntext = $de->mNewRev->getText();
+			$ocontent = $de->$mOldRev->getContent();
+			$ncontent = $de->$mNewRev->getContent();
+			$otext = ContentHandler::getContentText( $ocontent );
+			$ntext = ContentHandler::getContentText( $ncontent );
 			$ota = explode( "\n", $wgContLang->segmentForDiff( $otext ) );
 			$nta = explode( "\n", $wgContLang->segmentForDiff( $ntext ) );
 			$diffs = new Diff( $ota, $nta );
