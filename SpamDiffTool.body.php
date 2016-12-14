@@ -79,7 +79,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		if ( $request->wasPosted() ) {
 			if ( $request->getCheck( 'confirm' ) ) {
 				$a = new Article( $sb );
-				$text = $a->getContent();
+				$acontent = $a->getContentObject();
+				$text = ContentHandler::getContentText( $acontent );
 				$blacklistPageId = $a->getId();
 
 				// If the blacklist page doesn't exist yet, use the interface
@@ -258,8 +259,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			}
 		} else {
 			if ( $title != '' ) {
-				$a = new Article( $title );
-				$text = $a->getContent( true );
+				$page = new WikiPage( $title );
+				$text = $page->getContent()->getNativeData();
 			}
 		}
 
