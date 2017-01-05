@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Jerrykim306"
+			"Jerrykim306",
+			"Ykhwong"
 		]
 	},
 	"spamdifftool-block": "차단:",
 	"spamdifftool-submit": "제출",
-	"spamdifftool-tool": "스팸 처리 도구"
+	"spamdifftool-tool": "스팸 도구"
 }
