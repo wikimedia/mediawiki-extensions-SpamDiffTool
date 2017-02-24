@@ -8,10 +8,10 @@
 	"spamdifftool-desc": "Provesís un metòde simple per apondre d'entradas dins la lista negra dels spams a partir de las dif",
 	"spamdifftool-block": "Blocar :",
 	"spamdifftool-cant-edit": "O planhèm - Avètz pas la permission d’editar la Lista Negra dels Spams.",
-	"spamdifftool-confirm": "Confirmatz que volètz apondre aquestas entradas dins la Lista Negra dels Spams. (Clicatz <a href='$1' target='new'>aicí</a> per senhalar tot problèma.)",
-	"spamdifftool-no-text": "I a pas de tèxte d'apondre a la Lista Negra dels Spams. Clicatz <a href='$1'>aicí</a> per contunhar.",
+	"spamdifftool-confirm": "Confirmatz que volètz apondre aquestas entradas dins la Lista Negra dels ligams extèrnes. (<a href='$1' target='new'>Senhalar un problèma</a>.)",
+	"spamdifftool-no-text": "I a pas de tèxte d'apondre a la lista negra dels ligams extèrnes. <a href='$1'>Contunhar</a>.",
 	"spamdifftool-no-title": "'''Error :''' pas de títol de pagina especificat.",
-	"spamdifftool-no-urls-detected": "Cap d'URL es pas estada detectada. Clicatz <a href='$1'>aicí</a> per tornar en rèire",
+	"spamdifftool-no-urls-detected": "Cap d'URL es pas estada detectada. <a href='$1'>Retorn</a>.",
 	"spamdifftool-option-domain": "tot dempuèi aqueste domeni",
 	"spamdifftool-option-subdomain": "tot dempuèi aqueste sosdomeni",
 	"spamdifftool-option-directory": "aqueste sosdomeni e aqueste repertòri",
@@ -19,5 +19,6 @@
 	"spamdifftool-spam-link-text": "apondre als spams",
 	"spamdifftool-submit": "Sometre",
 	"spamdifftool-summary": "Apondut a la Tièra Negra dels Spams",
+	"spamdifftool-tool": "Aisina Spam",
 	"spamdifftool-urls-detected": "Las URLs seguentas son estadas detectadas dins aquestas modificacions.\nQuinas son las que volètz apondre a la Lista Negra dels Spams ?\nAquestas opcions van de las mai restrictivas cap a las mens restrictivas.\nLo blocatge d’un nom de domeni entièr blocarà totes los ligams que provenon d'aqueste.\n\nAsseguratz-vos de blocar pas de domenis entièrs que detenon d'unes comptadors d'utilizaires tals coma blogspot.com, shoutwiki.com, etc."
 }
