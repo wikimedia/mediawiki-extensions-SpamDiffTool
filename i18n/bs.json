@@ -12,7 +12,7 @@
 	"spamdifftool-confirm": "Potvrdite da stvarno želite dodati ove stavke na spisak neželjene pošte. (Kliknite <a href='$1' target='new'>ovdje</a> za prijavu problema.)",
 	"spamdifftool-no-text": "Nema teksta za dodavanje na spisak neželjene pošte. Kliknite <a href='$1'>ovdje</a> za nastavak.",
 	"spamdifftool-no-title": "'''Greška:''' nije određen naslov stranice.",
-	"spamdifftool-no-urls-detected": "Nisu pronađeni linkovi. Kliknite <a href='$1'>ovdje</a> za povratak.",
+	"spamdifftool-no-urls-detected": "Nisu pronađeni linkovi. <a href='$1'>Nazad</a>.",
 	"spamdifftool-option-domain": "sve sa ove domene",
 	"spamdifftool-option-subdomain": "sve iz ove poddomene",
 	"spamdifftool-option-directory": "ovu poddomenu i direktorij",
