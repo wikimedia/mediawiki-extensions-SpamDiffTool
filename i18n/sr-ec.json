@@ -3,11 +3,12 @@
 		"authors": [
 			"Sasa Stefanovic",
 			"Михајло Анђелковић",
-			"Milicevic01"
+			"Milicevic01",
+			"Сербијана"
 		]
 	},
 	"spamdifftool-block": "Блок:",
-	"spamdifftool-no-urls-detected": "Нису пронађени ликови.\nКликните <a href='$1'>овде</a> да се вратите.",
+	"spamdifftool-no-urls-detected": "Нису пронађене веб-адресе. <a href='$1'>Назад</a>.",
 	"spamdifftool-option-domain": "све од овог домена",
 	"spamdifftool-option-subdomain": "све од овог поддомена",
 	"spamdifftool-option-directory": "овај поддомен и директоријум",
