@@ -7,7 +7,7 @@
  * @ingroup Extensions
  * @author Travis Derouin <travis@wikihow.com>
  * @author Alexandre Emsenhuber
- * @author Jack Phoenix <jack@countervandalism.net>
+ * @author Jack Phoenix
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
