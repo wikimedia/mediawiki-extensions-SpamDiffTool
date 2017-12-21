@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"DCLXVI",
-			"Spiritia"
+			"Spiritia",
+			"StanProg"
 		]
 	},
 	"spamdifftool": "Управление на Черния списък за спам",
@@ -10,7 +11,7 @@
 	"spamdifftool-cant-edit": "Нямате права да редактирате Черния списък за спам.",
 	"spamdifftool-confirm": "Необходимо е потвърждение за добавяне на записите в списъка със спам (Нередности могат да се съобщават <a href='$1' target='new'>на тази страница</a>.)",
 	"spamdifftool-no-text": "Не е въведен текст, който да бъде добавен в Черния списък за спам. <a href='$1'>Продължаване</a>.",
-	"spamdifftool-no-urls-detected": "Не бяха засечени уеб адреси.\nНатиснете <a href='$1'>тук</a> за връщане.",
+	"spamdifftool-no-urls-detected": "Не бяха открити уеб адреси. <a href='$1'>Назад</a>.",
 	"spamdifftool-option-domain": "всичко от този домейн",
 	"spamdifftool-option-subdomain": "всичко от този поддомейн",
 	"spamdifftool-option-directory": "този поддомейн и директория",
