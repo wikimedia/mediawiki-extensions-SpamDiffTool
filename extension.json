@@ -44,8 +44,7 @@
 	},
 	"ResourceModules": {
 		"ext.spamdifftool.styles": {
-			"styles": "ext.spamdifftool.css",
-			"position": "top"
+			"styles": "ext.spamdifftool.css"
 		}
 	},
 	"manifest_version": 1
