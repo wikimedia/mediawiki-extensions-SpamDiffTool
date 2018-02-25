@@ -4,11 +4,24 @@
 			"Liangent",
 			"Mark85296341",
 			"Wrightbus",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Laundry Machine"
 		]
 	},
 	"spamdifftool": "管理垃圾郵件黑名單",
+	"spamdifftool-desc": "提供從差異頁面添加新記錄至垃圾訊息黑名單的基本方式",
 	"spamdifftool-block": "封鎖：",
+	"spamdifftool-cant-edit": "抱歉－您沒有編輯垃圾訊息黑名單的權限。",
+	"spamdifftool-confirm": "確認您要將這些記錄加為垃圾訊息黑名單。（<a href='$1' target='new'>回報問題</a>。）",
+	"spamdifftool-no-text": "這裡沒有需要添加至垃圾訊息黑名單的文字。 <a href='$1'>繼續</a>。",
+	"spamdifftool-no-title": "'''發生錯誤：'''沒有指定頁面標題。",
+	"spamdifftool-no-urls-detected": "未偵測到URL。 <a href='$1'>返回</a>。",
+	"spamdifftool-option-domain": "所以來自此域名",
+	"spamdifftool-option-subdomain": "所有來自此子域名",
+	"spamdifftool-option-directory": "此子域名和目錄",
 	"spamdifftool-option-none": "什麼也沒有",
-	"spamdifftool-submit": "提交"
+	"spamdifftool-spam-link-text": "加為垃圾訊息",
+	"spamdifftool-submit": "提交",
+	"spamdifftool-summary": "加為垃圾訊息黑名單",
+	"spamdifftool-tool": "反垃圾訊息工具"
 }
