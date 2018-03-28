@@ -5,15 +5,16 @@
 			"Mark85296341",
 			"Wrightbus",
 			"Cwlin0416",
-			"Laundry Machine"
+			"Laundry Machine",
+			"Kly"
 		]
 	},
 	"spamdifftool": "管理垃圾郵件黑名單",
-	"spamdifftool-desc": "提供從差異頁面添加新記錄至垃圾訊息黑名單的基本方式",
+	"spamdifftool-desc": "提供從差異頁面添加新記錄至垃圾郵件黑名單的基本方式",
 	"spamdifftool-block": "封鎖：",
-	"spamdifftool-cant-edit": "抱歉－您沒有編輯垃圾訊息黑名單的權限。",
-	"spamdifftool-confirm": "確認您要將這些記錄加為垃圾訊息黑名單。（<a href='$1' target='new'>回報問題</a>。）",
-	"spamdifftool-no-text": "這裡沒有需要添加至垃圾訊息黑名單的文字。 <a href='$1'>繼續</a>。",
+	"spamdifftool-cant-edit": "抱歉－您沒有編輯垃圾郵件黑名單的權限。",
+	"spamdifftool-confirm": "確認您要將這些記錄加為垃圾郵件黑名單。（<a href='$1' target='new'>回報問題</a>。）",
+	"spamdifftool-no-text": "這裡沒有需要添加至垃圾郵件黑名單的文字。 <a href='$1'>繼續</a>。",
 	"spamdifftool-no-title": "'''發生錯誤：'''沒有指定頁面標題。",
 	"spamdifftool-no-urls-detected": "未偵測到URL。 <a href='$1'>返回</a>。",
 	"spamdifftool-option-domain": "所以來自此域名",
@@ -22,6 +23,7 @@
 	"spamdifftool-option-none": "什麼也沒有",
 	"spamdifftool-spam-link-text": "加為垃圾訊息",
 	"spamdifftool-submit": "提交",
-	"spamdifftool-summary": "加為垃圾訊息黑名單",
-	"spamdifftool-tool": "反垃圾訊息工具"
+	"spamdifftool-summary": "加為垃圾郵件黑名單",
+	"spamdifftool-tool": "反垃圾訊息工具",
+	"spamdifftool-urls-detected": "在編輯裡偵測到以下 URL，您想要將哪項添加到垃圾郵件黑名單裡？這些選項排序是依從較多至較少的限制，封鎖整個網域將會阻擋來自該網域的任何連結。<br /><br />請確保不要封鎖託管使用者帳號的整個網域，例如像是 blogspot.com、shoutwiki.com 等等。"
 }
