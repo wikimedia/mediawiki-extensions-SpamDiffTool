@@ -6,7 +6,8 @@
 			"Sp5uhe",
 			"Wpedzich",
 			"Chrumps",
-			"Mateon1"
+			"Mateon1",
+			"Railfail536"
 		]
 	},
 	"spamdifftool": "Zarządzaj czarną listą dla spamu",
@@ -24,5 +25,6 @@
 	"spamdifftool-spam-link-text": "dodaj do spamu",
 	"spamdifftool-submit": "Wyślij",
 	"spamdifftool-summary": "Dodawanie do czarnej listy spamu",
+	"spamdifftool-tool": "Narzędzia do walki ze spamem",
 	"spamdifftool-urls-detected": "Poniższe adresy URL zostały wykryte w edycji (edycjach). Określ które z nich chcesz dodać do czarnej listy filtru antyspamowego.\nOpcje posortowane są w kolejności od bardziej do mniej restrykcyjnych. Zablokowanie całej domeny spowoduje blokadę wszystkich linków prowadzących gdziekolwiek do tej domeny.\n\nPamiętaj, aby nie blokować całych domen obsługujących wiele stron użytkowników jak home.pl, prv.pl itp."
 }
