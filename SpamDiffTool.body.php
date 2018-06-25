@@ -34,14 +34,14 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			Linker::linkKnown(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
-				array(),
-				array(
+				[],
+				[
 					'target' => $title->getPrefixedURL(),
 					'oldid2' => $wgRequest->getVal( 'oldid' ),
 					'rcid' => $wgRequest->getVal( 'rcid' ),
 					'diff2' => $wgRequest->getVal( 'diff' ),
 					'returnto' => $_SERVER['QUERY_STRING']
-				)
+				]
 			) . ']';
 		return $link;
 	}
@@ -138,7 +138,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 			$vals = $request->getValues();
 			$text = '';
-			$urls = array();
+			$urls = [];
 			$source = $this->msg( 'spamdifftool-top-level-domains' )->inContentLanguage()->text();
 			$tlds = explode( "\n", $source );
 
@@ -219,16 +219,16 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 			$s = $dbw->selectRow(
 				'revision',
-				array( 'rev_id', 'rev_timestamp' ),
-				array(
+				[ 'rev_id', 'rev_timestamp' ],
+				[
 					'rev_page' => $current->getPage(),
 					"rev_user <> {$user} OR rev_user_text <> {$user_text}"
-				),
+				],
 				__METHOD__,
-				array(
+				[
 					'USE INDEX' => 'page_timestamp',
 					'ORDER BY' => 'rev_timestamp DESC'
-				)
+				]
 			);
 
 			$oldid = null;
@@ -264,7 +264,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			}
 		}
 
-		$matches = array();
+		$matches = [];
 		$preg = "/http:\/\/[^] \n'\"\>\<]*/im";
 		preg_match_all( $preg, $text, $matches );
 
@@ -284,7 +284,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				'<br /><br /><table class="spamdifftool-table">'
 		);
 
-		$urls = array();
+		$urls = [];
 		foreach ( $matches as $match ) {
 			foreach ( $match as $url ) {
 				if ( isset( $urls[$url] ) ) {

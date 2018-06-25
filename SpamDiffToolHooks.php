@@ -42,13 +42,13 @@ class SpamDiffToolHooks {
 			Linker::link(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
-				array(),
-				array(
+				[],
+				[
 					'target' => $diffEngine->getTitle()->getPrefixedDBkey(),
 					'oldid2' => $oldRev->getId(),
 					'diff2' => $newRev->getId(),
 					'returnto' => $_SERVER['QUERY_STRING']
-				) ) .
+				] ) .
 			']</div></td></tr></table>'
 		);
 

@@ -6,69 +6,69 @@
  * @ingroup Extensions
  */
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English */
-$specialPageAliases['en'] = array(
-	'SpamDiffTool' => array( 'SpamDiffTool' ),
-);
+$specialPageAliases['en'] = [
+	'SpamDiffTool' => [ 'SpamDiffTool' ],
+];
 
 /** Arabic (العربية) */
-$specialPageAliases['ar'] = array(
-	'SpamDiffTool' => array( 'أداة_فرق_السبام' ),
-);
+$specialPageAliases['ar'] = [
+	'SpamDiffTool' => [ 'أداة_فرق_السبام' ],
+];
 
 /** Zazaki (Zazaki) */
-$specialPageAliases['diq'] = array(
-	'SpamDiffTool' => array( 'FerqêHacetandêSpami' ),
-);
+$specialPageAliases['diq'] = [
+	'SpamDiffTool' => [ 'FerqêHacetandêSpami' ],
+];
 
 /** Persian (فارسی) */
-$specialPageAliases['fa'] = array(
-	'SpamDiffTool' => array( 'ابزار_تفاوت_هرزنگاری' ),
-);
+$specialPageAliases['fa'] = [
+	'SpamDiffTool' => [ 'ابزار_تفاوت_هرزنگاری' ],
+];
 
 /** Haitian (Kreyòl ayisyen) */
-$specialPageAliases['ht'] = array(
-	'SpamDiffTool' => array( 'ZoutiDiferansPouryèl' ),
-);
+$specialPageAliases['ht'] = [
+	'SpamDiffTool' => [ 'ZoutiDiferansPouryèl' ],
+];
 
 /** Interlingua (interlingua) */
-$specialPageAliases['ia'] = array(
-	'SpamDiffTool' => array( 'Lista_nigre_antispam' ),
-);
+$specialPageAliases['ia'] = [
+	'SpamDiffTool' => [ 'Lista_nigre_antispam' ],
+];
 
 /** Japanese (日本語) */
-$specialPageAliases['ja'] = array(
-	'SpamDiffTool' => array( 'スパム差分ツール' ),
-);
+$specialPageAliases['ja'] = [
+	'SpamDiffTool' => [ 'スパム差分ツール' ],
+];
 
 /** Korean (한국어) */
-$specialPageAliases['ko'] = array(
-	'SpamDiffTool' => array( '스팸비교도구' ),
-);
+$specialPageAliases['ko'] = [
+	'SpamDiffTool' => [ '스팸비교도구' ],
+];
 
 /** Luxembourgish (Lëtzebuergesch) */
-$specialPageAliases['lb'] = array(
-	'SpamDiffTool' => array( 'Tool_fir_Spam_z\'ënnersichen' ),
-);
+$specialPageAliases['lb'] = [
+	'SpamDiffTool' => [ 'Tool_fir_Spam_z\'ënnersichen' ],
+];
 
 /** Macedonian (македонски) */
-$specialPageAliases['mk'] = array(
-	'SpamDiffTool' => array( 'АлатРазлЗаСпам' ),
-);
+$specialPageAliases['mk'] = [
+	'SpamDiffTool' => [ 'АлатРазлЗаСпам' ],
+];
 
 /** Malayalam (മലയാളം) */
-$specialPageAliases['ml'] = array(
-	'SpamDiffTool' => array( 'പാഴെഴുത്ത്‌വ്യത്യാസഉപകരണം' ),
-);
+$specialPageAliases['ml'] = [
+	'SpamDiffTool' => [ 'പാഴെഴുത്ത്‌വ്യത്യാസഉപകരണം' ],
+];
 
 /** Nedersaksisch (Nedersaksisch) */
-$specialPageAliases['nds-nl'] = array(
-	'SpamDiffTool' => array( 'Moekverschillenhulpmiddel' ),
-);
+$specialPageAliases['nds-nl'] = [
+	'SpamDiffTool' => [ 'Moekverschillenhulpmiddel' ],
+];
 
 /** Dutch (Nederlands) */
-$specialPageAliases['nl'] = array(
-	'SpamDiffTool' => array( 'Spamverschillenhulpmiddel' ),
-);
+$specialPageAliases['nl'] = [
+	'SpamDiffTool' => [ 'Spamverschillenhulpmiddel' ],
+];
