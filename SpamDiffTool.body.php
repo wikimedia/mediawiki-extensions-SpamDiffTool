@@ -78,10 +78,9 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		// do the processing
 		if ( $request->wasPosted() ) {
 			if ( $request->getCheck( 'confirm' ) ) {
-				$a = new Article( $sb );
-				$acontent = $a->getContentObject();
-				$text = ContentHandler::getContentText( $acontent );
-				$blacklistPageId = $a->getId();
+				$wp = WikiPage::factory( $sb );
+				$text = ContentHandler::getContentText( $wp->getContent() );
+				$blacklistPageId = $wp->getId();
 
 				// If the blacklist page doesn't exist yet, use the interface
 				// message provided by the Spam Blacklist extension as the
@@ -94,7 +93,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 						wfDebugLog(
 							'SpamDiffTool',
 							'Spam Blacklist extension is not loaded yet or something, ' .
-							'because [[MediaWiki:Spam-blacklist]] appear to be disabled'
+							'because [[MediaWiki:Spam-blacklist]] appears to be disabled'
 						);
 					}
 				}
@@ -110,7 +109,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				}
 
 				$summary = $this->msg( 'spamdifftool-summary' )->inContentLanguage()->text();
-				$content = ContentHandler::makeContent( $text, $a->getTitle() );
+				$content = ContentHandler::makeContent( $text, $wp->getTitle() );
 
 				// Edge case: sometimes the spam blacklist page might not exist,
 				// and setting the EDIT_UPDATE flag in that case results in a
@@ -120,7 +119,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				} else {
 					$flags = EDIT_DEFER_UPDATES | EDIT_AUTOSUMMARY;
 				}
-				$status = $a->doEditContent( $content, $summary, $flags );
+				$status = $wp->doEditContent( $content, $summary, $flags );
 
 				if ( $status->isGood() ) {
 					$returnto = $request->getVal( 'returnto', null );
