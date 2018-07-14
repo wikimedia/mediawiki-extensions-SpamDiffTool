@@ -142,7 +142,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			$tlds = explode( "\n", $source );
 
 			foreach ( $vals as $key => $value ) {
-				if ( strpos( $key, 'http://' ) === 0 ) {
+				if ( preg_match( '/^(?:' . wfUrlProtocols() . ')/', $key ) ) {
 					$url = str_replace( '%2E', '.', $key );
 					if ( $value == 'none' ) {
 						continue;
@@ -158,17 +158,17 @@ class SpamDiffTool extends UnlistedSpecialPage {
 									break;
 								}
 							}
-							$url = preg_replace( "@^http://([^/]*\.)?([^./]+\.[^./]+).*$@", '$2', $url );
+							$url = preg_replace( '@^(?:' . wfUrlProtocols() . ")([^/]*\.)?([^./]+\.[^./]+).*$@", '$2', $url );
 							$url = str_replace( '.', '\.', $url ); // escape the periods
 							$url .= $t;
 							break;
 						case 'subdomain':
-							$url = str_replace( 'http://', '', $url );
+							$url = preg_replace( '/^(?:' . wfUrlProtocols() . ')/', '', $url );
 							$url = str_replace( '.', '\.', $url ); // escape the periods
 							$url = preg_replace( '/^([^\/]*)\/.*/', '$1', $url ); // trim everything after the slash
 							break;
 						case 'dir':
-							$url = str_replace( 'http://', '', $url );
+							$url = preg_replace( '/^(?:' . wfUrlProtocols() . ')/', '', $url );
 							$url = preg_replace( "@^([^/]*\.)?([^./]+\.[^./]+(/[^/?]*)?).*$@", '$1$2', $url ); // trim everything after the slash
 							$url = preg_replace( "/^(.*)\/$/", "$1", $url ); // trim trailing / if one exists
 							$url = str_replace( '.', '\.', $url ); // escape the periods
@@ -264,7 +264,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		}
 
 		$matches = [];
-		$preg = "/http:\/\/[^] \n'\"\>\<]*/im";
+		$preg = '/(?:' . wfUrlProtocols() . ")[^] \n'\"\>\<]*/im";
 		preg_match_all( $preg, $text, $matches );
 
 		if ( !count( $matches[0] ) ) {
