@@ -7,7 +7,7 @@
 		]
 	},
 	"spamdifftool": "Handtering av spamsvartelista",
-	"spamdifftool-desc": "Gjev ein enkel måte å legge til nye element i spamsvartelista fra diffsider",
+	"spamdifftool-desc": "Gjev ein enkel måte å legge til nye element i spamsvartelista frå diffsider",
 	"spamdifftool-block": "Blokker:",
 	"spamdifftool-cant-edit": "Du har diverre ikkje tilgang til å endre spamsvartelista.",
 	"spamdifftool-confirm": "Stadfest at du vil legge til følgjande postar i spamsvartelista. (Rapporter eit problem <a href='$1' target='new'>her</a>.)",
