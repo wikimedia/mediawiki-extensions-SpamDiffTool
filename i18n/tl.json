@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"AnakngAraw"
+			"AnakngAraw",
+			"Jojit fb"
 		]
 	},
 	"spamdifftool": "Pangasiwaan ang talaan ng pinagbabawalang mga \"manlulusbo\" (''spam'')",
@@ -19,5 +20,5 @@
 	"spamdifftool-spam-link-text": "idagdag sa mga \"manlulusob\" (''spam'')",
 	"spamdifftool-submit": "Ipasa",
 	"spamdifftool-summary": "Idinaragdag sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').",
-	"spamdifftool-urls-detected": "Napansin ang sumusunod na mga URL sa loob ng (mga) pagbabago, alin sa mga ito ang nais mong idagdag sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'')?\n\nNakaayos ang mga pagpipiliang ito mula sa mas mahigpit magpahanggang sa mas maluwag, ang pagharang sa buong dominyo ay makahahadlang sa lahat ng mga kawing patungo sa anumang bagay na manggagaling mula sa dominyong iyon.\n\nTiyaking hindi mahaharang/mahahadlangan ang kabuoan ng mga dominyong nagpapasinaya sa mga kuwenta/akawnt ng tagagamit, katulad ng blogspot.com, shoutwiki.com, atbp."
+	"spamdifftool-urls-detected": "Napansin ang sumusunod na mga URL sa loob ng (mga) pagbabago, alin sa mga ito ang nais mong idagdag sa talaan ng pinagbabawalang mga Spam?\n\nNakaayos ang mga pagpipiliang ito mula sa mas mahigpit magpahanggang sa mas maluwag, ang pagharang sa buong dominyo ay makahahadlang sa lahat ng mga link patungo sa anumang bagay na manggagaling mula sa domain na iyon.\n\nTiyaking hindi mahaharang/mahahadlangan ang kabuoan ng mga domain nagpapasinaya sa mga account ng tagagamit, katulad ng blogspot.com, shoutwiki.com, atbp."
 }
