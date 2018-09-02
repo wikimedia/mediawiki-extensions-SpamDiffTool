@@ -31,7 +31,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		}
 
 		$link = '[' .
-			Linker::linkKnown(
+			MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 				[],
@@ -296,15 +296,15 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$out->addHTML(
 					"<tr>
 						<td class='spam-url-row'><b>$url</b><br />
-						" . $this->msg( 'spamdifftool-block' )->plain() . " &nbsp;&nbsp;
+						" . $this->msg( 'spamdifftool-block' )->escaped() . " &nbsp;&nbsp;
 						<input type='radio' name=\"" . $name . "\" value='domain' checked /> " .
-							$this->msg( 'spamdifftool-option-domain' )->plain() . "
+							$this->msg( 'spamdifftool-option-domain' )->escaped() . "
 						<input type='radio' name=\"" . $name . "\" value='subdomain' /> " .
-							$this->msg( 'spamdifftool-option-subdomain' )->plain() . "
+							$this->msg( 'spamdifftool-option-subdomain' )->escaped() . "
 						<input type='radio' name=\"" . $name . "\" value='dir' />" .
-							$this->msg( 'spamdifftool-option-directory' )->plain() . "
+							$this->msg( 'spamdifftool-option-directory' )->escaped() . "
 						<input type='radio' name=\"" . $name . "\" value='none' />" .
-							$this->msg( 'spamdifftool-option-none' )->plain() . "
+							$this->msg( 'spamdifftool-option-none' )->escaped() . "
 					</td>
 					</tr>"
 				);

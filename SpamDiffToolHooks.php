@@ -39,7 +39,7 @@ class SpamDiffToolHooks {
 			// The parameters used here are slightly different than those used in
 			// SpamDiffTool::getDiffLink(), hence why this reimplements some of its
 			// functionality. Eventually this should also be cleaned up.
-			Linker::link(
+			MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 				[],
