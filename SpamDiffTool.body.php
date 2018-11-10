@@ -55,6 +55,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		global $wgContLang, $wgSpamBlacklistArticle, $wgScript;
 
 		$out = $this->getOutput();
+		$out->enableOOUI();
 		$request = $this->getRequest();
 
 		$title = Title::newFromDBKey( $request->getVal( 'target' ) );
@@ -187,20 +188,43 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				return;
 			}
 
-			$out->addHTML(
-				'<form method="post">' .
-					Html::hidden( 'confirm', 'true' ) .
-					Html::hidden( 'newurls', $text ) .
-					Html::hidden( 'returnto', $request->getVal( 'returnto' ) ) .
-					$this->msg(
-						'spamdifftool-confirm',
-						'https://www.mediawiki.org/w/index.php?title=Extension_talk:SpamDiffTool&action=edit&section=new'
-					)->text() .
-					"\n<pre style='padding: 10px'>$text</pre>\n" .
-					'</table>' .
-					Html::input( '', $this->msg( 'spamdifftool-submit' )->plain(), 'submit' ) .
-				'</form>'
+			$fields = [];
+			$oouiForm = new OOUI\FormLayout( [
+				'method' => 'POST'
+			] );
+
+			$fields[] = new OOUI\HiddenInputWidget( [
+				'name' => 'confirm',
+				'value' => 'true',
+			] );
+
+			$fields[] = new OOUI\HiddenInputWidget( [
+				'name' => 'newurls',
+				'value' => $text,
+			] );
+
+			$fields[] = new OOUI\HiddenInputWidget( [
+				'name' => 'returnto',
+				'value' => $request->getVal( 'returnto' ),
+			] );
+
+			$fields[] = new OOUI\HtmlSnippet(
+				$this->msg(
+					'spamdifftool-confirm',
+					'https://www.mediawiki.org/w/index.php?title=Extension_talk:SpamDiffTool&action=edit&section=new'
+				)->text() .
+				"\n<pre style='padding: 10px'>$text</pre>\n"
 			);
+
+			$fields[] = new OOUI\ButtonInputWidget( [
+				'flags' => [ 'primary', 'progressive' ],
+				'type' => 'submit',
+				'label' => $this->msg( 'spamdifftool-submit' )->text(),
+			] );
+
+			$oouiForm->appendContent( $fields );
+			$out->addHTML( $oouiForm );
+
 			return;
 		}
 
@@ -295,17 +319,17 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$name = htmlspecialchars( str_replace( '.', '%2E', $url ) );
 				$out->addHTML(
 					"<tr>
-						<td class='spam-url-row'><b>$url</b><br />
-						" . $this->msg( 'spamdifftool-block' )->escaped() . " &nbsp;&nbsp;
-						<input type='radio' name=\"" . $name . "\" value='domain' checked /> " .
-							$this->msg( 'spamdifftool-option-domain' )->escaped() . "
-						<input type='radio' name=\"" . $name . "\" value='subdomain' /> " .
-							$this->msg( 'spamdifftool-option-subdomain' )->escaped() . "
-						<input type='radio' name=\"" . $name . "\" value='dir' />" .
-							$this->msg( 'spamdifftool-option-directory' )->escaped() . "
-						<input type='radio' name=\"" . $name . "\" value='none' />" .
-							$this->msg( 'spamdifftool-option-none' )->escaped() . "
-					</td>
+						<td class='spam-url-row'><b>$url</b><br />" .
+							$this->msg( 'spamdifftool-block' )->escaped() . " &nbsp;&nbsp;" .
+							new OOUI\RadioInputWidget( [ 'name' => $name, 'value' => 'domain', 'selected' => true ] ) .
+								$this->msg( 'spamdifftool-option-domain' )->escaped() . " &nbsp;" .
+							new OOUI\RadioInputWidget( [ 'name' => $name, 'value' => 'subdomain' ] ) .
+								$this->msg( 'spamdifftool-option-subdomain' )->escaped() . " &nbsp;" .
+							new OOUI\RadioInputWidget( [ 'name' => $name, 'value' => 'dir' ] ) .
+								$this->msg( 'spamdifftool-option-directory' )->escaped() . " &nbsp;" .
+							new OOUI\RadioInputWidget( [ 'name' => $name, 'value' => 'none' ] ) .
+								" " . $this->msg( 'spamdifftool-option-none' )->escaped() .
+					"</td>
 					</tr>"
 				);
 			}
@@ -313,7 +337,10 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		$out->addHTML(
 			'</table>' .
-			Html::input( '', $this->msg( 'spamdifftool-submit' )->plain(), 'submit' ) .
+			new OOUI\ButtonInputWidget( [
+				'label' => $this->msg( 'spamdifftool-submit' )->plain(),
+				'type' => 'submit'
+			] ) .
 			'</form>'
 		);
 	}
