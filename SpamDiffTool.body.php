@@ -52,7 +52,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	 * @param mixed|null $par Parameter passed to the special page
 	 */
 	public function execute( $par ) {
-		global $wgContLang, $wgSpamBlacklistArticle, $wgScript;
+		global $wgSpamBlacklistArticle, $wgScript;
 
 		$out = $this->getOutput();
 		$request = $this->getRequest();
@@ -240,14 +240,15 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$oldid = $request->getVal( 'oldid2' );
 			}
 
+			$contLang = MediaWiki\MediaWikiServices::getInstance()->getContentLanguage();
 			$de = new DifferenceEngine( $title, $oldid, $diff, $rcid );
 			$de->loadText();
 			$ocontent = $de->mOldRev->getContent();
 			$ncontent = $de->mNewRev->getContent();
 			$otext = ContentHandler::getContentText( $ocontent );
 			$ntext = ContentHandler::getContentText( $ncontent );
-			$ota = explode( "\n", $wgContLang->segmentForDiff( $otext ) );
-			$nta = explode( "\n", $wgContLang->segmentForDiff( $ntext ) );
+			$ota = explode( "\n", $contLang->segmentForDiff( $otext ) );
+			$nta = explode( "\n", $contLang->segmentForDiff( $ntext ) );
 			$diffs = new Diff( $ota, $nta );
 			// iterate over the edits and get all of the changed text
 			$text = '';
