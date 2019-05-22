@@ -5,6 +5,7 @@
 		]
 	},
 	"spamdifftool": "Gestisce 'a blacklist d'u spam",
+	"spamdifftool-desc": "Dèje 'nu mode facile pe aggiungere valore nuève a 'a lista gnore d'u rummate da le pàggene d'u combronde 'mbrà versiune",
 	"spamdifftool-block": "Blocche:",
 	"spamdifftool-option-domain": "tutte da stu dominie",
 	"spamdifftool-option-directory": "'u sottodominie e 'a cartelle",
