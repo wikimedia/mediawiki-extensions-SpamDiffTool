@@ -7,10 +7,18 @@
 	"spamdifftool": "Gestisce 'a blacklist d'u spam",
 	"spamdifftool-desc": "Dèje 'nu mode facile pe aggiungere valore nuève a 'a lista gnore d'u rummate da le pàggene d'u combronde 'mbrà versiune",
 	"spamdifftool-block": "Blocche:",
+	"spamdifftool-cant-edit": "Ne despiace - non ge tìne le permesse pe cangià 'a lista gnore d'u rummate.",
+	"spamdifftool-confirm": "Conferme ca tìne 'ndenzione de aggiugnere ste valore jndr'à lista gnore d'u rummate.\n(<a href='$1' target='new'>Signale 'nu probbleme</a>.)",
+	"spamdifftool-no-text": "Non ge stè teste da aggiungere a 'a lista gnore d'u rummate. <a href='$1'>Condinue</a>.",
+	"spamdifftool-no-title": "'''Errore:''' Nisciuen titole de pàgene ha state specificate.",
+	"spamdifftool-no-urls-detected": "Nisciuna URL ha state acchiate. <a href='$1'>Tuèrne</a>.",
 	"spamdifftool-option-domain": "tutte da stu dominie",
+	"spamdifftool-option-subdomain": "tutte da stu sottedominie",
 	"spamdifftool-option-directory": "'u sottodominie e 'a cartelle",
 	"spamdifftool-option-none": "ninde",
 	"spamdifftool-spam-link-text": "aggiunge a 'u spam",
 	"spamdifftool-submit": "Conferme",
-	"spamdifftool-tool": "Strumende p'u spam"
+	"spamdifftool-summary": "Stoche aggiunge a 'a lista gnore d'u rummate",
+	"spamdifftool-tool": "Strumende p'u spam",
+	"spamdifftool-urls-detected": "Jndr'à ste URL onne state acchiate de le cangiaminde, ce vue ccù aggiunge jndr'à lista gnore d'u rummate? Ste opziune avènene ordinate da 'a cchiù restrittive a quedde mene restrittive, ce bluècche 'u dominie indere allore tutte le collegaminde dirette avènene bloccate pe quidde ca avènene da quidde dominie. <br /><br />Stà secure de no bloccà chidde dominie ca ospitescene otre cunde utinde cumme blogspot.com, shoutwiki.com, ecc."
 }
