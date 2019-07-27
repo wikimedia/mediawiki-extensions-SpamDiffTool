@@ -52,7 +52,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	 * @param mixed|null $par Parameter passed to the special page
 	 */
 	public function execute( $par ) {
-		global $wgSpamBlacklistArticle, $wgScript;
+		global $wgActorTableSchemaMigrationStage, $wgSpamBlacklistArticle, $wgScript;
 
 		$out = $this->getOutput();
 		$out->enableOOUI();
@@ -235,23 +235,44 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		if ( !is_null( $diff ) ) {
 			// Get the last edit not by this user
-			$current = Revision::newFromTitle( $title );
+			$services = MediaWiki\MediaWikiServices::getInstance();
+			// @todo FIXME: This *can* return null...handle that!
+			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
 			$dbw = wfGetDB( DB_MASTER );
-			$user = intval( $current->getUser() );
-			$user_text = $dbw->addQuotes( $current->getUserText() );
 
-			$s = $dbw->selectRow(
-				'revision',
-				[ 'rev_id', 'rev_timestamp' ],
-				[
-					'rev_page' => $current->getPage(),
-					"rev_user <> {$user} OR rev_user_text <> {$user_text}"
-				],
-				__METHOD__,
-				[
+			$user = intval( $current->getUser()->getId() );
+			$user_text = $dbw->addQuotes( $current->getUser()->getName() );
+
+			$revQuery = $services->getRevisionStore()->getQueryInfo();
+			$pageField = ( $wgActorTableSchemaMigrationStage & SCHEMA_COMPAT_READ_NEW )
+				? 'revactor_page' : 'rev_page';
+			$whereCond = ( $wgActorTableSchemaMigrationStage & SCHEMA_COMPAT_READ_NEW )
+				? "revactor_actor <> {$current->getUser()->getActorId()}"
+				: "rev_user <> {$user} OR rev_user_text <> {$user_text}";
+			if ( $wgActorTableSchemaMigrationStage & SCHEMA_COMPAT_READ_NEW ) {
+				// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
+				// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
+				// in 1.33+ with the new actor stuff active
+				$options = [
+					'ORDER BY' => 'rev_timestamp DESC'
+				];
+			} else {
+				$options = [
 					'USE INDEX' => 'page_timestamp',
 					'ORDER BY' => 'rev_timestamp DESC'
-				]
+				];
+			}
+
+			$s = $dbw->selectRow(
+				$revQuery['tables'],
+				$revQuery['fields'],
+				[
+					$pageField => $current->getId(),
+					$whereCond
+				],
+				__METHOD__,
+				$options,
+				$revQuery['joins']
 			);
 
 			$oldid = null;
@@ -264,7 +285,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$oldid = $request->getVal( 'oldid2' );
 			}
 
-			$contLang = MediaWiki\MediaWikiServices::getInstance()->getContentLanguage();
+			$contLang = $services->getContentLanguage();
 			$de = new DifferenceEngine( $title, $oldid, $diff, $rcid );
 			$de->loadText();
 			$ocontent = $de->mOldRev->getContent();
