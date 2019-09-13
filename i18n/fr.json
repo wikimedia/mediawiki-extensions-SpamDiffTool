@@ -6,7 +6,8 @@
 			"Sherbrooke",
 			"Urhixidur",
 			"Wladek92",
-			"Orlodrim"
+			"Orlodrim",
+			"Thibaut120094"
 		]
 	},
 	"spamdifftool": "Gestion de la liste noire des polluriels",
@@ -25,5 +26,5 @@
 	"spamdifftool-submit": "Soumettre",
 	"spamdifftool-summary": "Ajouté à la liste noire des polluriels",
 	"spamdifftool-tool": "Outil pourriel",
-	"spamdifftool-urls-detected": "Les URLs suivantes ont été détectées dans ces modifications.\nLesquelles voulez-vous ajouter à la liste noire des polluriels ?\nCes options vont des plus restrictives aux moins restrictives.\nLe blocage d’un nom de domaine entier bloquera tous les liens provenant de celui-ci.\n\nAssurez-vous de ne pas bloquer des domaines entiers qui hébergent certains comptes utilisateurs tels que blogspot.com, shoutwiki.com, etc."
+	"spamdifftool-urls-detected": "Les URL suivantes ont été détectées dans ces modifications.\nLesquelles voulez-vous ajouter à la liste noire des polluriels ?\nCes options vont des plus restrictives aux moins restrictives.\nLe blocage d’un nom de domaine entier bloquera tous les liens provenant de celui-ci.\n\nAssurez-vous de ne pas bloquer des domaines entiers qui hébergent certains comptes utilisateurs tels que blogspot.com, shoutwiki.com, etc."
 }
