@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
-			"Srdjan m"
+			"Srdjan m",
+			"Obsuser"
 		]
 	},
 	"spamdifftool": "Upravljaj s nepoželjnim spiskom spama",
@@ -20,5 +21,5 @@
 	"spamdifftool-spam-link-text": "dodaj kao neželjenu poštu",
 	"spamdifftool-submit": "Pošalji",
 	"spamdifftool-summary": "Dodavanje na spisak neželjene pošte",
-	"spamdifftool-urls-detected": "Slijedeći linkovi su otkriveni u izmjeni(izmjenama), koji od njih bi željeli dodati na spisak neželjene pošte?\nTe opcije su poredane od više ograničavajućih ka manje ograničavajućim, blokiranje cijele domene će blokirati sve linkove te sve drugo što dolazi s te domene.\n\nBudite pažljivi da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
+	"spamdifftool-urls-detected": "Sljedeći linkovi su otkriveni u izmjeni (izmjenama); koji od njih biste željeli dodati na spisak neželjene pošte?\nTe opcije su poredane od više ograničavajućih ka manje ograničavajućim; blokiranje cijele domene će blokirati sve linkove te sve drugo što dolazi s te domene.\n\nBudite pažljivi da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
 }

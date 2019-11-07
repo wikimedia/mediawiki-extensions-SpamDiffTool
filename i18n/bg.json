@@ -11,6 +11,7 @@
 	"spamdifftool-cant-edit": "Нямате права да редактирате Черния списък за спам.",
 	"spamdifftool-confirm": "Необходимо е потвърждение за добавяне в черния списък за спам (Нередности могат да се съобщават <a href='$1' target='new'>на тази страница</a>.)",
 	"spamdifftool-no-text": "Не е въведен текст, който да бъде добавен в Черния списък за спам. <a href='$1'>Продължаване</a>.",
+	"spamdifftool-no-title": "'''Грешка:''' не е указано заглавие на страницата.",
 	"spamdifftool-no-urls-detected": "Не бяха открити уеб адреси. <a href='$1'>Назад</a>.",
 	"spamdifftool-option-domain": "всичко от този домейн",
 	"spamdifftool-option-subdomain": "всичко от този поддомейн",
@@ -18,5 +19,6 @@
 	"spamdifftool-option-none": "нищо",
 	"spamdifftool-spam-link-text": "добавяне в спам",
 	"spamdifftool-submit": "Съхранение",
-	"spamdifftool-summary": "Добавяне към черния списък със спам"
+	"spamdifftool-summary": "Добавяне към черния списък със спам",
+	"spamdifftool-tool": "Инструмент против спам"
 }

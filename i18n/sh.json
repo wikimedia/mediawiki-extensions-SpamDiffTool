@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"OC Ripper",
-			"Vlad5250"
+			"Vlad5250",
+			"Obsuser"
 		]
 	},
 	"spamdifftool": "Upravljanje s crnim spiskom spama",
@@ -21,5 +22,5 @@
 	"spamdifftool-submit": "Unesi",
 	"spamdifftool-summary": "Dodaj na crn spisak neželjenog sadržaja",
 	"spamdifftool-tool": "Alat protiv spama",
-	"spamdifftool-urls-detected": "Slijedeće URL-adrese su otkriveni u izmjeni/nama.\nKoji od njih dakate dodati na spisak neželjenog sadržaja?\nOva prilagođavanja su poredane od više ograničavajućih ka manje ograničavajućim, i ako blokirate cijelu domenu će blokirati i sve linkove te sve drugo što dolazi s te domene.\n\nProvijerite da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
+	"spamdifftool-urls-detected": "Sljedeće URL-adrese su otkriveni u izmjeni/nama.\nKoji od njih dakate dodati na spisak neželjenog sadržaja?\nOva prilagođavanja su poredane od više ograničavajućih ka manje ograničavajućim, i ako blokirate cijelu domenu će blokirati i sve linkove te sve drugo što dolazi s te domene.\n\nProvijerite da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
 }
