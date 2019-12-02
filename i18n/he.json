@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rotemliss",
-			"YaronSh"
+			"YaronSh",
+			"Amire80"
 		]
 	},
 	"spamdifftool": "ניהול מסנן הספאם",
@@ -13,12 +14,12 @@
 	"spamdifftool-no-text": "אין טקסט להוספה למסנן הספאם.\nלחצו <a href='$1'>כאן</a> להמשך.",
 	"spamdifftool-no-title": "'''שגיאה:''' לא צוין שם דף.",
 	"spamdifftool-no-urls-detected": "לא זוהו כתובות.\nלחצו <a href='$1'>כאן</a> לחזרה.",
-	"spamdifftool-option-domain": "הכול מדומיין זה",
+	"spamdifftool-option-domain": "הכול מהתחום הזה",
 	"spamdifftool-option-subdomain": "הכול מדומיין משנה זה",
 	"spamdifftool-option-directory": "דומיין משנה זה ותיקייה",
 	"spamdifftool-option-none": "כלום",
 	"spamdifftool-spam-link-text": "הוספה לספאם",
 	"spamdifftool-submit": "שליחה",
 	"spamdifftool-summary": "הוספה למסנן הספאם",
-	"spamdifftool-urls-detected": "הכתובות הבאות זוהו בעריכה/ות, אילו מהכתובות תרצו להוסיף למסנן הספאם?\nאפשרויות אלו מסודרות מהמגבילות ביותר עד למגבילות פחות. חסימת שם הדומיין כולו תחסום את כל הקישורים ואת כל מה שבא מאותו הדומיין.\n\nוודאו כי אינכם חוסמים דומיינים שלמים המארחים חשבונות משתמשים, כגון blogspot.com, shoutwiki.com וכו'."
+	"spamdifftool-urls-detected": "הכתובות הבאות זוהו בעריכה/ות, אילו מהכתובות תרצו להוסיף למסנן הספאם? אפשרויות אלו מסודרות מהמגבילות ביותר עד למגבילות פחות. חסימת שם התחום כולו תחסום את כל הקישורים ואת כל מה שבא מאותו התחום. ודאו כי אינכם חוסמים תחומים שלמים המארחים חשבונות משתמשים, כגון blogspot.com‏, shoutwiki.com, וכו'."
 }
