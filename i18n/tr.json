@@ -4,7 +4,8 @@
 			"Joseph",
 			"Karduelis",
 			"Vito Genovese",
-			"KorkmazO"
+			"KorkmazO",
+			"BaRaN6161 TURK"
 		]
 	},
 	"spamdifftool": "Spam kara listesini yönet",
@@ -22,5 +23,6 @@
 	"spamdifftool-spam-link-text": "spam'e ekle",
 	"spamdifftool-submit": "Gönder",
 	"spamdifftool-summary": "Spam kara listesine ekleniyor",
+	"spamdifftool-tool": "Spam Aracı",
 	"spamdifftool-urls-detected": "Değişiklikte, aşağıdaki URLler algılandı, hangilerini spam karalistesine eklemek istersiniz?\nBu seçenekler fazla kısıtlayıcıdan az kısıtlayıcıya sıralanır, bütün domaini engellemek bu domainden gelen tüm bağlantıları engeller.\n\nKullanıcı hesapları barındıran domainleri -blogspot.com, shoutwiki.com gibi- engellemediğinizden emin olun."
 }
