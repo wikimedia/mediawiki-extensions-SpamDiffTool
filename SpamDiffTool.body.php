@@ -20,18 +20,23 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	/**
 	 * This...isn't actually used anywhere anymore, as far as I can see?
 	 * --ashley 7 December 2014
+	 * I think it was used in some wikiHow thing (maybe the default skin?)
+	 * nearly or well over a decade ago. --ashley, 1 January 2020
 	 */
 	public static function getDiffLink( $title ) {
 		global $wgRequest, $wgSpamBlacklistArticle;
 
-		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
+		$services = MediaWiki\MediaWikiServices::getInstance();
 
-		if ( !$sb->userCan( 'edit' ) ) {
+		// can the user even edit this?
+		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
+		$user = RequestContext::getMain()->getUser();
+		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
 			return '';
 		}
 
 		$link = '[' .
-			MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
+			$services->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 				[],
@@ -52,9 +57,11 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	 * @param mixed|null $par Parameter passed to the special page
 	 */
 	public function execute( $par ) {
-		global $wgActorTableSchemaMigrationStage, $wgSpamBlacklistArticle, $wgScript;
+		global $wgSpamBlacklistArticle, $wgScript;
 
 		$out = $this->getOutput();
+		$user = $this->getUser();
+
 		$out->enableOOUI();
 		$request = $this->getRequest();
 
@@ -67,9 +74,11 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		$out->setHTMLTitle( $this->msg( 'pagetitle', $this->msg( 'spamdifftool-tool' ) ) );
 
-		// can the user even edit this?
+		$services = MediaWiki\MediaWikiServices::getInstance();
+
+		// can the user even edit the Spam Blacklist page?
 		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
-		if ( !$sb->userCan( 'edit' ) ) {
+		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
 			$out->addHTML( $this->msg( 'spamdifftool-cant-edit' ) );
 			return;
 		}
@@ -235,44 +244,29 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		if ( !is_null( $diff ) ) {
 			// Get the last edit not by this user
-			$services = MediaWiki\MediaWikiServices::getInstance();
 			// @todo FIXME: This *can* return null...handle that!
 			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
 			$dbw = wfGetDB( DB_MASTER );
 
-			$user = intval( $current->getUser()->getId() );
-			$user_text = $dbw->addQuotes( $current->getUser()->getName() );
-
-			$revQuery = $services->getRevisionStore()->getQueryInfo();
-			$pageField = ( $wgActorTableSchemaMigrationStage & SCHEMA_COMPAT_READ_NEW )
-				? 'revactor_page' : 'rev_page';
-			$whereCond = ( $wgActorTableSchemaMigrationStage & SCHEMA_COMPAT_READ_NEW )
-				? "revactor_actor <> {$current->getUser()->getActorId()}"
-				: "rev_user <> {$user} OR rev_user_text <> {$user_text}";
-			if ( $wgActorTableSchemaMigrationStage & SCHEMA_COMPAT_READ_NEW ) {
-				// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
-				// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
-				// in 1.33+ with the new actor stuff active
-				$options = [
-					'ORDER BY' => 'rev_timestamp DESC'
-				];
-			} else {
-				$options = [
-					'USE INDEX' => 'page_timestamp',
-					'ORDER BY' => 'rev_timestamp DESC'
-				];
-			}
-
 			$s = $dbw->selectRow(
-				$revQuery['tables'],
-				$revQuery['fields'],
+				[ 'revision_actor_temp', 'revision', 'actor' ],
+				[ 'rev_id' ],
 				[
-					$pageField => $current->getId(),
-					$whereCond
+					'revactor_page' => $current->getId(),
+					"revactor_actor <> {$current->getUser()->getActorId()}"
 				],
 				__METHOD__,
-				$options,
-				$revQuery['joins']
+				[
+					// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
+					// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
+					// in 1.33+ with the new actor stuff active
+					// 'USE INDEX' => 'page_timestamp',
+					'ORDER BY' => 'rev_timestamp DESC'
+				],
+				[
+					'actor' => [ 'JOIN', 'actor_id = revactor_actor' ],
+					'revision_actor_temp' => [ 'JOIN', 'revactor_rev = rev_id' ]
+				]
 			);
 
 			$oldid = null;

@@ -17,8 +17,10 @@ class SpamDiffToolHooks {
 	public static function onDiffViewHeader( $diffEngine, $oldRev, $newRev ) {
 		global $wgOut, $wgSpamBlacklistArticle;
 
+		$services = MediaWiki\MediaWikiServices::getInstance();
 		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
-		if ( !$sb->userCan( 'edit' ) ) {
+		$user = $diffEngine->getUser();
+		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
 			return true;
 		}
 
@@ -39,7 +41,7 @@ class SpamDiffToolHooks {
 			// The parameters used here are slightly different than those used in
 			// SpamDiffTool::getDiffLink(), hence why this reimplements some of its
 			// functionality. Eventually this should also be cleaned up.
-			MediaWiki\MediaWikiServices::getInstance()->getLinkRenderer()->makeKnownLink(
+			$services->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 				[],
