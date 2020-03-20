@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Aefgh39622"
+		]
+	},
+	"spamdifftool-block": "บล็อก:",
+	"spamdifftool-option-domain": "ทั้งหมดจากโดเมนนี้",
+	"spamdifftool-option-directory": "โดเมนย่อยและไดเรกทอรีนี้",
+	"spamdifftool-option-none": "ไม่มีอะไร",
+	"spamdifftool-submit": "ส่ง"
+}
