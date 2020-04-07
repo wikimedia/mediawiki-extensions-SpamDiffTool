@@ -1,12 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Cwlin0416",
+			"Kly",
+			"Laundry Machine",
 			"Liangent",
 			"Mark85296341",
-			"Wrightbus",
-			"Cwlin0416",
-			"Laundry Machine",
-			"Kly"
+			"Wrightbus"
 		]
 	},
 	"spamdifftool": "管理垃圾郵件黑名單",

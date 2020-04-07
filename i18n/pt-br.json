@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"!Silent",
 			"Eduardo.mps",
-			"Giro720",
-			"!Silent"
+			"Giro720"
 		]
 	},
 	"spamdifftool": "Gerenciar a lista negra de spam",
