@@ -11,6 +11,9 @@
  * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
  * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
+
+use MediaWiki\Revision\SlotRecord;
+
 class SpamDiffTool extends UnlistedSpecialPage {
 
 	public function __construct() {
@@ -282,8 +285,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			$contLang = $services->getContentLanguage();
 			$de = new DifferenceEngine( $title, $oldid, $diff, $rcid );
 			$de->loadText();
-			$ocontent = $de->mOldRev->getContent();
-			$ncontent = $de->mNewRev->getContent();
+			$ocontent = $de->getOldRevision()->getContent( SlotRecord::MAIN );
+			$ncontent = $de->getNewRevision()->getContent( SlotRecord::MAIN );
 			$otext = ContentHandler::getContentText( $ocontent );
 			$ntext = ContentHandler::getContentText( $ncontent );
 			$ota = explode( "\n", $contLang->segmentForDiff( $otext ) );
