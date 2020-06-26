@@ -3,6 +3,7 @@
 		"authors": [
 			"Fryed-peach",
 			"Jon Harald Søby",
+			"Kghbln",
 			"Liuxinyu970226",
 			"Purodha",
 			"Raymond",
@@ -10,7 +11,7 @@
 			"Wladek92"
 		]
 	},
-	"spamdifftool": "This is saying Manage Spam Blacklist\n\n:-)\nWow, unbelievable!\n\n\nNo quotes!",
+	"spamdifftool": "This is an action.",
 	"spamdifftool-desc": "{{desc|name=SpamDiffTool|url=https://www.mediawiki.org/wiki/Extension:SpamDiffTool}}",
 	"spamdifftool-block": "used for saying Block:\n{{Identical|Block}}",
 	"spamdifftool-cant-edit": "Used for saying you doint have permission to edit the Spam Blacklist.",
