@@ -28,7 +28,7 @@
 		"SpamDiffToolAlias": "SpamDiffTool.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpamDiffTool": "SpamDiffTool.body.php",
+		"SpamDiffTool": "SpamDiffTool.php",
 		"SpamDiffToolHooks": "SpamDiffToolHooks.php"
 	},
 	"SpecialPages": {

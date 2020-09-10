@@ -8,7 +8,7 @@
  * @author Travis Derouin <travis@wikihow.com>
  * @author Alexandre Emsenhuber
  * @author Jack Phoenix
- * @license http://www.gnu.org/copyleft/gpl.html GNU General Public License 2.0 or later
+ * @license GPL-2.0-or-later
  * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
 
@@ -23,8 +23,12 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	/**
 	 * This...isn't actually used anywhere anymore, as far as I can see?
 	 * --ashley 7 December 2014
+	 *
 	 * I think it was used in some wikiHow thing (maybe the default skin?)
 	 * nearly or well over a decade ago. --ashley, 1 January 2020
+	 *
+	 * @param Title $title
+	 * @return string
 	 */
 	public static function getDiffLink( $title ) {
 		global $wgRequest, $wgSpamBlacklistArticle;
@@ -245,7 +249,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			return;
 		}
 
-		if ( !is_null( $diff ) ) {
+		if ( $diff !== null ) {
 			// Get the last edit not by this user
 			// @todo FIXME: This *can* return null...handle that!
 			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
