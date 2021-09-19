@@ -74,7 +74,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		$title = Title::newFromDBKey( $request->getVal( 'target' ) );
 		$diff = $request->getVal( 'diff2' );
-		$rcid = $request->getVal( 'rcid' );
+		$rcid = $request->getInt( 'rcid' );
 		$rdfrom = $request->getVal( 'rdfrom' );
 
 		$this->setHeaders();
@@ -97,6 +97,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			if ( $request->getCheck( 'confirm' ) ) {
 				$wp = WikiPage::factory( $sb );
 				$text = ContentHandler::getContentText( $wp->getContent() );
+				'@phan-var string $text';
 				$blacklistPageId = $wp->getId();
 
 				// If the blacklist page doesn't exist yet, use the interface
@@ -140,7 +141,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 				if ( $status->isGood() ) {
 					$returnto = $request->getVal( 'returnto', null );
-					if ( $returnto != null && $returnto != '' ) {
+					if ( $returnto !== null && $returnto !== '' ) {
 						$out->redirect( $wgScript . '?' . urldecode( $returnto ) );
 					}
 				} else {
@@ -169,8 +170,10 @@ class SpamDiffTool extends UnlistedSpecialPage {
 						case 'domain':
 							$t = '';
 							foreach ( $tlds as $tld ) {
+								// @phan-suppress-next-line SecurityCheck-ReDoS
 								if ( preg_match( '/' . $tld . '/i', $url ) ) {
 									$t = $tld;
+									// @phan-suppress-next-line SecurityCheck-ReDoS
 									$url = preg_replace( '/' . $tld . '/i', '', $url,  1 );
 									break;
 								}
@@ -200,7 +203,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			}
 
 			if ( trim( $text ) == '' ) {
-				$out->addHTML( $this->msg( 'spamdifftool-no-text', $wgScript . '?' . urldecode( $request->getVal( 'returnto' ) ) )->text() );
+				$out->addHTML( $this->msg( 'spamdifftool-no-text', $wgScript . '?' . urldecode( $request->getVal( 'returnto' ) ) )->escaped() );
 				return;
 			}
 
@@ -228,8 +231,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$this->msg(
 					'spamdifftool-confirm',
 					'https://www.mediawiki.org/w/index.php?title=Extension_talk:SpamDiffTool&action=edit&section=new'
-				)->text() .
-				"\n<pre style='padding: 10px'>$text</pre>\n"
+				)->escaped() .
+				"\n<pre style='padding: 10px'>" . htmlspecialchars( $text ) . "</pre>\n"
 			);
 
 			$fields[] = new OOUI\ButtonInputWidget( [
@@ -260,6 +263,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				[ 'rev_id' ],
 				[
 					'revactor_page' => $current->getId(),
+					// @phan-suppress-next-line PhanUndeclaredMethod FIXME; UserIdentity::getActorId is gone
 					"revactor_actor <> {$current->getUser()->getActorId()}"
 				],
 				__METHOD__,
@@ -282,12 +286,12 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$oldid = $s->rev_id;
 			}
 
-			if ( $request->getVal( 'oldid2' ) < $oldid ) {
-				$oldid = $request->getVal( 'oldid2' );
+			if ( $oldid === null || $request->getInt( 'oldid2' ) < $oldid ) {
+				$oldid = $request->getInt( 'oldid2' );
 			}
 
 			$contLang = $services->getContentLanguage();
-			$de = new DifferenceEngine( $title, $oldid, $diff, $rcid );
+			$de = new DifferenceEngine( $this->getContext(), $oldid, $diff, $rcid );
 			$de->loadText();
 			$ocontent = $de->getOldRevision()->getContent( SlotRecord::MAIN );
 			$ncontent = $de->getNewRevision()->getContent( SlotRecord::MAIN );
@@ -304,10 +308,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				}
 			}
 		} else {
-			if ( $title != '' ) {
-				$page = new WikiPage( $title );
-				$text = $page->getContent()->getNativeData();
-			}
+			$page = new WikiPage( $title );
+			$text = $page->getContent()->getNativeData();
 		}
 
 		$matches = [];
@@ -315,7 +317,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		preg_match_all( $preg, $text, $matches );
 
 		if ( !count( $matches[0] ) ) {
-			$out->addHTML( $this->msg( 'spamdifftool-no-urls-detected', $wgScript . '?' . urldecode( $request->getVal( 'returnto' ) ) )->text() );
+			$out->addHTML( $this->msg( 'spamdifftool-no-urls-detected', $wgScript . '?' . urldecode( $request->getVal( 'returnto' ) ) )->escaped() );
 			return;
 		}
 
