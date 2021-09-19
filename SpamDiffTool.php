@@ -253,7 +253,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			// Get the last edit not by this user
 			// @todo FIXME: This *can* return null...handle that!
 			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
-			$dbw = wfGetDB( DB_MASTER );
+			$dbw = wfGetDB( DB_PRIMARY );
 
 			$s = $dbw->selectRow(
 				[ 'revision_actor_temp', 'revision', 'actor' ],
