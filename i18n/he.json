@@ -13,7 +13,7 @@
 	"spamdifftool-confirm": "אשרו כי ברצונכם להוסיף רשומות אלו אל מנגנון הספאם.\n(לחצו <a href='$1' target='new'>כאן</a> לדיווח על תקלה.)",
 	"spamdifftool-no-text": "אין טקסט להוספה למסנן הספאם.\nלחצו <a href='$1'>כאן</a> להמשך.",
 	"spamdifftool-no-title": "'''שגיאה:''' לא צוין שם דף.",
-	"spamdifftool-no-urls-detected": "לא זוהו כתובות.\nלחצו <a href='$1'>כאן</a> לחזרה.",
+	"spamdifftool-no-urls-detected": "לא זוהו כתובות URL. <a href='$1'>לחזור</a>.",
 	"spamdifftool-option-domain": "הכול מהתחום הזה",
 	"spamdifftool-option-subdomain": "הכול מדומיין משנה זה",
 	"spamdifftool-option-directory": "דומיין משנה זה ותיקייה",
