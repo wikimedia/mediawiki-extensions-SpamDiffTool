@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Malafaya"
+			"Malafaya",
+			"Joao Xavier"
 		]
 	},
-	"spamdifftool-option-none": "nulo"
+	"spamdifftool-block": "Blokusar:",
+	"spamdifftool-option-none": "nulo",
+	"spamdifftool-submit": "Sendez"
 }
