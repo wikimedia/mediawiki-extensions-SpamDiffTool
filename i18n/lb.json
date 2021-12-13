@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Les Meloures",
-			"Robby"
+			"Robby",
+			"Soued031"
 		]
 	},
 	"spamdifftool": "Gestioun vun der schwaarzer Lëscht vum Spam",
-	"spamdifftool-desc": "Gëtt d'Méiglechkeet fir aus de Versiounsënnerscheeder nei Elementer op déi schwaarz Lëscht vum Spam dobäizesetzen",
+	"spamdifftool-desc": "Gëtt d'Méiglechkeet fir aus de Versiounsënnerscheeder nei Elementer op déi schwaarz Lëscht vum Spam derbäizesetzen",
 	"spamdifftool-block": "Spär:",
 	"spamdifftool-cant-edit": "Pardon - Dir hutt net déi néideg Rechter fir d'Schwaarz Lëscht vum Spam z'änneren.",
-	"spamdifftool-confirm": "Confirméiert datt Dir dës Elementer op déi Schwaarz Lëscht vum Spam dobäisetze wëllt.\n(<a href='$1' target='new'>E Problem mellen</a>)",
-	"spamdifftool-no-text": "Et gëtt keen Text fir op d'Schwaarz Lëscht vum Spam dobäizesetzen.\n<a href='$1'>virufueren</a>.",
+	"spamdifftool-confirm": "Confirméiert datt Dir dës Elementer op déi Schwaarz Lëscht vum Spam dobäisetze wëllt.\n(<a href='$1' target='new'>E Probleem mellen</a>)",
+	"spamdifftool-no-text": "Et gëtt keen Text fir op d'Schwaarz Lëscht vum Spam derbäizesetzen. <a href='$1'>virufueren</a>.",
 	"spamdifftool-no-title": "'''Feeler:''' et gouf kee Säitentitel uginn.",
 	"spamdifftool-no-urls-detected": "Et goufe keng URLe fonnt. <a href='$1'>Zréck</a>.",
 	"spamdifftool-option-domain": "all vun dësem Domain",
@@ -19,7 +20,7 @@
 	"spamdifftool-option-none": "näischt",
 	"spamdifftool-spam-link-text": "bei de Spam setzen",
 	"spamdifftool-submit": "Späicheren",
-	"spamdifftool-summary": "Op d'schwaarz Lëscht vum Spam dobäisetzen",
+	"spamdifftool-summary": "Op d'schwaarz Lëscht vum Spam derbäisetzen",
 	"spamdifftool-tool": "Handwierksgeschir géint de Spam",
 	"spamdifftool-urls-detected": "Dës URLe goufen an den Ännerunge fonnt, wat fir eng wëllt Dir op déi Schwaarz Lëscht vum Spam derbäisetzen?\nDéi Optioune gi vu méi restriktiv op manner restriktiv. D'Späre vun engem ganzen Domaine späert all Linken op alles wat vun dem Domaine kënnt.\n\nVergewëssert Iech datt Dir net ganz Domaine späert déi Benotzerkonten hosten, esou wéi blogspot.com, shoutwiki.com, asw."
 }
