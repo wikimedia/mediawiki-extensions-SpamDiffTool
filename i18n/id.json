@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Irwangatot",
-			"Rex"
+			"Rex",
+			"Daud I.F. Argana"
 		]
 	},
 	"spamdifftool": "Pemeliharaan daftar hitam spam",
 	"spamdifftool-desc": "Menyediakan fungsi dasar untuk menambahkan entri baru ke daftar hitam spam langsung dari halaman perbedaan antar revisi",
 	"spamdifftool-block": "Blokir:",
 	"spamdifftool-cant-edit": "Maaf - Anda tidak memiliki hak akses untuk menyunting daftar hitam spam.",
-	"spamdifftool-confirm": "Konfirmasi untuk meyakinkan bahwa Anda ingin menambahkan entri ini ke daftar hitam spam.\n(Klik <a href='$1' target='new'>di sini</a> untuk melaporkan suatu masalah.)",
-	"spamdifftool-no-text": "Tidak ada teks yang dapat ditambahkan ke daftar hitam spam.\nKlik <a href='$1'>di sini</a> untuk melanjutkan.",
+	"spamdifftool-confirm": "Konfirmasi untuk meyakinkan bahwa Anda ingin menambahkan entri ini ke daftar hitam spam.\n(Klik <a href='$1' target='new'>Laporkan masalah</a>.)",
+	"spamdifftool-no-text": "Tidak ada teks yang dapat ditambahkan ke daftar hitam spam.\n<a href='$1'>Lanjutkan</a>.",
 	"spamdifftool-no-title": "'''Kesalahan:''' tidak ada judul halaman yang ditetapkan.",
-	"spamdifftool-no-urls-detected": "Tidak ada url yang terdeteksi.\nKlik <a href='$1'>di sini</a> untuk kembali.",
+	"spamdifftool-no-urls-detected": "Tidak ada url yang terdeteksi.\n<a href='$1'>Kembali</a>.",
 	"spamdifftool-option-domain": "semua dari domain ini",
 	"spamdifftool-option-subdomain": "semua dari subdomain ini",
 	"spamdifftool-option-directory": "subdomain dan direktori ini",
@@ -20,5 +21,6 @@
 	"spamdifftool-spam-link-text": "tambahkan ke spam",
 	"spamdifftool-submit": "Kirim",
 	"spamdifftool-summary": "Sedang menambahkan ke daftar hitam spam",
+	"spamdifftool-tool": "Peralatan Spam",
 	"spamdifftool-urls-detected": "URL berikut terdeteksi dalam suntingan. URL yang mana saja yang ingin ditambahkan ke daftar hitam spam?\nOpsi berikut diurutkan dari yang paling dibatasi hingga yang lebih sedikit dibatasi. Memblokir seluruh domain akan sekaligus memblokir pranala yang berasal dari domain tersebut.\n\nPastikan Anda tidak memblokir semua domain yang meladeni akun-akun pengguna, seperti blogspot.com, shoutwiki.com, dan lain-lain."
 }
