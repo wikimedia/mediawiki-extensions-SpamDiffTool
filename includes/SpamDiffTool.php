@@ -258,13 +258,20 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
 			$dbw = wfGetDB( DB_PRIMARY );
 
+			if ( method_exists( $services, 'getActorNormalization' ) ) {
+				// MW 1.38+, I guess?
+				$actorId = $services->getActorNormalization()->findActorId( $current->getUser(), $dbw );
+			} else {
+				// @phan-suppress-next-line PhanUndeclaredMethod It's _not_ undeclared in MW 1.35 at least
+				$actorId = $current->getUser()->getActorId();
+			}
+
 			$s = $dbw->selectRow(
 				[ 'revision_actor_temp', 'revision', 'actor' ],
 				[ 'rev_id' ],
 				[
 					'revactor_page' => $current->getId(),
-					// @phan-suppress-next-line PhanUndeclaredMethod FIXME; UserIdentity::getActorId is gone
-					"revactor_actor <> {$current->getUser()->getActorId()}"
+					"revactor_actor <> {$actorId}"
 				],
 				__METHOD__,
 				[
