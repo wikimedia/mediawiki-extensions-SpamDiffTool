@@ -137,7 +137,12 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				} else {
 					$flags = EDIT_DEFER_UPDATES | EDIT_AUTOSUMMARY;
 				}
-				$status = $wp->doEditContent( $content, $summary, $flags );
+				if ( method_exists( $wp, 'doUserEditContent' ) ) {
+					// MW 1.36+
+					$status = $wp->doUserEditContent( $content, $user, $summary, $flags );
+				} else {
+					$status = $wp->doEditContent( $content, $summary, $flags );
+				}
 
 				if ( $status->isGood() ) {
 					$returnto = $request->getVal( 'returnto', null );
