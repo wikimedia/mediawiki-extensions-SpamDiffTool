@@ -12,6 +12,7 @@
  * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
 
+use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
 
 class SpamDiffTool extends UnlistedSpecialPage {
@@ -95,7 +96,12 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		// do the processing
 		if ( $request->wasPosted() ) {
 			if ( $request->getCheck( 'confirm' ) ) {
-				$wp = WikiPage::factory( $sb );
+				if ( method_exists( $services, 'getWikiPageFactory' ) ) {
+					// MW 1.36+
+					$wp = $services->getWikiPageFactory()->newFromTitle( $sb );
+				} else {
+					$wp = WikiPage::factory( $sb );
+				}
 				$text = ContentHandler::getContentText( $wp->getContent() );
 				'@phan-var string $text';
 				$blacklistPageId = $wp->getId();
@@ -141,6 +147,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 					// MW 1.36+
 					$status = $wp->doUserEditContent( $content, $user, $summary, $flags );
 				} else {
+					// @phan-suppress-next-line PhanUndeclaredMethod
 					$status = $wp->doEditContent( $content, $summary, $flags );
 				}
 
@@ -320,7 +327,12 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				}
 			}
 		} else {
-			$page = new WikiPage( $title );
+			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
+				// MW 1.36+
+				$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+			} else {
+				$page = new WikiPage( $title );
+			}
 			$text = $page->getContent()->getNativeData();
 		}
 
