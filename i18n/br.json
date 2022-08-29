@@ -4,17 +4,18 @@
 			"Fohanno",
 			"Fulup",
 			"Gwenn-Ael",
-			"Y-M D"
+			"Y-M D",
+			"Huñvreüs"
 		]
 	},
 	"spamdifftool": "Merañ roll du ar stroboù",
 	"spamdifftool-desc": "a bourchas un doare eeun da ouzhpennañ monedoù da roll du ar stroboù diwar ar pajennoù disheñvel",
 	"spamdifftool-block": "Stankañ :",
 	"spamdifftool-cant-edit": "Ho tigarez - n'oc'h ket aotreet kemmañ marilh du ar stroboù",
-	"spamdifftool-confirm": "Kadarnait ho peus c'hoant da ouzhpennañ ar c'hasadennoù-mañ e roll du ar stroboù.\n(Klikit <a href='$1' target='new'>amañ</a> evit menegiñ neb kudenn.)",
-	"spamdifftool-no-text": "N'eus testenn ebet da ouzhpennañ da roll du ar stroboù.\nKlikit <a href='$1'>amañ</a> evit kenderc'hel.",
+	"spamdifftool-confirm": "Kadarnait e fell deoc’h ouzhpennañ an enmontoù-mañ e roll du ar strob. (<a href='$1' target='new'>Roit da c’houzout ez eus ur gudenn</a>)",
+	"spamdifftool-no-text": "N'eus testenn ebet da ouzhpennañ da roll du ar strob. <a href='$1'>Kenderc'hel</a>.",
 	"spamdifftool-no-title": "'''Fazi :''' n'eus bet merket titl pajenn ebet.",
-	"spamdifftool-no-urls-detected": "N'eus bet dinoet url ebet.\nKlikit <a href='$1'>amañ</a> evit distreiñ.",
+	"spamdifftool-no-urls-detected": "N'eus bet detektet URL ebet. <a href='$1'>Distreiñ</a>.",
 	"spamdifftool-option-domain": "pep tra adalek an domani-mañ",
 	"spamdifftool-option-subdomain": "pep tra adalek an is-domani-mañ",
 	"spamdifftool-option-directory": "an is-domani-mañ hag ar c'havlec'h-mañ",
