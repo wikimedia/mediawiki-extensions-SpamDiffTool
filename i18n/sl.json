@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dbc334"
+			"Dbc334",
+			"Eleassar"
 		]
 	},
 	"spamdifftool": "Upravljaj črni seznam smetja",
@@ -11,7 +12,7 @@
 	"spamdifftool-confirm": "Potrdite, da želite dodati te vnose na črni seznam smetja. (<a href='$1' target='new'>Sporoči težavo</a>)",
 	"spamdifftool-no-text": "Ni besedila, ki bi ga dodali na črni seznam smetja. <a href='$1'>Nadaljuj</a>.",
 	"spamdifftool-no-title": "'''Napaka:''' naslov strani ni določen.",
-	"spamdifftool-no-urls-detected": "Odkrili nismo nobenega URL-ja. <a href='$1'>Nadaljuj</a>.",
+	"spamdifftool-no-urls-detected": "Odkrit ni bil noben URL. <a href='$1'>Nazaj</a>.",
 	"spamdifftool-option-domain": "vse iz te domene",
 	"spamdifftool-option-subdomain": "vse iz te poddomene",
 	"spamdifftool-option-directory": "ta poddomena in mapa",
