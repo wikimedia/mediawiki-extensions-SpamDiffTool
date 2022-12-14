@@ -9,7 +9,7 @@
 	"spamdifftool-desc": "Na preprost način nudi dodajanje novih vnosov na črni seznam smetja iz primerjave strani",
 	"spamdifftool-block": "Blokiraj:",
 	"spamdifftool-cant-edit": "Oprostite – nimate dovoljenja za urejanje črnega seznama smetja.",
-	"spamdifftool-confirm": "Potrdite, da želite dodati te vnose na črni seznam smetja. (<a href='$1' target='new'>Sporoči težavo</a>)",
+	"spamdifftool-confirm": "Potrdite, da želite te vnose dodati na črni seznam smetja. (<a href='$1' target='new'>Sporoči težavo</a>)",
 	"spamdifftool-no-text": "Ni besedila, ki bi ga dodali na črni seznam smetja. <a href='$1'>Nadaljuj</a>.",
 	"spamdifftool-no-title": "'''Napaka:''' naslov strani ni določen.",
 	"spamdifftool-no-urls-detected": "Odkrit ni bil noben URL. <a href='$1'>Nazaj</a>.",
@@ -21,5 +21,5 @@
 	"spamdifftool-submit": "Pošlji",
 	"spamdifftool-summary": "Dodajanje na črni seznam smetja",
 	"spamdifftool-tool": "Orodje za smetje",
-	"spamdifftool-urls-detected": "V urejanju so bili zaznani naslednji URL-naslovi.\nKatere želite dodati na črni seznam smetja?\nMožnosti so razvrščene od bolj do manj omejevalnih; blokiranje celotne domene bo blokiralo vse povezave do česar koli, kar prihaja s te domene.\n\nPazite, da ne boste blokirali celotnih domen, ki gostijo uporabniške račune, kot so blogspot.com, shoutwiki.com itn."
+	"spamdifftool-urls-detected": "V urejanju so bili zaznani naslednji URL-ji. Katere želite dodati na črni seznam smetja? Možnosti so razvrščene od bolj do manj omejevalnih; blokiranje celotne domene bo blokiralo vse povezave do česar koli, kar prihaja s te domene.<br /><br />Pazite, da ne boste blokirali celotnih domen, ki gostijo uporabniške račune, kot so blogspot.com, shoutwiki.com idr."
 }
