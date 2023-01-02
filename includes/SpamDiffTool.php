@@ -278,26 +278,48 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$actorId = $current->getUser()->getActorId();
 			}
 
-			$s = $dbw->selectRow(
-				[ 'revision_actor_temp', 'revision', 'actor' ],
-				[ 'rev_id' ],
-				[
-					'revactor_page' => $current->getId(),
-					"revactor_actor <> {$actorId}"
-				],
-				__METHOD__,
-				[
-					// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
-					// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
-					// in 1.33+ with the new actor stuff active
-					// 'USE INDEX' => 'page_timestamp',
-					'ORDER BY' => 'rev_timestamp DESC'
-				],
-				[
-					'actor' => [ 'JOIN', 'actor_id = revactor_actor' ],
-					'revision_actor_temp' => [ 'JOIN', 'revactor_rev = rev_id' ]
-				]
-			);
+			if ( version_compare( MW_VERSION, '1.39', '<' ) ) {
+				$s = $dbw->selectRow(
+					[ 'revision_actor_temp', 'revision', 'actor' ],
+					[ 'rev_id' ],
+					[
+						'revactor_page' => $current->getId(),
+						"revactor_actor <> {$actorId}"
+					],
+					__METHOD__,
+					[
+						// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
+						// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
+						// in 1.33+ with the new actor stuff active
+						// 'USE INDEX' => 'page_timestamp',
+						'ORDER BY' => 'rev_timestamp DESC'
+					],
+					[
+						'actor' => [ 'JOIN', 'actor_id = revactor_actor' ],
+						'revision_actor_temp' => [ 'JOIN', 'revactor_rev = rev_id' ]
+					]
+				);
+			} else {
+				$s = $dbw->selectRow(
+					[ 'revision', 'actor' ],
+					[ 'rev_id' ],
+					[
+						'rev_page' => $current->getId(),
+						"rev_actor <> {$actorId}"
+					],
+					__METHOD__,
+					[
+						// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
+						// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
+						// in 1.33+ with the new actor stuff active
+						// 'USE INDEX' => 'page_timestamp',
+						'ORDER BY' => 'rev_timestamp DESC'
+					],
+					[
+						'actor' => [ 'JOIN', 'actor_id = rev_actor' ]
+					]
+				);
+			}
 
 			$oldid = null;
 			if ( $s ) {
