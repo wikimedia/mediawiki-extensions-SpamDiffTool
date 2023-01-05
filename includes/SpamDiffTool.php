@@ -73,7 +73,14 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		$out->enableOOUI();
 		$request = $this->getRequest();
 
-		$title = Title::newFromDBKey( $request->getVal( 'target' ) );
+		$target = $request->getVal( 'target', $par );
+		if ( !$target ) {
+			$out->setPageTitle( $this->msg( 'badtitle' ) );
+			$out->addHTML( $this->msg( 'badtitletext' ) );
+			return;
+		}
+
+		$title = Title::newFromDBKey( $target );
 		$diff = $request->getVal( 'diff2' );
 		$rcid = $request->getInt( 'rcid' );
 		$rdfrom = $request->getVal( 'rdfrom' );
