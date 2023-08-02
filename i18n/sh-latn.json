@@ -1,0 +1,24 @@
+{
+	"@metadata": {
+		"authors": [
+			"Winston Sung"
+		]
+	},
+	"spamdifftool": "Upravljanje s crnim spiskom spama",
+	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki u crni spisak spama sa uspoređenih stranica (verzija)",
+	"spamdifftool-block": "Blokiranje:",
+	"spamdifftool-cant-edit": "Žao nam je - nemate dopuštenja za uređivanje spiska neželjenog sadržaja.",
+	"spamdifftool-confirm": "Potvrdite da želite dodati ove stavke u crni spisak neželjenog sadržaja. (<a href='$1' target='new'>Prijavi problem</a>.)",
+	"spamdifftool-no-text": "Nema teksta za dodavanje na crni spisak neželjenog sadržaja. <a href='$1' target='new'>Nastavite</a>.",
+	"spamdifftool-no-title": "'''Greška:''' nije bio određen naslov stranicate.",
+	"spamdifftool-no-urls-detected": "Nisam pronašao URL-adrese. <a href='$1'>Nazad</a>.",
+	"spamdifftool-option-domain": "sve sa ove domene",
+	"spamdifftool-option-subdomain": "sve s ove poddomene",
+	"spamdifftool-option-directory": "ovu poddomenu i direktorij",
+	"spamdifftool-option-none": "ništa",
+	"spamdifftool-spam-link-text": "dodaj kao neželjenu poštu",
+	"spamdifftool-submit": "Unesi",
+	"spamdifftool-summary": "Dodaj na crn spisak neželjenog sadržaja",
+	"spamdifftool-tool": "Alat protiv spama",
+	"spamdifftool-urls-detected": "Sljedeće URL-adrese su otkriveni u izmjeni/nama.\nKoji od njih dakate dodati na spisak neželjenog sadržaja?\nOva prilagođavanja su poredane od više ograničavajućih ka manje ograničavajućim, i ako blokirate cijelu domenu će blokirati i sve linkove te sve drugo što dolazi s te domene.\n\nProvijerite da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
+}
