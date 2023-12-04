@@ -5,7 +5,8 @@
 			"Mbch331",
 			"SPQRobin",
 			"Siebrand",
-			"Tvdm"
+			"Tvdm",
+			"Vistaus"
 		]
 	},
 	"spamdifftool": "Zwarte lijst tegen spam beheren",
@@ -23,5 +24,6 @@
 	"spamdifftool-spam-link-text": "toevoegen aan spam",
 	"spamdifftool-submit": "OK",
 	"spamdifftool-summary": "Toevoegen aan de zwarte lijst tegen spam",
+	"spamdifftool-tool": "Spamhulpmiddel",
 	"spamdifftool-urls-detected": "In de bewerking(en) zijn de volgende URL's aangetroffen, welke wilt u toevoegen aan de zwarte lijst voor spam?\nDeze opties gaan van meer beperkend naar minder beperkend, het blokkeren van een volledig domein betekent dat geen enkele verwijzing naar dat domein wordt toegelaten.\n\nZorg dat u niet zomaar volledige domeinen blokkeert waar gebruikers bestaan, zoals blogspot.com, shoutwiki.com, enzovoort."
 }
