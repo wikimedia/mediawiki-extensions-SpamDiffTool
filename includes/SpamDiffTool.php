@@ -193,7 +193,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 								if ( preg_match( '/' . $tld . '/i', $url ) ) {
 									$t = $tld;
 									// @phan-suppress-next-line SecurityCheck-ReDoS
-									$url = preg_replace( '/' . $tld . '/i', '', $url,  1 );
+									$url = preg_replace( '/' . $tld . '/i', '', $url, 1 );
 									break;
 								}
 							}
