@@ -11,8 +11,8 @@
 	"spamdifftool-block": "Abblocca:",
 	"spamdifftool-cant-edit": "Hà scusari, ma nun pussedi li pirmessi pi canciari la spam blacklist.",
 	"spamdifftool-confirm": "Cunferma la tà ntinzioni di agghiunciri chisti valuri â spam blacklist.\n(Fà clic <a href='$1' target='new'>Signaliari nu prubbrema</a>.)",
-	"spamdifftool-no-text": "Non cìè nuddu testu da agghiunciri â spam blacklist.\n<a href='$1'>Jiri avanti</a>.",
-	"spamdifftool-no-urls-detected": "Nuddu URL vinni rilivatu. <a href='$1'>Turnari arredi</a>.",
+	"spamdifftool-no-text": "Non c’è nuḍḍu testu d’agghiùnciri â spam blacklist.\n<a href='$1'>Jiri avanti</a>.",
+	"spamdifftool-no-urls-detected": "Nuḍḍu URL vinni rilivatu. <a href='$1'>Turnari arredi</a>.",
 	"spamdifftool-option-domain": "tutti di stu duminiu",
 	"spamdifftool-option-subdomain": "tutti di chistu suttadumìniu",
 	"spamdifftool-option-directory": "Stu suttadumìniu e directory",
@@ -21,5 +21,5 @@
 	"spamdifftool-submit": "Manna",
 	"spamdifftool-summary": "Junciuta di spam blacklist",
 	"spamdifftool-tool": "Strummenti pû spam",
-	"spamdifftool-urls-detected": "Li URL ccà sutta foru scupruti ntê canciamenti, quali d'iddi vulissi juncìricci â spam blacklist?\nL'òrdini di st'opzioni sunnu misi di la cchiossai â cchiù picca ristrittiva, abbluccari tuttu lu duminiu voli diri abbluccari tutti li culligamenti a quarcosa ca veni di ddu duminiu.\n\nAccura a nun bluccari ssi duminii ca hòstanu àutri account utenti comu putìssiru èssiri  blogspot.com, shoutwiki.com, ecc."
+	"spamdifftool-urls-detected": "Li URL ccà sutta foru scupruti ntê canciamenti, quali d’iḍḍi vulissi juncìricci â blacklist dû spam?\nL’òrdini di st’opzioni sunnu misi dâ cchiossai â cchiù picca ristrittiva, abbluccari tuttu lu duminiu voli diri bluccari tutti li lijami a quarcosa ca veni dû duminiu.\n\nAccura a nun bluccari sti duminî ca hòstanu àutri cunti utenti comu putìssiru èssiri blogspot.com, shoutwiki.com, ecc."
 }
