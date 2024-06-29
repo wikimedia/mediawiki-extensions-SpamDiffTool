@@ -62,10 +62,10 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	/**
 	 * Show the special page
 	 *
-	 * @param mixed|null $par Parameter passed to the special page
+	 * @param string|null $par Parameter passed to the special page (target page name), if any
 	 */
 	public function execute( $par ) {
-		global $wgSpamBlacklistArticle, $wgScript;
+		global $wgSpamBlacklistArticle;
 
 		$out = $this->getOutput();
 		$user = $this->getUser();
@@ -107,6 +107,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 					// MW 1.36+
 					$wp = $services->getWikiPageFactory()->newFromTitle( $sb );
 				} else {
+					// @phan-suppress-next-line PhanUndeclaredStaticMethod
 					$wp = WikiPage::factory( $sb );
 				}
 				$text = ContentHandler::getContentText( $wp->getContent() );
@@ -159,10 +160,9 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				}
 
 				if ( $status->isGood() ) {
-					$returnto = $request->getVal( 'returnto', null );
-					if ( $returnto !== null && $returnto !== '' ) {
-						$out->redirect( $wgScript . '?' . urldecode( $returnto ) );
-					}
+					$returnToStuff = $this->getReturnToTitleAndQuery();
+					$returnToTitle = $returnToStuff['title'];
+					$out->redirect( $returnToTitle->getFullURL( $returnToStuff['query'] ) );
 				} else {
 					// Something went wrong with the edit; display the returned
 					// error message to the user
@@ -222,7 +222,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			}
 
 			if ( trim( $text ) == '' ) {
-				$out->addHTML( $this->msg( 'spamdifftool-no-text', $wgScript . '?' . urldecode( $request->getVal( 'returnto' ) ) )->escaped() );
+				$out->addWikiMsg( 'spamdifftool-no-text' );
+				$this->addReturnToLink();
 				return;
 			}
 
@@ -246,11 +247,21 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				'value' => $request->getVal( 'returnto' ),
 			] );
 
+			$fields[] = new OOUI\HiddenInputWidget( [
+				'name' => 'returntoquery',
+				'value' => $request->getText( 'returntoquery' ),
+			] );
+
 			$fields[] = new OOUI\HtmlSnippet(
-				$this->msg(
-					'spamdifftool-confirm',
-					'https://www.mediawiki.org/w/index.php?title=Extension_talk:SpamDiffTool&action=edit&section=new'
-				)->escaped() .
+				// Of course MW places the "class" attribute between "<a" and "href=" :^) Of course it does...
+				str_replace(
+					'href="',
+					'target="_new" href="',
+					$this->msg(
+						'spamdifftool-confirm',
+						'https://www.mediawiki.org/w/index.php?title=Extension_talk:SpamDiffTool&action=edit&section=new'
+					)->parse()
+				) .
 				"\n<pre style='padding: 10px'>" . htmlspecialchars( $text ) . "</pre>\n"
 			);
 
@@ -358,7 +369,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		} else {
 			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
 				// MW 1.36+
-				$page = MediaWikiServices::getInstance()->getWikiPageFactory()->newFromTitle( $title );
+				$page = $services->getWikiPageFactory()->newFromTitle( $title );
 			} else {
 				$page = new WikiPage( $title );
 			}
@@ -370,7 +381,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		preg_match_all( $preg, $text, $matches );
 
 		if ( !count( $matches[0] ) ) {
-			$out->addHTML( $this->msg( 'spamdifftool-no-urls-detected', $wgScript . '?' . urldecode( $request->getVal( 'returnto' ) ) )->escaped() );
+			$out->addWikiMsg( 'spamdifftool-no-urls-detected' );
+			$this->addReturnToLink();
 			return;
 		}
 
@@ -423,4 +435,41 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		);
 	}
 
+	/**
+	 * Add a "return to" link to the OutputPage w/ the appropriate query parameters set.
+	 *
+	 * @see getReturnToTitleAndQuery() below
+	 */
+	private function addReturnToLink() {
+		$stuff = $this->getReturnToTitleAndQuery();
+		$title = $stuff['title'];
+		$query = $stuff['query'];
+		$this->getOutput()->addReturnTo( $title, wfCgiToArray( $query ) );
+	}
+
+	/**
+	 * return/returntoquery URL param handling, lovingly sporked from core includes/specials/SpecialChangeEmail.php
+	 * as of 24 June 2024.
+	 * Perhaps one day core will have proper, centralized returnto/returntoquery handling instead of requiring
+	 * extensions and the like to reimplement the wheel over and over and over...
+	 *
+	 * @return array An array containing [ 'title' => Title, 'query' => string ]
+	 */
+	private function getReturnToTitleAndQuery() {
+		$request = $this->getRequest();
+		$returnTo = $request->getVal( 'returnto' );
+		$titleObj = null;
+		if ( $returnTo !== null ) {
+			$titleObj = Title::newFromText( $returnTo );
+		}
+		if ( !$titleObj instanceof Title ) {
+			$titleObj = Title::newMainPage();
+		}
+		$query = $request->getVal( 'returntoquery', '' );
+
+		return [
+			'title' => $titleObj,
+			'query' => $query
+		];
+	}
 }

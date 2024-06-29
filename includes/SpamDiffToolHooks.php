@@ -35,6 +35,15 @@ class SpamDiffToolHooks {
 			return;
 		}
 
+		$params = [
+			'target' => $diffEngine->getTitle()->getPrefixedDBkey(),
+			'oldid2' => $oldRev->getId(),
+			'diff2' => $newRev->getId()
+		];
+
+		// Get regular URL query params...
+		$origQP = $diffEngine->getRequest()->getQueryValues();
+
 		$diffEngine->getOutput()->addHTML(
 			'<table style="width:100%"><tr><td style="width:50%"></td><td style="width:50%">
 			<div style="text-align:center">[' .
@@ -45,12 +54,13 @@ class SpamDiffToolHooks {
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 				[],
-				[
-					'target' => $diffEngine->getTitle()->getPrefixedDBkey(),
-					'oldid2' => $oldRev->getId(),
-					'diff2' => $newRev->getId(),
-					'returnto' => $_SERVER['QUERY_STRING']
-				] ) .
+				array_merge( $params, [
+					'returnto' => $diffEngine->getTitle()->getPrefixedDBkey(),
+					// ...but unset 'title' to ensure we go back to Special:SpamDiffTool
+					// instead of the content page we came from
+					'returntoquery' => wfArrayToCgi( array_diff_key( $origQP, [ 'title' => true ] ) )
+				] )
+			) .
 			']</div></td></tr></table>'
 		);
 	}
