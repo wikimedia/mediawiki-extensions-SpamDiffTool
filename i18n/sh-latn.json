@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Winston Sung"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki u crni spisak spama sa uspoređenih stranica (verzija)",
 	"spamdifftool-block": "Blokiranje:",
 	"spamdifftool-cant-edit": "Žao nam je - nemate dopuštenja za uređivanje spiska neželjenog sadržaja.",
-	"spamdifftool-confirm": "Potvrdite da želite dodati ove stavke u crni spisak neželjenog sadržaja. (<a href='$1' target='new'>Prijavi problem</a>.)",
-	"spamdifftool-no-text": "Nema teksta za dodavanje na crni spisak neželjenog sadržaja. <a href='$1' target='new'>Nastavite</a>.",
+	"spamdifftool-confirm": "Potvrdite da želite dodati ove stavke u crni spisak neželjenog sadržaja. ([$1 Prijavi problem].)",
+	"spamdifftool-no-text": "Nema teksta za dodavanje na crni spisak neželjenog sadržaja.",
 	"spamdifftool-no-title": "'''Greška:''' nije bio određen naslov stranicate.",
-	"spamdifftool-no-urls-detected": "Nisam pronašao URL-adrese. <a href='$1'>Nazad</a>.",
+	"spamdifftool-no-urls-detected": "Nisam pronašao URL-adrese.",
 	"spamdifftool-option-domain": "sve sa ove domene",
 	"spamdifftool-option-subdomain": "sve s ove poddomene",
 	"spamdifftool-option-directory": "ovu poddomenu i direktorij",

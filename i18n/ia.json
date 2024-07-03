@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"McDutchie"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Forni un modo simple de adder nove entratas al lista nigre antispam ab le comparation inter versiones",
 	"spamdifftool-block": "Blocar:",
 	"spamdifftool-cant-edit": "Pardono - tu non ha le permission de modificar le lista nigre antispam.",
-	"spamdifftool-confirm": "Confirma que tu vole adder iste entratas al lista nigre antispam.\n(<a href='$1' target='new'>Reportar un problema</a>)",
-	"spamdifftool-no-text": "Il non ha texto a adder al lista nigre antispam.\n<a href='$1'>Continuar</a>",
+	"spamdifftool-confirm": "Confirma que tu vole adder iste entratas al lista nigre antispam.\n([$1 Reportar un problema])",
+	"spamdifftool-no-text": "Il non ha texto a adder al lista nigre antispam.",
 	"spamdifftool-no-title": "'''Error:''' nulle titulo de pagina specificate.",
-	"spamdifftool-no-urls-detected": "Nulle adresse URL esseva detegite.\n<a href='$1'>Retornar</a>",
+	"spamdifftool-no-urls-detected": "Nulle adresse URL esseva detegite.",
 	"spamdifftool-option-domain": "totes ab iste dominio",
 	"spamdifftool-option-subdomain": "totes ab iste subdominio",
 	"spamdifftool-option-directory": "iste subdominio e directorio",

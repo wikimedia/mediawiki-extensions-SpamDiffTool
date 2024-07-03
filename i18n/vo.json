@@ -1,12 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Malafaya",
 			"Smeira"
 		]
 	},
 	"spamdifftool-block": "Blokön:",
-	"spamdifftool-no-urls-detected": "Els URL nonik petuvons.\nVälolös <a href='$1'>is</a> ad geikön.",
+	"spamdifftool-no-urls-detected": "Els URL nonik petuvons.",
 	"spamdifftool-option-none": "nos",
 	"spamdifftool-submit": "Sedön"
 }

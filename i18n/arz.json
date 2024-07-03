@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ghaly",
+			"Jack Phoenix",
 			"Meno25"
 		]
 	},
@@ -9,9 +10,9 @@
 	"spamdifftool-desc": "يوفر طريقة أساسية لإضافة مدخلات جديدة للقائمة السوداء للسبام من صفحات الفرق",
 	"spamdifftool-block": "منع:",
 	"spamdifftool-cant-edit": "عذرا - أنت لا تمتلك الصلاحية لتعديل قائمة السبام السوداء.",
-	"spamdifftool-confirm": "أكد أنك تريد إضافة هذه المدخلات إلى قائمة السبام السوداء.\n(اضغط <a href='$1' target='new'>هنا</a> للإبلاغ عن مشكلة.)",
-	"spamdifftool-no-text": "لا يوجد نص لإضافته إلى قائمة السبام السوداء.\nاضغط <a href='$1'>هنا</a> للمتابعة.",
-	"spamdifftool-no-urls-detected": "لم يتم التعرف على أية مسارات.\nاضغط <a href='$1'>هنا</a> للعودة.",
+	"spamdifftool-confirm": "أكد أنك تريد إضافة هذه المدخلات إلى قائمة السبام السوداء.\n(اضغط [$1 هنا] للإبلاغ عن مشكلة.)",
+	"spamdifftool-no-text": "لا يوجد نص لإضافته إلى قائمة السبام السوداء.",
+	"spamdifftool-no-urls-detected": "لم يتم التعرف على أية مسارات.",
 	"spamdifftool-option-domain": "الكل من هذا النطاق",
 	"spamdifftool-option-subdomain": "الكل من هذا النطاق الفرعي",
 	"spamdifftool-option-directory": "هذا النطاق الفرعى والمجلد",

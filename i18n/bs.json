@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"CERminator",
+			"Jack Phoenix",
 			"Obsuser",
 			"Srdjan m",
 			"Srđan"
@@ -11,10 +12,10 @@
 	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki na zabranjeni spisak spama sa diff stranica",
 	"spamdifftool-block": "Blokada:",
 	"spamdifftool-cant-edit": "Žao nam je - nemate dopuštenja za uređivanje spiska neželjene pošte.",
-	"spamdifftool-confirm": "Potvrdite da stvarno želite dodati ove stavke na spisak neželjene pošte. (Kliknite <a href='$1' target='new'>ovdje</a> za prijavu problema.)",
-	"spamdifftool-no-text": "Nema teksta za dodavanje na spisak neželjene pošte. Kliknite <a href='$1'>ovdje</a> za nastavak.",
+	"spamdifftool-confirm": "Potvrdite da stvarno želite dodati ove stavke na spisak neželjene pošte. (Kliknite [$1 ovdje] za prijavu problema.)",
+	"spamdifftool-no-text": "Nema teksta za dodavanje na spisak neželjene pošte.",
 	"spamdifftool-no-title": "'''Greška:''' nije određen naslov stranice.",
-	"spamdifftool-no-urls-detected": "Nisu pronađeni linkovi. <a href='$1'>Nazad</a>.",
+	"spamdifftool-no-urls-detected": "Nisu pronađeni linkovi.",
 	"spamdifftool-option-domain": "sve sa ove domene",
 	"spamdifftool-option-subdomain": "sve iz ove poddomene",
 	"spamdifftool-option-directory": "ovu poddomenu i direktorij",

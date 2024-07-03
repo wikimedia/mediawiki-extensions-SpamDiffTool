@@ -3,6 +3,7 @@
 		"authors": [
 			"Dani",
 			"Glanthor Reviol",
+			"Jack Phoenix",
 			"Tacsipacsi"
 		]
 	},
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "Egyszerű lehetőség új bejegyzések hozzáadására a spam feketelistához lapváltoztatásokból",
 	"spamdifftool-block": "Blokkolás:",
 	"spamdifftool-cant-edit": "Sajnáljuk, de nincs jogosultságod szerkeszteni a spam-feketelistát.",
-	"spamdifftool-confirm": "Erősítsd meg, hogy hozzá szeretnéd adni ezeket a bejegyzéseket a spamfeketelistához (<a href='$1' target='new'>probléma jelentése</a>).",
-	"spamdifftool-no-text": "Nincs a spamfeketelistához adandó szöveg. <a href='$1'>Folytatás</a>.",
+	"spamdifftool-confirm": "Erősítsd meg, hogy hozzá szeretnéd adni ezeket a bejegyzéseket a spamfeketelistához ([$1 probléma jelentése]).",
+	"spamdifftool-no-text": "Nincs a spamfeketelistához adandó szöveg.",
 	"spamdifftool-no-title": "'''Hiba:''' nem adtál meg lapcímet.",
-	"spamdifftool-no-urls-detected": "Nem található URL. <a href='$1'>Visszalépés</a>.",
+	"spamdifftool-no-urls-detected": "Nem található URL.",
 	"spamdifftool-option-domain": "mind ebből a tartományból",
 	"spamdifftool-option-subdomain": "mind ebből az al-tartományból",
 	"spamdifftool-option-directory": "ez az al-tartomány és könyvtár",

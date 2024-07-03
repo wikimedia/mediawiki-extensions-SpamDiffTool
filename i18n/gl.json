@@ -3,6 +3,7 @@
 		"authors": [
 			"Alma",
 			"Elisardojm",
+			"Jack Phoenix",
 			"Toliño"
 		]
 	},
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "Proporciona un xeito básico para engadir novas entradas á lista negra de spam a partir das páxinas de diferenzas",
 	"spamdifftool-block": "Bloquear:",
 	"spamdifftool-cant-edit": "Sentímolo, non ten os permisos necesarios para editar a lista negra de spam.",
-	"spamdifftool-confirm": "Confirme que quere engadir estas entradas á lista negra de spam.\n(<a href='$1' target='new'>Informar dun problema</a>.)",
-	"spamdifftool-no-text": "Non hai texto que engadir á lista negra de spam. <a href='$1'>Continúe</a>.",
+	"spamdifftool-confirm": "Confirme que quere engadir estas entradas á lista negra de spam.\n([$1 Informar dun problema].)",
+	"spamdifftool-no-text": "Non hai texto que engadir á lista negra de spam.",
 	"spamdifftool-no-title": "'''Erro:''' Non se especificou ningún título de páxina.",
-	"spamdifftool-no-urls-detected": "Non se detectou ningún enderezo URL.\nPrema <a href='$1'>Volver</a>.",
+	"spamdifftool-no-urls-detected": "Non se detectou ningún enderezo URL.",
 	"spamdifftool-option-domain": "todo o deste dominio",
 	"spamdifftool-option-subdomain": "todo o deste subdominio",
 	"spamdifftool-option-directory": "este subdominio e directorio",

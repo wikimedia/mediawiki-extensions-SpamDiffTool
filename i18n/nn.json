@@ -3,6 +3,7 @@
 		"authors": [
 			"Frokor",
 			"Harald Khan",
+			"Jack Phoenix",
 			"Njardarlogar"
 		]
 	},
@@ -10,9 +11,9 @@
 	"spamdifftool-desc": "Gjev ein enkel måte å legge til nye element i spamsvartelista frå diffsider",
 	"spamdifftool-block": "Blokker:",
 	"spamdifftool-cant-edit": "Du har diverre ikkje tilgang til å endre spamsvartelista.",
-	"spamdifftool-confirm": "Stadfest at du vil legge til følgjande postar i spamsvartelista. (Rapporter eit problem <a href='$1' target='new'>her</a>.)",
-	"spamdifftool-no-text": "Ingen tekst vart lagt til i spamsvartelista. Klikk <a href='$1'\">her</a> for å halde fram.",
-	"spamdifftool-no-urls-detected": "Fann ingen URL-ar. <a href='$1'>Gå tilbake</a>.",
+	"spamdifftool-confirm": "Stadfest at du vil legge til følgjande postar i spamsvartelista. (Rapporter eit problem [$1 her].)",
+	"spamdifftool-no-text": "Ingen tekst vart lagt til i spamsvartelista.",
+	"spamdifftool-no-urls-detected": "Fann ingen URL-ar.",
 	"spamdifftool-option-domain": "heile domenet",
 	"spamdifftool-option-subdomain": "heile underomenet",
 	"spamdifftool-option-directory": "detter underdomenet og mappa",

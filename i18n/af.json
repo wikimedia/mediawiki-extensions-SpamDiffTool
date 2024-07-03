@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Naudefj"
 		]
 	},
 	"spamdifftool": "Bestuur spam-swartlys",
 	"spamdifftool-block": "Blokkeer:",
 	"spamdifftool-cant-edit": "Jammer, maar u het nie toestemming om die spam-swartlys te wysig nie.",
-	"spamdifftool-no-urls-detected": "Geen URL's was gevind nie.\nKliek <a href='$1'>hier</a> om terug te keer.",
+	"spamdifftool-no-urls-detected": "Geen URL's was gevind nie.",
 	"spamdifftool-option-domain": "alles van hierdie domein",
 	"spamdifftool-option-subdomain": "alles van die subdomein",
 	"spamdifftool-option-directory": "hierdie subdomein en gids",

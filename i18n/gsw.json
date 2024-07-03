@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Als-Chlämens",
-			"Als-Holder"
+			"Als-Holder",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Spam-Blacklist bearbeite",
 	"spamdifftool-desc": "Macht s megli neiji Yyträg zue dr Spamblacklist us Versionsunterschiid zuezfiege",
 	"spamdifftool-block": "Sperri:",
 	"spamdifftool-cant-edit": "Excusez! Du derfsch d Spam-Blacklist nit bearbeite.",
-	"spamdifftool-confirm": "Bstätig, ass Du die Yyträg zue dr Spam-Blacklist wetsch zuefiege.\n(Druck <a href='$1' target='new'>do</a> go ne Probläm mälde.)",
-	"spamdifftool-no-text": "S git kei Täxt, wu mer zue dr Spam-Blacklist chennt zuefiege. Druck <a href='$1'>do</a> zum wyter mache.",
+	"spamdifftool-confirm": "Bstätig, ass Du die Yyträg zue dr Spam-Blacklist wetsch zuefiege.\n(Druck [$1 do] go ne Probläm mälde.)",
+	"spamdifftool-no-text": "S git kei Täxt, wu mer zue dr Spam-Blacklist chennt zuefiege.",
 	"spamdifftool-no-title": "'''Fähler:''' s isch kei Sytetitel aagee wore.",
-	"spamdifftool-no-urls-detected": "S sin kei URL gfunde wore. Druck <a href='$1'>do</a> zum zrugg z goh.",
+	"spamdifftool-no-urls-detected": "S sin kei URL gfunde wore.",
 	"spamdifftool-option-domain": "alli vu däre Domain",
 	"spamdifftool-option-subdomain": "alli vu däre Subdomain",
 	"spamdifftool-option-directory": "die Subdomain un s Verzeichnis",

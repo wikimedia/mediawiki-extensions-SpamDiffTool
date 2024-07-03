@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Matěj Grabovský",
 			"Mormegil"
 		]
@@ -9,10 +10,10 @@
 	"spamdifftool-desc": "Poskytuje základní způsob přidávání nových záznamů na černou listinu spamu ze stránek rozdílů revizí",
 	"spamdifftool-block": "Blokovat:",
 	"spamdifftool-cant-edit": "Omlouváme se, nemáte oprávnění upravovat černou listinu spamu.",
-	"spamdifftool-confirm": "Potvrďte, že chcete přidat tyto položky na černou listinu spamu. (Můžete také <a href='$1' target='new'>nahlásit problém</a>.)",
-	"spamdifftool-no-text": "Není co přidat na černou listinu spamu. Pokračujte <a href='$1'>kliknutím sem</a>.",
+	"spamdifftool-confirm": "Potvrďte, že chcete přidat tyto položky na černou listinu spamu. (Můžete také [$1 nahlásit problém].)",
+	"spamdifftool-no-text": "Není co přidat na černou listinu spamu.",
 	"spamdifftool-no-title": "'''Chyba:''' nebyl zadán název stránky.",
-	"spamdifftool-no-urls-detected": "Nebyly zjištěny žádné URL. Vratíte se zpět <a href='$1'>kliknutím sem</a>.",
+	"spamdifftool-no-urls-detected": "Nebyly zjištěny žádné URL.",
 	"spamdifftool-option-domain": "všechny z této domény",
 	"spamdifftool-option-subdomain": "všechny z této subdomény",
 	"spamdifftool-option-directory": "tuto sudoménu a adresář",

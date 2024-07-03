@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
+			"Jack Phoenix",
 			"Luky001",
 			"Teslaton"
 		]
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "Poskytuje základný spôsob pridávania nových záznamov na Čiernu listinu spamu zo stránok rozdielov revízií",
 	"spamdifftool-block": "Blokovať:",
 	"spamdifftool-cant-edit": "Prepáčte, nemáte oprávnenie upravovať Čiernu listinu spamu",
-	"spamdifftool-confirm": "Potvrďte, že chcete pridať tieto položky na Čiernu listinu spamu. (Môžete tiež <a href='$1' target='new'>nahlásiť problém</a>.)",
-	"spamdifftool-no-text": "Nie je čo pridať na Čiernu listinu spamu. Pokračujte <a href='$1'>kliknutím sem</a>",
+	"spamdifftool-confirm": "Potvrďte, že chcete pridať tieto položky na Čiernu listinu spamu. (Môžete tiež [$1 nahlásiť problém].)",
+	"spamdifftool-no-text": "Nie je čo pridať na Čiernu listinu spamu.",
 	"spamdifftool-no-title": "'''Chyba:''' nebol uvedený názov stránky.",
-	"spamdifftool-no-urls-detected": "Neboli zistené žiadne URL. <a href='$1'>Vrátiť sa</a>.",
+	"spamdifftool-no-urls-detected": "Neboli zistené žiadne URL.",
 	"spamdifftool-option-domain": "všetky z tejto domény",
 	"spamdifftool-option-subdomain": "všetky z tejto subdomény",
 	"spamdifftool-option-directory": "túto subdoménu a adresár",

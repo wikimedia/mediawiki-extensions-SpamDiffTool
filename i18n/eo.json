@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Tlustulimu",
 			"Yekrats"
 		]
@@ -9,10 +10,10 @@
 	"spamdifftool-desc": "Provizas bazan fojon por aldoni novajn listanojn al la spam-nigralisto de diferencaj paĝoj",
 	"spamdifftool-block": "Forbaru:",
 	"spamdifftool-cant-edit": "Bedaŭrinde - vi ne havas permeson por redakti la spaman nigran liston.",
-	"spamdifftool-confirm": "Konfirmu, ke vi volas aldoni ĉi tiujn aĵojn al la spama nigra listo.\n(Klaku <a href='$1' target='new'>ĉi tie</a> por raporti problemon.)",
-	"spamdifftool-no-text": "Estas neniu teksto aldonebla al la spama nigra listo.\nKlaku <a href='$1'>ĉi tie</a> por daŭrigi.",
+	"spamdifftool-confirm": "Konfirmu, ke vi volas aldoni ĉi tiujn aĵojn al la spama nigra listo.\n(Klaku [$1 ĉi tie] por raporti problemon.)",
+	"spamdifftool-no-text": "Estas neniu teksto aldonebla al la spama nigra listo.",
 	"spamdifftool-no-title": "'''Eraro:''' neniu paĝtitolo estis specifita.",
-	"spamdifftool-no-urls-detected": "Neniuj URL-oj estis detektitaj.\nKlaku <a href='$1'>ĉi tie</a> por reveni.",
+	"spamdifftool-no-urls-detected": "Neniuj URL-oj estis detektitaj.",
 	"spamdifftool-option-domain": "ĉiuj de ĉi tiu domajno",
 	"spamdifftool-option-subdomain": "ĉiuj de ĉi tiu subdomajno",
 	"spamdifftool-option-directory": "ĉi tiu subdomajno kaj dosierujo",

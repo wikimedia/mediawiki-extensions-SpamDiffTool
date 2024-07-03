@@ -3,6 +3,7 @@
 		"authors": [
 			"Aleksandrit",
 			"INS Pirat",
+			"Jack Phoenix",
 			"Okras",
 			"Александр Сигачёв"
 		]
@@ -11,10 +12,10 @@
 	"spamdifftool-desc": "Позволяет легко добавлять новые записи в чёрный список спама со страниц сравнения версий",
 	"spamdifftool-block": "Блокировка:",
 	"spamdifftool-cant-edit": "Извините, у вас нет разрешения изменять чёрный список спама.",
-	"spamdifftool-confirm": "Подтвердите, что вы хотите добавить эти записи в спам-лист.\n(Нажмите <a href='$1' target='new'>здесь</a>, чтобы сообщить о проблеме.)",
-	"spamdifftool-no-text": "Нет текста для добавления в спам-лист.\nНажмите <a href='$1'>здесь</a>, чтобы продолжить.",
+	"spamdifftool-confirm": "Подтвердите, что вы хотите добавить эти записи в спам-лист.\n(Нажмите [$1 здесь], чтобы сообщить о проблеме.)",
+	"spamdifftool-no-text": "Нет текста для добавления в спам-лист.",
 	"spamdifftool-no-title": "'''Ошибка.''' Не указано название страницы.",
-	"spamdifftool-no-urls-detected": "Не обнаружено адресов. <a href='$1'>Вернуться</a>.",
+	"spamdifftool-no-urls-detected": "Не обнаружено адресов.",
 	"spamdifftool-option-domain": "всё из этого домена",
 	"spamdifftool-option-subdomain": "всё из этого поддомена",
 	"spamdifftool-option-directory": "этого субдомена и директории",

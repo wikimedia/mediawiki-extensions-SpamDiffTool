@@ -3,6 +3,7 @@
 		"authors": [
 			"Daud I.F. Argana",
 			"Irwangatot",
+			"Jack Phoenix",
 			"Rex"
 		]
 	},
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "Menyediakan fungsi dasar untuk menambahkan entri baru ke daftar hitam spam langsung dari halaman perbedaan antar revisi",
 	"spamdifftool-block": "Blokir:",
 	"spamdifftool-cant-edit": "Maaf - Anda tidak memiliki hak akses untuk menyunting daftar hitam spam.",
-	"spamdifftool-confirm": "Konfirmasi untuk meyakinkan bahwa Anda ingin menambahkan entri ini ke daftar hitam spam.\n(Klik <a href='$1' target='new'>Laporkan masalah</a>.)",
-	"spamdifftool-no-text": "Tidak ada teks yang dapat ditambahkan ke daftar hitam spam.\n<a href='$1'>Lanjutkan</a>.",
+	"spamdifftool-confirm": "Konfirmasi untuk meyakinkan bahwa Anda ingin menambahkan entri ini ke daftar hitam spam.\n(Klik [$1 Laporkan masalah].)",
+	"spamdifftool-no-text": "Tidak ada teks yang dapat ditambahkan ke daftar hitam spam.",
 	"spamdifftool-no-title": "'''Kesalahan:''' tidak ada judul halaman yang ditetapkan.",
-	"spamdifftool-no-urls-detected": "Tidak ada url yang terdeteksi.\n<a href='$1'>Kembali</a>.",
+	"spamdifftool-no-urls-detected": "Tidak ada url yang terdeteksi.",
 	"spamdifftool-option-domain": "semua dari domain ini",
 	"spamdifftool-option-subdomain": "semua dari subdomain ini",
 	"spamdifftool-option-directory": "subdomain dan direktori ini",

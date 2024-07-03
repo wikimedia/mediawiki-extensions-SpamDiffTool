@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Pyt"
 		]
 	},
@@ -8,9 +9,9 @@
 	"spamdifftool-desc": "Rakt n Wai näie Iendraage bietoutouföigjen tou ju Spamblacklist uut Versionsunnerscheede",
 	"spamdifftool-block": "Speere:",
 	"spamdifftool-cant-edit": "Du hääst neen Begjuchtigenge tou ju Beoarbaidenge fon ju Spam-Blacklist.",
-	"spamdifftool-confirm": "Bestäätigje, dät du disse Iendraage an ju Spam-Blacklist bietouföigje moatest. (Klik <a href='$1' target='new'>hier</a>, uum n Problem tou mäldjen.)",
-	"spamdifftool-no-text": "Dät rakt naan Text, die der an ju Spam-Blacklist bietouföiged wäide kuude. Klik <a href='$1'>hier</a> toun Fääregungen.",
-	"spamdifftool-no-urls-detected": "Der wuuden neen URLs fuunen. Klik <a href='$1'>hier</a>, uum touräächtougungen.",
+	"spamdifftool-confirm": "Bestäätigje, dät du disse Iendraage an ju Spam-Blacklist bietouföigje moatest. (Klik [$1 hier], uum n Problem tou mäldjen.)",
+	"spamdifftool-no-text": "Dät rakt naan Text, die der an ju Spam-Blacklist bietouföiged wäide kuude.",
+	"spamdifftool-no-urls-detected": "Der wuuden neen URLs fuunen.",
 	"spamdifftool-option-domain": "aal fon dissen Domain",
 	"spamdifftool-option-subdomain": "aal fon dissen Subdomain",
 	"spamdifftool-option-directory": "disse Subdomain un dit Ferteeknis",

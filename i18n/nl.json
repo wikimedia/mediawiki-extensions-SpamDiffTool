@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Mainframe98",
 			"Mbch331",
 			"SPQRobin",
@@ -13,10 +14,10 @@
 	"spamdifftool-desc": "Biedt een eenvoudige manier voor het toevoegen van nieuwe items aan de zwarte lijst voor spam op basis van verschilpagina's",
 	"spamdifftool-block": "Blokkeren:",
 	"spamdifftool-cant-edit": "U hebt geen rechten om de zwarte lijst tegen spam te bewerken.",
-	"spamdifftool-confirm": "Bevestig dat u deze namen aan de zwarte lijst tegen spam wilt toevoegen (<a href='$1' target='new'>een probleem melden</a>).",
-	"spamdifftool-no-text": "Er is geen tekst om toe te voegen aan de zwarte lijst tegen spam. <a href='$1'>Doorgaan</a>.",
+	"spamdifftool-confirm": "Bevestig dat u deze namen aan de zwarte lijst tegen spam wilt toevoegen ([$1 een probleem melden]).",
+	"spamdifftool-no-text": "Er is geen tekst om toe te voegen aan de zwarte lijst tegen spam.",
 	"spamdifftool-no-title": "'''Fout:''' er is geen paginanaam opgegeven.",
-	"spamdifftool-no-urls-detected": "Er werden geen URL's gevonden. <a href='$1'>Terugkeren</a>.",
+	"spamdifftool-no-urls-detected": "Er werden geen URL's gevonden.",
 	"spamdifftool-option-domain": "alles van dit domein",
 	"spamdifftool-option-subdomain": "alles van dit subdomein",
 	"spamdifftool-option-directory": "dit subdomein en deze map",

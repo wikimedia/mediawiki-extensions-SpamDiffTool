@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
+			"Jack Phoenix",
 			"Jim-by",
 			"Red Winged Duck"
 		]
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "Дазваляе лёгка дадаваць новыя запісы ў чорны сьпіс спаму з параўнаньня вэрсіяў старонак",
 	"spamdifftool-block": "Блякаваньне:",
 	"spamdifftool-cant-edit": "Прабачце, Вы ня маеце правоў на рэдагаваньне чорнага сьпісу спаму.",
-	"spamdifftool-confirm": "Пацьвердзіце, што Вы жадаеце дадаць гэтыя запісы ў чорны сьпіс спаму (<a href='$1' target='new'>паведаміць пра праблему</a>).",
-	"spamdifftool-no-text": "Няма тэксту для даданьня ў чорны сьпіс спаму. <a href='$1'>Працягнуць</a>.",
+	"spamdifftool-confirm": "Пацьвердзіце, што Вы жадаеце дадаць гэтыя запісы ў чорны сьпіс спаму ([$1 паведаміць пра праблему]).",
+	"spamdifftool-no-text": "Няма тэксту для даданьня ў чорны сьпіс спаму.",
 	"spamdifftool-no-title": "'''Памылка:''' назва старонкі не пазначаная.",
-	"spamdifftool-no-urls-detected": "URL-адрасы ня знойдзеныя. <a href='$1'>Вярнуцца</a>.",
+	"spamdifftool-no-urls-detected": "URL-адрасы ня знойдзеныя.",
 	"spamdifftool-option-domain": "усё з гэтага дамэну",
 	"spamdifftool-option-subdomain": "усё з гэтага паддамэну",
 	"spamdifftool-option-directory": "гэтага паддамэну і дырэкторыі",

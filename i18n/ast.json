@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Xuacu"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Ufre una manera básica d'añadir entraes nueves a la Llista negra de puxarra dende páxines diff",
 	"spamdifftool-block": "Bloquiar:",
 	"spamdifftool-cant-edit": "Nun tienes permisu pa editar la Llista negra de puxarra.",
-	"spamdifftool-confirm": "Confirma que quies añadir estes entraes a la Llista negra de puxarra. (<a href='$1' target='new'>Informa d'un problema</a>).",
-	"spamdifftool-no-text": "Nun hai testu qu'amestar na Llista negra de puxarra. <a href='$1'>Siguir</a>.",
+	"spamdifftool-confirm": "Confirma que quies añadir estes entraes a la Llista negra de puxarra. ([$1 Informa d'un problema]).",
+	"spamdifftool-no-text": "Nun hai testu qu'amestar na Llista negra de puxarra.",
 	"spamdifftool-no-title": "'''Error:''' nun s'especificó nengún títulu de páxina.",
-	"spamdifftool-no-urls-detected": "Nun se detectó nenguna URL. <a href='$1'>Tornar</a>.",
+	"spamdifftool-no-urls-detected": "Nun se detectó nenguna URL.",
 	"spamdifftool-option-domain": "too d'esti dominiu",
 	"spamdifftool-option-subdomain": "too d'esti subdominiu",
 	"spamdifftool-option-directory": "esti subdominiu y direutoriu",

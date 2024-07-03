@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Purodha"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Ene Wääsch för neu Enndräsch en de „schwazze Leß“ jähje der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„För jewöhnlesch angmaß övverdrahre Nohreeschte udder Meddeijlonge, di wä se kritt jaa nit han well.“\">SPAM</i> ze krijje, fun de Sigge met de Ongerscheijde zwesche Väsjohne uß.",
 	"spamdifftool-block": "Schpärr:",
 	"spamdifftool-cant-edit": "Schahdt — Do häß nit dat Rääsch, de „schwazze Leß“ jähje der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„För jewöhnlesch angmaß övverdrahre Nohreeschte udder Meddeijlonge, di wä se kritt jaa nit han well.“\">SPAM</i> ze änndere.",
-	"spamdifftool-confirm": "Do moß norr_ens beschtähteje, dat De di Enndrähsch en de „schwazze Leß“ jähje der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„För jewöhnlesch angmaß övverdrahre Nohreeschte udder Meddeijlonge, di wä se kritt jaa nit han well.“\">SPAM</i> eren donn wells.\n\n(<a href=\"$1\" target=\"new\">Donn e Problehm mällde!</a>)",
-	"spamdifftool-no-text": "Mer han keijne Täx för en de „schwazze Leß“ jähje der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„För jewöhnlesch angmaß övverdrahre Nohreeschte udder Meddeijlonge, di wä se kritt jaa nit han well.“\">SPAM</i> eren ze donn.\n\n<a href=\"$1\">Wigger maache!</a>",
+	"spamdifftool-confirm": "Do moß norr_ens beschtähteje, dat De di Enndrähsch en de „schwazze Leß“ jähje der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„För jewöhnlesch angmaß övverdrahre Nohreeschte udder Meddeijlonge, di wä se kritt jaa nit han well.“\">SPAM</i> eren donn wells.\n\n([$1 Donn e Problehm mällde!])",
+	"spamdifftool-no-text": "Mer han keijne Täx för en de „schwazze Leß“ jähje der <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"„För jewöhnlesch angmaß övverdrahre Nohreeschte udder Meddeijlonge, di wä se kritt jaa nit han well.“\">SPAM</i> eren ze donn.",
 	"spamdifftool-no-title": "'''Fähler:''' heh es keine Sigge_Övverschreff aanjejovve.",
-	"spamdifftool-no-urls-detected": "Kein <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Uniform Ressource Locator\">URLs</i> jefonge.\n\n<a href=\"$1\">Jangk zerök!</a>",
+	"spamdifftool-no-urls-detected": "Kein <i lang=\"en\" xml:lang=\"en\" dir=\"ltr\" title=\"Uniform Ressource Locator\">URLs</i> jefonge.",
 	"spamdifftool-option-domain": "alles fun heh dä Domäijn",
 	"spamdifftool-option-subdomain": "alles fun heh dä Onger_Domäijn",
 	"spamdifftool-option-directory": "heh di Onger_Domäijn un dat Verzeijschneß",

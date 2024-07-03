@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Borichèt",
-			"Dragonòt"
+			"Dragonòt",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Gëstiss la blacklist dë spam",
 	"spamdifftool-desc": "A dà na manera base ëd gionté neuve intrade a la blacklist dë spam da pàgine diferente",
 	"spamdifftool-block": "Blòca:",
 	"spamdifftool-cant-edit": "An dëspias - a l'ha pa ël përmess ëd modifiché la lista nèira dla rumenta.",
-	"spamdifftool-confirm": "Ch'a conferma ch'a veul gionté coste vos a la lista nèira dla rumenta. (Ch'a sgnaca <a href='$1' target='new'>ambelessì</a> për arporté un problema.)",
-	"spamdifftool-no-text": "A-i é gnun test da gionté a la lista nèira dla rumenta. Ch'a sgnaca <a href='$1'>ambelessì</a> për andé anans.",
+	"spamdifftool-confirm": "Ch'a conferma ch'a veul gionté coste vos a la lista nèira dla rumenta. (Ch'a sgnaca [$1 ambelessì] për arporté un problema.)",
+	"spamdifftool-no-text": "A-i é gnun test da gionté a la lista nèira dla rumenta.",
 	"spamdifftool-no-title": "'''Eror:''' gnun tìtol ëd pàgina a l'é stàit specificà.",
-	"spamdifftool-no-urls-detected": "Gnun-a adrëssa a l'é stàita trovà. Ch'a sgnaca <a href='$1'>ambelessì</a> për torné andré.",
+	"spamdifftool-no-urls-detected": "Gnun-a adrëssa a l'é stàita trovà.",
 	"spamdifftool-option-domain": "tut da sto domini-sì",
 	"spamdifftool-option-subdomain": "tut da cost sot-domini-sì",
 	"spamdifftool-option-directory": "ës sot-domini e ës dossié-sì",

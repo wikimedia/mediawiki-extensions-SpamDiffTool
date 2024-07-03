@@ -2,18 +2,20 @@
 	"@metadata": {
 		"authors": [
 			"!Silent",
+			"Andrekowacs",
 			"Eduardo.mps",
-			"Giro720"
+			"Giro720",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Gerenciar a lista negra de spam",
 	"spamdifftool-desc": "Fornece uma forma básica de adicionar novas entradas à lista negra de spam a partir de páginas de diferenças",
 	"spamdifftool-block": "Bloquear:",
 	"spamdifftool-cant-edit": "As nossas desculpas - você não tem permissão para editar a lista negra de spam.",
-	"spamdifftool-confirm": "Confirme que pretende adicionar estas entradas à Lista Negra de spam (<a href='$1' target='new'>reportar um problema</a>).",
-	"spamdifftool-no-text": "Não há existe qualquer texto para adicionar à lista negra de spam. <a href='$1'>Continuar</a>.",
+	"spamdifftool-confirm": "Confirme que pretende adicionar estas entradas à Lista Negra de spam ([$1 reportar um problema]).",
+	"spamdifftool-no-text": "Não há qualquer texto para adicionar à lista negra de spam.",
 	"spamdifftool-no-title": "'''Erro:''' não foi especificado nenhum título de página.",
-	"spamdifftool-no-urls-detected": "Nenhuma URL foi detectada. <a href='$1'>Retornar</a>.",
+	"spamdifftool-no-urls-detected": "Nenhuma URL foi detectada.",
 	"spamdifftool-option-domain": "todos deste domínio",
 	"spamdifftool-option-subdomain": "todos deste subdomínio",
 	"spamdifftool-option-directory": "este subdomínio e diretório",

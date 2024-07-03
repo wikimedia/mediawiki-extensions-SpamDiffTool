@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Htt",
+			"Jack Phoenix",
 			"Kaustubh",
 			"Mahitgar"
 		]
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "फरक पानांमधून स्पॅम ब्लकलिस्ट मध्ये नोंदी वाढविण्याचा सोपा मार्ग देते",
 	"spamdifftool-block": "ब्लॉक:",
 	"spamdifftool-cant-edit": "माफकरा - स्पॅम ब्लॅकलिस्ट संपादित करण्याची तुम्हाला परवानगी नाही.",
-	"spamdifftool-confirm": "तुम्ही या नोंदी स्पॅम ब्लॅकलिस्ट मध्ये वाढवू इच्छिता याची खात्री करा.\n(अडचण नोंदविण्यासाठी <a href='$1' target='new'>इथे</a> टिचकी द्या.)",
-	"spamdifftool-no-text": "स्पॅम ब्लॅकलिस्ट मध्ये वाढविण्यासाठी मजकूर नाही.\nपुढे जाण्यासाठी <a href='$1'>इथे</a> टिचकी द्या.",
+	"spamdifftool-confirm": "तुम्ही या नोंदी स्पॅम ब्लॅकलिस्ट मध्ये वाढवू इच्छिता याची खात्री करा.\n(अडचण नोंदविण्यासाठी [$1 इथे] टिचकी द्या.)",
+	"spamdifftool-no-text": "स्पॅम ब्लॅकलिस्ट मध्ये वाढविण्यासाठी मजकूर नाही.",
 	"spamdifftool-no-title": "”’चूक:”’ कोणताही पृष्ठ मथळा मिळाला नाही.",
-	"spamdifftool-no-urls-detected": "एकही URL सापडली नाही.\nपरत जाण्यासाठी <a href='$1'>इथे</a> टिचकी द्या.",
+	"spamdifftool-no-urls-detected": "एकही URL सापडली नाही.",
 	"spamdifftool-option-domain": "या डोमेन मधील सर्व",
 	"spamdifftool-option-subdomain": "या सबडोमेन मधील सर्व",
 	"spamdifftool-option-directory": "हा सबडोमेन व डिरेक्टरी",

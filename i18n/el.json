@@ -5,6 +5,7 @@
 			"Crazymadlover",
 			"Dada",
 			"Geraki",
+			"Jack Phoenix",
 			"Omnipaedista",
 			"ZaDiak"
 		]
@@ -13,10 +14,10 @@
 	"spamdifftool-desc": "Παρέχει έναν βασικό τρόπο για να προστίθενται νέες καταχωρήσεις στη μαύρη λίστα των σπαμ ξεκινώντας από τις σελίδες διαφορών",
 	"spamdifftool-block": "Φραγή:",
 	"spamdifftool-cant-edit": "Συγνώμη - δεν έχετε άδεια να επεξεργαστείτε τη μαύρη λίστα των σπαμ.",
-	"spamdifftool-confirm": "Επιβεβαιώστε ότι θέλετε να προσθέσετε αυτές τις καταχωρήσεις στην μαύρη λίστα spam.\n(<a href='$1' target='new'>Αναφέρετε ένα πρόβλημα</a>.)",
-	"spamdifftool-no-text": "Δεν υπάρχει κείμενο για προσθήκη στην μαύρη λίστα spam.\n<a href='$1'>Συνέχεια</a>.",
+	"spamdifftool-confirm": "Επιβεβαιώστε ότι θέλετε να προσθέσετε αυτές τις καταχωρήσεις στην μαύρη λίστα spam.\n([$1 Αναφέρετε ένα πρόβλημα].)",
+	"spamdifftool-no-text": "Δεν υπάρχει κείμενο για προσθήκη στην μαύρη λίστα spam.",
 	"spamdifftool-no-title": "Σφάλμα''':''' Δεν καθορίστηκε ο τίτλος της σελίδας.",
-	"spamdifftool-no-urls-detected": "Δεν ανιχνεύθηκε κανένα url. <a href='$1'>Επιστροφή</a>.",
+	"spamdifftool-no-urls-detected": "Δεν ανιχνεύθηκε κανένα url.",
 	"spamdifftool-option-domain": "όλα από αυτή την περιοχή",
 	"spamdifftool-option-subdomain": "όλα από αυτή την υποπεριοχή",
 	"spamdifftool-option-directory": "αυτή η υποπεριοχή και ο κατάλογος",

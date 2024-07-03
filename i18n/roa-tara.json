@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Joetaras"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Dèje 'nu mode facile pe aggiungere valore nuève a 'a lista gnore d'u rummate da le pàggene d'u combronde 'mbrà versiune",
 	"spamdifftool-block": "Blocche:",
 	"spamdifftool-cant-edit": "Ne despiace - non ge tìne le permesse pe cangià 'a lista gnore d'u rummate.",
-	"spamdifftool-confirm": "Conferme ca tìne 'ndenzione de aggiugnere ste valore jndr'à lista gnore d'u rummate.\n(<a href='$1' target='new'>Signale 'nu probbleme</a>.)",
-	"spamdifftool-no-text": "Non ge stè teste da aggiungere a 'a lista gnore d'u rummate. <a href='$1'>Condinue</a>.",
+	"spamdifftool-confirm": "Conferme ca tìne 'ndenzione de aggiugnere ste valore jndr'à lista gnore d'u rummate.\n([$1 Signale 'nu probbleme].)",
+	"spamdifftool-no-text": "Non ge stè teste da aggiungere a 'a lista gnore d'u rummate.",
 	"spamdifftool-no-title": "'''Errore:''' Nisciuen titole de pàgene ha state specificate.",
-	"spamdifftool-no-urls-detected": "Nisciuna URL ha state acchiate. <a href='$1'>Tuèrne</a>.",
+	"spamdifftool-no-urls-detected": "Nisciuna URL ha state acchiate.",
 	"spamdifftool-option-domain": "tutte da stu dominie",
 	"spamdifftool-option-subdomain": "tutte da stu sottedominie",
 	"spamdifftool-option-directory": "'u sottodominie e 'a cartelle",

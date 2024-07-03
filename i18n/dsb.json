@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Michawiki"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Zmóžnja pśidawanje nowych zapiskow k cornej lisćinje spama z rozdźělowych bokow.",
 	"spamdifftool-block": "Blokěrowanje:",
 	"spamdifftool-cant-edit": "Wódaj - njamaš pšawo cornu lisćinu spama wobźěłaś.",
-	"spamdifftool-confirm": "Wobkšuś, až coš toś te zapiski k cornej lisćinje spama pśidaś.\n(Klikni <a href='$1' target='new'>sem</a>, aby dał problem k wěsći.)",
-	"spamdifftool-no-text": "Njejo tekst, kótaryž dajo se k cornej lisćinje spama pśidaś.\nKlikni <a href='$1'>sem</a>, aby pókšacował.",
+	"spamdifftool-confirm": "Wobkšuś, až coš toś te zapiski k cornej lisćinje spama pśidaś.\n(Klikni [$1 sem], aby dał problem k wěsći.)",
+	"spamdifftool-no-text": "Njejo tekst, kótaryž dajo se k cornej lisćinje spama pśidaś.",
 	"spamdifftool-no-title": "'''Zmólka:''' žeden bokowy titel pódany.",
-	"spamdifftool-no-urls-detected": "Žedne URL su se namakali.\nKlikni <a href='$1'>sem</a>, aby se wróśił.",
+	"spamdifftool-no-urls-detected": "Žedne URL su se namakali.",
 	"spamdifftool-option-domain": "wšykne z toś teje domeny",
 	"spamdifftool-option-subdomain": "wšykne z toś teje póddomeny",
 	"spamdifftool-option-directory": "toś ta póddomena a zapis",

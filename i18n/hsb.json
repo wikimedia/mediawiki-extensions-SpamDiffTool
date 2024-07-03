@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Michawiki"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Skići zakładne wašnje přidawanja nowych zapiskow spamowej čornej lisćinje ze stronow z rozdźělemi wersijow",
 	"spamdifftool-block": "Blokować:",
 	"spamdifftool-cant-edit": "Bohužel nimaš dowolnosć spamowu čornu lisćinu wobdźěłować.",
-	"spamdifftool-confirm": "Potwjerdź, zo chceš tute zapiski spamowej čornej lisćinje přidać. (Klikń <a href='$1' target='new'>sem</a>, zo by wo problemje rozprawjał.)",
-	"spamdifftool-no-text": "Njeje žadyn tekst, kotryž móhł so spamowej čornej lisćinje přidać. Klikń <href='$1'>sem</a>, zo by pokročował.",
+	"spamdifftool-confirm": "Potwjerdź, zo chceš tute zapiski spamowej čornej lisćinje přidać. (Klikń [$1 sem], zo by wo problemje rozprawjał.)",
+	"spamdifftool-no-text": "Njeje žadyn tekst, kotryž móhł so spamowej čornej lisćinje přidać.",
 	"spamdifftool-no-title": "'''Zmylk:''' žadyn titul podaty.",
-	"spamdifftool-no-urls-detected": "Njebuchu žane url wotkryte. Klikń <a href='$1'>sem</a>, zo by so wróćił.",
+	"spamdifftool-no-urls-detected": "Njebuchu žane url wotkryte.",
 	"spamdifftool-option-domain": "wšo z tuteje domejny",
 	"spamdifftool-option-subdomain": "wšě z tuteje poddomejny",
 	"spamdifftool-option-directory": "tutu poddomejnu a tutón zapis",

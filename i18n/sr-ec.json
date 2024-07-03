@@ -8,7 +8,7 @@
 		]
 	},
 	"spamdifftool-block": "Блок:",
-	"spamdifftool-no-urls-detected": "Нису пронађене веб-адресе. <a href='$1'>Назад</a>.",
+	"spamdifftool-no-urls-detected": "URL-ови нису детектовани.",
 	"spamdifftool-option-domain": "све од овог домена",
 	"spamdifftool-option-subdomain": "све од овог поддомена",
 	"spamdifftool-option-directory": "овај поддомен и директоријум",

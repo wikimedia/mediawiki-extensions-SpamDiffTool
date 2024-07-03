@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Minh Nguyen"
 		]
 	},
@@ -8,10 +9,10 @@
 	"spamdifftool-desc": "Cung cấp một cách đơn giản để thêm khoản vào danh sách đen spam từ các trang so sánh",
 	"spamdifftool-block": "Cấm:",
 	"spamdifftool-cant-edit": "Xin lỗi, bạn không có quyền sửa đổi danh sách đen spam.",
-	"spamdifftool-confirm": "Hãy xác nhận muốn thêm các mục này vào danh sách đen spam. (<a href='$1' target='new'>Báo lỗi</a>.)",
-	"spamdifftool-no-text": "Chưa cho vào văn bản để thêm vào danh sách đen spam. <a href='$1'>Tiếp tục</a>.",
+	"spamdifftool-confirm": "Hãy xác nhận muốn thêm các mục này vào danh sách đen spam. ([$1 Báo lỗi].)",
+	"spamdifftool-no-text": "Chưa cho vào văn bản để thêm vào danh sách đen spam.",
 	"spamdifftool-no-title": "'''Lỗi:''' Chưa đặt tên của trang.",
-	"spamdifftool-no-urls-detected": "Không nhận được địa chỉ nào. <a href='$1'>Trở lại</a>.",
+	"spamdifftool-no-urls-detected": "Không nhận được địa chỉ nào.",
 	"spamdifftool-option-domain": "tất cả tên miền",
 	"spamdifftool-option-subdomain": "tất cả tên miền phụ",
 	"spamdifftool-option-directory": "tên miền phụ và danh mục",

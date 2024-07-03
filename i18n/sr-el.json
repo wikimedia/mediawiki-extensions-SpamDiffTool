@@ -1,11 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Michaello"
 		]
 	},
 	"spamdifftool-block": "Blok:",
-	"spamdifftool-no-urls-detected": "Nisu pronađene veb-adrese. <a href='$1'>Nazad</a>.",
+	"spamdifftool-no-urls-detected": "Nisu pronađene veb-adrese.",
 	"spamdifftool-option-domain": "sve od ovog domena",
 	"spamdifftool-option-subdomain": "sve od ovog poddomena",
 	"spamdifftool-option-directory": "ovaj poddomen i direktorijum",

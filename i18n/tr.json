@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Jack Phoenix",
 			"Joseph",
 			"Karduelis",
 			"KorkmazO",
@@ -12,10 +13,10 @@
 	"spamdifftool-desc": "Spam karalistesine fark sayfalarından yeni girdiler eklemek için basit bir yol sağlar",
 	"spamdifftool-block": "Engelle:",
 	"spamdifftool-cant-edit": "Üzgünüz - spam karalistesini değiştirmek için izniniz yok.",
-	"spamdifftool-confirm": "Bu girdileri spam karalistesine eklemek istediğinizi onaylayın.\n(Bir sorun bildirmek için <a href='$1' target='new'>buraya</a> tıklayın.)",
-	"spamdifftool-no-text": "ISpam karalistesine eklenecek metin yok.\nDevam etmek için <a href='$1'>buraya</a> tıklayın.",
+	"spamdifftool-confirm": "Bu girdileri spam karalistesine eklemek istediğinizi onaylayın.\n(Bir sorun bildirmek için [$1 buraya] tıklayın.)",
+	"spamdifftool-no-text": "ISpam karalistesine eklenecek metin yok.",
 	"spamdifftool-no-title": "'''Hata:''' sayfa başlığı belirtilmemiş.",
-	"spamdifftool-no-urls-detected": "Hiçbir url algılanmadı.\nGeri dönmek için <a href='$1'>buraya</a> tıklayın.",
+	"spamdifftool-no-urls-detected": "Hiçbir url algılanmadı.",
 	"spamdifftool-option-domain": "bu alan adından gelenlerin hepsi",
 	"spamdifftool-option-subdomain": "bu alt domainden hepsini",
 	"spamdifftool-option-directory": "bu alt domain ve dizin",

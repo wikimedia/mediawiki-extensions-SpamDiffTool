@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"AnakngAraw",
+			"Jack Phoenix",
 			"Jojit fb"
 		]
 	},
@@ -9,10 +10,10 @@
 	"spamdifftool-desc": "Nagbibigay ng isang payak na paraan ng pagdaragdag ng bagong mga entrada/lahok sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'') mula sa iba't ibang mga pahina",
 	"spamdifftool-block": "Harang:",
 	"spamdifftool-cant-edit": "Paumanhin - wala kang pahintulot na baguhin ang talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').",
-	"spamdifftool-confirm": "Tiyakin kung ibig mong idagdag ang mga lahok (entrada) na ito sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').\n(Pindutin <a href='$1' target='bago'>dito</a> upang makapag-ulat ng suliranin/problema.)",
-	"spamdifftool-no-text": "Walang tekstong mapagdaragdagan ng talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').\nPindutin <a href='$1'>dito</a> upang makapagpatuloy.",
+	"spamdifftool-confirm": "Tiyakin kung ibig mong idagdag ang mga lahok (entrada) na ito sa talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').\n(Pindutin [$1 dito] upang makapag-ulat ng suliranin/problema.)",
+	"spamdifftool-no-text": "Walang tekstong mapagdaragdagan ng talaan ng pinagbabawalang mga \"manlulusob\" (''spam'').",
 	"spamdifftool-no-title": "'''Kamalian:''' walang tinukoy na pamagat ng pahina.",
-	"spamdifftool-no-urls-detected": "Walang napansing mga ''url''.\nPindutin <a href='$1'>dito</a> para makabalik.",
+	"spamdifftool-no-urls-detected": "Walang napansing mga ''url''.",
 	"spamdifftool-option-domain": "lahat ng nagmula sa dominyong ito",
 	"spamdifftool-option-subdomain": "lahat ng mula sa kabahaging dominyong (subdominyo) ito",
 	"spamdifftool-option-directory": "ang kabahaging dominyo (subdominyo) at direktoryong ito",

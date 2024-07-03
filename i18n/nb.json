@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Jack Phoenix",
 			"Jon Harald Søby",
 			"Nghtwlkr"
 		]
@@ -9,10 +10,10 @@
 	"spamdifftool-desc": "Gir en enkel måte å legge til nye elementer i spamsvartelisten fra diffsider",
 	"spamdifftool-block": "Blokker:",
 	"spamdifftool-cant-edit": "Du har dessverre ikke rettighet til å redigere spamsvartelisten.",
-	"spamdifftool-confirm": "Bekreft at du vil legge til følgende poster i spamsvartelisten. (<a href='$1' target='new'>Rapporter et problem</a>.)",
-	"spamdifftool-no-text": "Ingen tekst ble lagt til i spamsvartelisten. <a href='$1'\">Fortsett</a>.",
+	"spamdifftool-confirm": "Bekreft at du vil legge til følgende poster i spamsvartelisten. ([$1 Rapporter et problem].)",
+	"spamdifftool-no-text": "Ingen tekst ble lagt til i spamsvartelisten.",
 	"spamdifftool-no-title": "'''Feil:''' ingen sidetittel ble oppgitt.",
-	"spamdifftool-no-urls-detected": "Ingen URL-er funnet. <a href='$1'>Gå tilbake</a>.",
+	"spamdifftool-no-urls-detected": "Ingen URL-er funnet.",
 	"spamdifftool-option-domain": "hele domenet",
 	"spamdifftool-option-subdomain": "hele underdomenet",
 	"spamdifftool-option-directory": "dette underdomenet og mappen",

@@ -4,6 +4,7 @@
 			"Aleksandrit",
 			"DDPAT",
 			"Ice bulldog",
+			"Jack Phoenix",
 			"Ата",
 			"Тест"
 		]
@@ -12,10 +13,10 @@
 	"spamdifftool-desc": "Дозволяє легко додавати нові записи в чорний список спаму зі сторінок порівняння версій",
 	"spamdifftool-block": "Блокування:",
 	"spamdifftool-cant-edit": "Вибачте, у вас немає дозволу змінювати чорний список спаму.",
-	"spamdifftool-confirm": "Підтвердіть, що Ви хочете додати ці записи в чорний список спаму. (<a href='$1' target='new'>Повідомити про проблему</a>.)",
-	"spamdifftool-no-text": "Немає тексту для додавання в чорний список спаму.\n<a href='$1'>Продовжити</a>.",
+	"spamdifftool-confirm": "Підтвердіть, що Ви хочете додати ці записи в чорний список спаму. ([$1 Повідомити про проблему].)",
+	"spamdifftool-no-text": "Немає тексту для додавання в чорний список спаму.",
 	"spamdifftool-no-title": "'''Помилка:''' назву сторінки не зазначено.",
-	"spamdifftool-no-urls-detected": "Не виявлено URL. <a href='$1'>Повернутися</a>.",
+	"spamdifftool-no-urls-detected": "Не виявлено URL.",
 	"spamdifftool-option-domain": "все з цього домену",
 	"spamdifftool-option-subdomain": "все з цього субдомену",
 	"spamdifftool-option-directory": "цього субдомену і директорії",

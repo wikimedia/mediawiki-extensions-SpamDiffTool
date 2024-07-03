@@ -1,17 +1,18 @@
 {
 	"@metadata": {
 		"authors": [
-			"Bjankuloski06"
+			"Bjankuloski06",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Раководење со црниот список на спам",
 	"spamdifftool-desc": "Овозможува лесен начин на додавање на нови ставки во црниот список на спам од споредени страници (верзии)",
 	"spamdifftool-block": "Блокирање:",
 	"spamdifftool-cant-edit": "Жалиме - немате дозвола да го уредувате црниот список на спам.",
-	"spamdifftool-confirm": "Потврдете дека сакате да ги додадете овие ставки во црниот список на спам. (<a href='$1' target='new'>Пријави проблем</a>.)",
-	"spamdifftool-no-text": "Нема текст за додавање на црниот список на спам. <a href='$1'>Продолжете</a>.",
+	"spamdifftool-confirm": "Потврдете дека сакате да ги додадете овие ставки во црниот список на спам. ([$1 Пријави проблем].)",
+	"spamdifftool-no-text": "Нема текст за додавање на црниот список на спам.",
 	"spamdifftool-no-title": "'''Грешка:''' не беше назначен наслов на страницата.",
-	"spamdifftool-no-urls-detected": "Не пронајдов URL-адреси. <a href='$1'>Назад</a>.",
+	"spamdifftool-no-urls-detected": "Не пронајдов URL-адреси.",
 	"spamdifftool-option-domain": "сè од овој домен",
 	"spamdifftool-option-subdomain": "сè од овој поддомен",
 	"spamdifftool-option-directory": "овој поддомен и директориум",

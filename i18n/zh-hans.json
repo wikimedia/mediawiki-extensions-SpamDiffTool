@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Gzdavidwong",
+			"Jack Phoenix",
 			"Liangent",
 			"Liuxinyu970226"
 		]
@@ -10,10 +11,10 @@
 	"spamdifftool-desc": "提供一个基础的从差异页面添加新记录至破坏黑名单的方式",
 	"spamdifftool-block": "封禁：",
 	"spamdifftool-cant-edit": "对不起——您没有权限编辑破坏黑名单。",
-	"spamdifftool-confirm": "确认您希望添加这些记录至破坏黑名单。（<a href='$1' target='new'>报告问题</a>。）",
-	"spamdifftool-no-text": "这里没有需要添加至破坏黑名单的文本。<a href='$1'>继续</a>。",
+	"spamdifftool-confirm": "确认您希望添加这些记录至破坏黑名单。（[$1 报告问题]。）",
+	"spamdifftool-no-text": "这里没有需要添加至破坏黑名单的文本。",
 	"spamdifftool-no-title": "'''错误：'''没有指定页面标题。",
-	"spamdifftool-no-urls-detected": "未检测到URL。<a href='$1'>返回</a>。",
+	"spamdifftool-no-urls-detected": "未检测到URL。",
 	"spamdifftool-option-domain": "所有来自此域名",
 	"spamdifftool-option-subdomain": "所有来自此子域名",
 	"spamdifftool-option-directory": "此子域名和目录",

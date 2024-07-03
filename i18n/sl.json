@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
-			"Eleassar"
+			"Eleassar",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Upravljaj črni seznam smetja",
 	"spamdifftool-desc": "Na preprost način nudi dodajanje novih vnosov na črni seznam smetja iz primerjave strani",
 	"spamdifftool-block": "Blokiraj:",
 	"spamdifftool-cant-edit": "Oprostite – nimate dovoljenja za urejanje črnega seznama smetja.",
-	"spamdifftool-confirm": "Potrdite, da želite te vnose dodati na črni seznam smetja. (<a href='$1' target='new'>Sporoči težavo</a>)",
-	"spamdifftool-no-text": "Ni besedila, ki bi ga dodali na črni seznam smetja. <a href='$1'>Nadaljuj</a>.",
+	"spamdifftool-confirm": "Potrdite, da želite te vnose dodati na črni seznam smetja. ([$1 Sporoči težavo])",
+	"spamdifftool-no-text": "Ni besedila, ki bi ga dodali na črni seznam smetja.",
 	"spamdifftool-no-title": "'''Napaka:''' naslov strani ni določen.",
-	"spamdifftool-no-urls-detected": "Odkrit ni bil noben URL. <a href='$1'>Nazaj</a>.",
+	"spamdifftool-no-urls-detected": "Odkrit ni bil noben URL.",
 	"spamdifftool-option-domain": "vse iz te domene",
 	"spamdifftool-option-subdomain": "vse iz te poddomene",
 	"spamdifftool-option-directory": "ta poddomena in mapa",

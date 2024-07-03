@@ -3,6 +3,7 @@
 		"authors": [
 			"BlueDevil",
 			"Huji",
+			"Jack Phoenix",
 			"Mahdy Saffar",
 			"Meisam",
 			"Reza1615",
@@ -12,6 +13,6 @@
 	"spamdifftool": "مدیریت سیاههٔ هرزنگاری",
 	"spamdifftool-block": "بستن:",
 	"spamdifftool-cant-edit": "متاسفیم؛ شما اجازه ویرایش فهرست سیاه هرزنویسی را ندارید.",
-	"spamdifftool-no-text": "متنی برای افزودن به فهرست سیاه هرزنامه جود ندارد. <a href='$1'>ادامه</a>",
+	"spamdifftool-no-text": "متنی برای افزودن به فهرست سیاه هرزنامه جود ندارد.",
 	"spamdifftool-submit": "ارسال"
 }

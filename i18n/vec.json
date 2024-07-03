@@ -1,16 +1,17 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua"
+			"Candalua",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Gestion de la lista nera del spam",
 	"spamdifftool-desc": "Fornisse na senpliçe maniera par zontar valori novi a la lista nera del spam da le pàxene del confronto fra versioni",
 	"spamdifftool-block": "Bloca:",
 	"spamdifftool-cant-edit": "No ti gà i parmessi necessari par modificar la lista nera del spam.",
-	"spamdifftool-confirm": "Conferma che te voli zontar sti valori a la lista nera del spam.\n(Struca <a href='$1' target='new'>qua</a> par segnalar un problema.)",
-	"spamdifftool-no-text": "No ghe xe nissun testo da zontar a la lista nera del spam.\nStruca <a href='$1'>qua</a> par continuar.",
-	"spamdifftool-no-urls-detected": "No xe stà rilevà nissun URL.\nStruca <a href='$1'>qua</a> par tornar indrìo.",
+	"spamdifftool-confirm": "Conferma che te voli zontar sti valori a la lista nera del spam.\n(Struca [$1 qua] par segnalar un problema.)",
+	"spamdifftool-no-text": "No ghe xe nissun testo da zontar a la lista nera del spam.",
+	"spamdifftool-no-urls-detected": "No xe stà rilevà nissun URL.",
 	"spamdifftool-option-domain": "tuti da sto dominio",
 	"spamdifftool-option-subdomain": "tuti da sto sotodominio",
 	"spamdifftool-option-directory": "sto sotodominio e directory",
