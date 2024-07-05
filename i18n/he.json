@@ -14,7 +14,7 @@
 	"spamdifftool-confirm": "נא לאשר כי ברצונך להוסיף את הרשומות האלו אל רשימת חסימת הספאם. ([$1 דיווח בעיה].)",
 	"spamdifftool-no-text": "אין טקסט להוספה לרשימת חסימת הספאם.",
 	"spamdifftool-no-title": "'''שגיאה:''' לא צוין שם דף.",
-	"spamdifftool-no-urls-detected": "לא זוהו כתובות URL. <a href='$1'>לחזור</a>.",
+	"spamdifftool-no-urls-detected": "לא זוהו כתובות URL.",
 	"spamdifftool-option-domain": "הכול מהתחום הזה",
 	"spamdifftool-option-subdomain": "הכול מדומיין משנה זה",
 	"spamdifftool-option-directory": "דומיין משנה זה ותיקייה",
