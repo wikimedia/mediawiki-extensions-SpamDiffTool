@@ -6,6 +6,7 @@
 			"Dada",
 			"Geraki",
 			"Jack Phoenix",
+			"KonVog",
 			"Omnipaedista",
 			"ZaDiak"
 		]
@@ -17,7 +18,7 @@
 	"spamdifftool-confirm": "Επιβεβαιώστε ότι θέλετε να προσθέσετε αυτές τις καταχωρήσεις στην μαύρη λίστα spam.\n([$1 Αναφέρετε ένα πρόβλημα].)",
 	"spamdifftool-no-text": "Δεν υπάρχει κείμενο για προσθήκη στην μαύρη λίστα spam.",
 	"spamdifftool-no-title": "Σφάλμα''':''' Δεν καθορίστηκε ο τίτλος της σελίδας.",
-	"spamdifftool-no-urls-detected": "Δεν ανιχνεύθηκε κανένα url.",
+	"spamdifftool-no-urls-detected": "Δεν ανιχνεύθηκε κανένα URL.",
 	"spamdifftool-option-domain": "όλα από αυτή την περιοχή",
 	"spamdifftool-option-subdomain": "όλα από αυτή την υποπεριοχή",
 	"spamdifftool-option-directory": "αυτή η υποπεριοχή και ο κατάλογος",
