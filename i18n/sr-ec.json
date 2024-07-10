@@ -8,6 +8,7 @@
 		]
 	},
 	"spamdifftool-block": "Блок:",
+	"spamdifftool-no-title": "'''Грешка:''' наслов странице није наведен.",
 	"spamdifftool-no-urls-detected": "Нису пронађене веб-адресе. <a href='$1'>Назад</a>.",
 	"spamdifftool-option-domain": "све од овог домена",
 	"spamdifftool-option-subdomain": "све од овог поддомена",
