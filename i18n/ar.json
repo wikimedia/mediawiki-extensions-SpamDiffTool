@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"Jack Phoenix",
 			"Meno25",
 			"Samer",
@@ -14,7 +15,7 @@
 	"spamdifftool-confirm": "أكد أنك تريد إضافة هذه المدخلات إلى قائمة السبام السوداء.\n([$1 إبلغ عن مشكلة].)",
 	"spamdifftool-no-text": "لا يوجد نص لإضافته إلى قائمة السبام السوداء.",
 	"spamdifftool-no-title": "'''خطأ:''' لم يحدد عنوان صفحة.",
-	"spamdifftool-no-urls-detected": "لم يتم التعرف على أية مسارات.",
+	"spamdifftool-no-urls-detected": "لم يُتَعرّف على أية مواقع.",
 	"spamdifftool-option-domain": "الكل من هذا النطاق",
 	"spamdifftool-option-subdomain": "الكل من هذا النطاق الفرعي",
 	"spamdifftool-option-directory": "هذا النطاق الفرعي والمجلد",
