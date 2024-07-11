@@ -4,7 +4,8 @@
 			"DCLXVI",
 			"Jack Phoenix",
 			"Spiritia",
-			"StanProg"
+			"StanProg",
+			"Ted Masters"
 		]
 	},
 	"spamdifftool": "Управление на Черния списък за спам",
@@ -13,7 +14,7 @@
 	"spamdifftool-confirm": "Необходимо е потвърждение за добавяне в черния списък за спам (Нередности могат да се съобщават [$1 на тази страница].)",
 	"spamdifftool-no-text": "Не е въведен текст, който да бъде добавен в Черния списък за спам.",
 	"spamdifftool-no-title": "'''Грешка:''' не е указано заглавие на страницата.",
-	"spamdifftool-no-urls-detected": "Не бяха открити уеб адреси.",
+	"spamdifftool-no-urls-detected": "Не бяха открити URL адреси.",
 	"spamdifftool-option-domain": "всичко от този домейн",
 	"spamdifftool-option-subdomain": "всичко от този поддомейн",
 	"spamdifftool-option-directory": "този поддомейн и директория",
