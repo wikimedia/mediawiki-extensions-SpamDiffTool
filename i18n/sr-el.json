@@ -1,10 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Michaello"
+			"Michaello",
+			"Jack Phoenix",
+			"Milicevic01"
 		]
 	},
 	"spamdifftool-block": "Blok:",
+	"spamdifftool-no-title": "'''Greška:''' naslov stranice nije naveden.",
 	"spamdifftool-no-urls-detected": "Nisu pronađene veb-adrese. <a href='$1'>Nazad</a>.",
 	"spamdifftool-option-domain": "sve od ovog domena",
 	"spamdifftool-option-subdomain": "sve od ovog poddomena",
