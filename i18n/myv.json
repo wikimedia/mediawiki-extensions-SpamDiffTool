@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Botuzhaleny-sodamo"
+			"Botuzhaleny-sodamo",
+			"Rueter"
 		]
 	},
 	"spamdifftool-block": "Озавтомс саймес:",
@@ -9,5 +10,5 @@
 	"spamdifftool-option-subdomain": "те алкс доменэнть весемензэ",
 	"spamdifftool-option-directory": "те алкс доменэнть ды директориянть",
 	"spamdifftool-option-none": "мезеяк а теемс",
-	"spamdifftool-submit": "Максомс"
+	"spamdifftool-submit": "Кучомс"
 }
