@@ -286,7 +286,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			// Get the last edit not by this user
 			// @todo FIXME: This *can* return null...handle that!
 			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
-			$dbw = wfGetDB( DB_PRIMARY );
+			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 
 			if ( method_exists( $services, 'getActorNormalization' ) ) {
 				// MW 1.38+, I guess?
