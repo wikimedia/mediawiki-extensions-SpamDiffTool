@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Solde",
-			"Vriullop"
+			"Vriullop",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool-confirm": "Confirmeu que voleu afegir aquestes entrades a la llista negra de brossa. (<a href='$1' target='new'>Informa d'un problema</a>.)",
