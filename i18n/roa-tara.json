@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Joetaras"
+			"Joetaras",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Gestisce 'a blacklist d'u spam",

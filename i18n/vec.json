@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Candalua"
+			"Candalua",
+			"Jack Phoenix"
 		]
 	},
 	"spamdifftool": "Gestion de la lista nera del spam",
