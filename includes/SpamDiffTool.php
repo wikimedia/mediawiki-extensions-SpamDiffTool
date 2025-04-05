@@ -12,8 +12,10 @@
  * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
 
+use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
+use MediaWiki\Title\Title;
 
 class SpamDiffTool extends UnlistedSpecialPage {
 

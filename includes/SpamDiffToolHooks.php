@@ -15,7 +15,7 @@ class SpamDiffToolHooks {
 		global $wgSpamBlacklistArticle;
 
 		$services = MediaWiki\MediaWikiServices::getInstance();
-		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
+		$sb = MediaWiki\Title\Title::newFromDBKey( $wgSpamBlacklistArticle );
 		$user = $diffEngine->getUser();
 		// Don't add the link if the user cannot edit the Spam Blacklist
 		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
