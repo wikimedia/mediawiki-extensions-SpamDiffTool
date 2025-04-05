@@ -1,6 +1,6 @@
 {
 	"name": "SpamDiffTool",
-	"version": "1.6",
+	"version": "1.7",
 	"author": [
 		"Travis Derouin",
 		"Alexandre Emsenhuber",
@@ -11,7 +11,7 @@
 	"descriptionmsg": "spamdifftool-desc",
 	"type": "antispam",
 	"requires": {
-		"MediaWiki": ">= 1.35.3",
+		"MediaWiki": ">= 1.39.0",
 		"extensions": {
 			"SpamBlacklist": "*"
 		}

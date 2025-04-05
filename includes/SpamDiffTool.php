@@ -34,7 +34,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	public static function getDiffLink( $title ) {
 		global $wgRequest, $wgSpamBlacklistArticle;
 
-		$services = MediaWiki\MediaWikiServices::getInstance();
+		$services = MediaWikiServices::getInstance();
 
 		// can the user even edit this?
 		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
@@ -89,7 +89,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		$out->setHTMLTitle( $this->msg( 'pagetitle', $this->msg( 'spamdifftool-tool' ) ) );
 
-		$services = MediaWiki\MediaWikiServices::getInstance();
+		$services = MediaWikiServices::getInstance();
+		$urlProtocols = $services->getUrlUtils()->validProtocols();
 
 		// can the user even edit the Spam Blacklist page?
 		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
@@ -103,13 +104,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		// do the processing
 		if ( $request->wasPosted() ) {
 			if ( $request->getCheck( 'confirm' ) ) {
-				if ( method_exists( $services, 'getWikiPageFactory' ) ) {
-					// MW 1.36+
-					$wp = $services->getWikiPageFactory()->newFromTitle( $sb );
-				} else {
-					// @phan-suppress-next-line PhanUndeclaredStaticMethod
-					$wp = WikiPage::factory( $sb );
-				}
+				$wp = $services->getWikiPageFactory()->newFromTitle( $sb );
 				$text = ContentHandler::getContentText( $wp->getContent() );
 				'@phan-var string $text';
 				$blacklistPageId = $wp->getId();
@@ -151,13 +146,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				} else {
 					$flags = EDIT_DEFER_UPDATES | EDIT_AUTOSUMMARY;
 				}
-				if ( method_exists( $wp, 'doUserEditContent' ) ) {
-					// MW 1.36+
-					$status = $wp->doUserEditContent( $content, $user, $summary, $flags );
-				} else {
-					// @phan-suppress-next-line PhanUndeclaredMethod
-					$status = $wp->doEditContent( $content, $summary, $flags );
-				}
+
+				$status = $wp->doUserEditContent( $content, $user, $summary, $flags );
 
 				if ( $status->isGood() ) {
 					$returnToStuff = $this->getReturnToTitleAndQuery();
@@ -179,7 +169,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			$tlds = explode( "\n", $source );
 
 			foreach ( $vals as $key => $value ) {
-				if ( preg_match( '/^(?:' . wfUrlProtocols() . ')/', $key ) ) {
+				if ( preg_match( '/^(?:' . $urlProtocols . ')/', $key ) ) {
 					$url = str_replace( '%2E', '.', $key );
 					if ( $value == 'none' ) {
 						continue;
@@ -197,17 +187,17 @@ class SpamDiffTool extends UnlistedSpecialPage {
 									break;
 								}
 							}
-							$url = preg_replace( '@^(?:' . wfUrlProtocols() . ")([^/]*\.)?([^./]+\.[^./]+).*$@", '$2', $url );
+							$url = preg_replace( '@^(?:' . $urlProtocols . ")([^/]*\.)?([^./]+\.[^./]+).*$@", '$2', $url );
 							$url = str_replace( '.', '\.', $url ); // escape the periods
 							$url .= $t;
 							break;
 						case 'subdomain':
-							$url = preg_replace( '/^(?:' . wfUrlProtocols() . ')/', '', $url );
+							$url = preg_replace( '/^(?:' . $urlProtocols . ')/', '', $url );
 							$url = str_replace( '.', '\.', $url ); // escape the periods
 							$url = preg_replace( '/^([^\/]*)\/.*/', '$1', $url ); // trim everything after the slash
 							break;
 						case 'dir':
-							$url = preg_replace( '/^(?:' . wfUrlProtocols() . ')/', '', $url );
+							$url = preg_replace( '/^(?:' . $urlProtocols . ')/', '', $url );
 							$url = preg_replace( "@^([^/]*\.)?([^./]+\.[^./]+(/[^/?]*)?).*$@", '$1$2', $url ); // trim everything after the slash
 							$url = preg_replace( "/^(.*)\/$/", "$1", $url ); // trim trailing / if one exists
 							$url = str_replace( '.', '\.', $url ); // escape the periods
@@ -288,56 +278,27 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
 			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 
-			if ( method_exists( $services, 'getActorNormalization' ) ) {
-				// MW 1.38+, I guess?
-				$actorId = $services->getActorNormalization()->findActorId( $current->getUser(), $dbw );
-			} else {
-				// @phan-suppress-next-line PhanUndeclaredMethod It's _not_ undeclared in MW 1.35 at least
-				$actorId = $current->getUser()->getActorId();
-			}
+			$actorId = $services->getActorNormalization()->findActorId( $current->getUser(), $dbw );
 
-			if ( version_compare( MW_VERSION, '1.39', '<' ) ) {
-				$s = $dbw->selectRow(
-					[ 'revision_actor_temp', 'revision', 'actor' ],
-					[ 'rev_id' ],
-					[
-						'revactor_page' => $current->getId(),
-						"revactor_actor <> {$actorId}"
-					],
-					__METHOD__,
-					[
-						// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
-						// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
-						// in 1.33+ with the new actor stuff active
-						// 'USE INDEX' => 'page_timestamp',
-						'ORDER BY' => 'rev_timestamp DESC'
-					],
-					[
-						'actor' => [ 'JOIN', 'actor_id = revactor_actor' ],
-						'revision_actor_temp' => [ 'JOIN', 'revactor_rev = rev_id' ]
-					]
-				);
-			} else {
-				$s = $dbw->selectRow(
-					[ 'revision', 'actor' ],
-					[ 'rev_id' ],
-					[
-						'rev_page' => $current->getId(),
-						"rev_actor <> {$actorId}"
-					],
-					__METHOD__,
-					[
-						// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
-						// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
-						// in 1.33+ with the new actor stuff active
-						// 'USE INDEX' => 'page_timestamp',
-						'ORDER BY' => 'rev_timestamp DESC'
-					],
-					[
-						'actor' => [ 'JOIN', 'actor_id = rev_actor' ]
-					]
-				);
-			}
+			$s = $dbw->selectRow(
+				[ 'revision', 'actor' ],
+				[ 'rev_id' ],
+				[
+					'rev_page' => $current->getId(),
+					"rev_actor <> {$actorId}"
+				],
+				__METHOD__,
+				[
+					// the USE INDEX clause below, which worked in 1.32 and older (IIRC), causes
+					// Error: 1176 Key 'page_timestamp' doesn't exist in table 'actor_rev_user'
+					// in 1.33+ with the new actor stuff active
+					// 'USE INDEX' => 'page_timestamp',
+					'ORDER BY' => 'rev_timestamp DESC'
+				],
+				[
+					'actor' => [ 'JOIN', 'actor_id = rev_actor' ]
+				]
+			);
 
 			$oldid = null;
 			if ( $s ) {
@@ -367,17 +328,12 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				}
 			}
 		} else {
-			if ( method_exists( MediaWikiServices::class, 'getWikiPageFactory' ) ) {
-				// MW 1.36+
-				$page = $services->getWikiPageFactory()->newFromTitle( $title );
-			} else {
-				$page = new WikiPage( $title );
-			}
+			$page = $services->getWikiPageFactory()->newFromTitle( $title );
 			$text = $page->getContent()->getNativeData();
 		}
 
 		$matches = [];
-		$preg = '/(?:' . wfUrlProtocols() . ")[^] \n'\"\>\<]*/im";
+		$preg = '/(?:' . $urlProtocols . ")[^] \n'\"\>\<]*/im";
 		preg_match_all( $preg, $text, $matches );
 
 		if ( !count( $matches[0] ) ) {
