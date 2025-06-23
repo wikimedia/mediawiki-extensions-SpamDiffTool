@@ -6,13 +6,14 @@
 			"Crt",
 			"Jack Phoenix",
 			"Str4nd",
-			"ZeiP"
+			"ZeiP",
+			"Samoasambia"
 		]
 	},
 	"spamdifftool": "Hallitse mainosestolistaa",
 	"spamdifftool-desc": "Mahdollistaa yksinkertaisen tavan lisätä uusia kohteita mainosestolistaan erovaisuussivuilta.",
 	"spamdifftool-block": "Estä:",
-	"spamdifftool-cant-edit": "Sinulla ei ole oikeuksia muokata mainosestolistaa.",
+	"spamdifftool-cant-edit": "Sinulla ei ole oikeutta muokata mainosestolistaa.",
 	"spamdifftool-confirm": "Vahvista, että haluat lisätä nämä mainosestolistalle. (<a href='$1' target='new'>Ilmoita ongelmasta</a>.)",
 	"spamdifftool-no-text": "Ei ole tekstiä lisättäväksi mainosestolistalle.\n<a href='$1'>Jatka</a>.",
 	"spamdifftool-no-title": "'''Virhe:''' sivuotsikkoa ei oltu määritelty",
