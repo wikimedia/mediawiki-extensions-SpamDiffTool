@@ -77,7 +77,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		$target = $request->getVal( 'target', $par );
 		if ( !$target ) {
-			$out->setPageTitle( $this->msg( 'badtitle' ) );
+			$out->setPageTitle( $this->msg( 'badtitle' )->text() );
 			$out->addHTML( $this->msg( 'badtitletext' ) );
 			return;
 		}
