@@ -12,6 +12,7 @@
  * @link https://www.mediawiki.org/wiki/Extension:SpamDiffTool Documentation
  */
 
+use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
 use MediaWiki\MediaWikiServices;
 use MediaWiki\Revision\SlotRecord;
@@ -107,8 +108,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		if ( $request->wasPosted() ) {
 			if ( $request->getCheck( 'confirm' ) ) {
 				$wp = $services->getWikiPageFactory()->newFromTitle( $sb );
-				$text = ContentHandler::getContentText( $wp->getContent() );
-				'@phan-var string $text';
+				$content = $wp->getContent();
+				$text = $content instanceof TextContent ? $content->getText() : '';
 				$blacklistPageId = $wp->getId();
 
 				// If the blacklist page doesn't exist yet, use the interface
@@ -317,8 +318,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			$de->loadText();
 			$ocontent = $de->getOldRevision()->getContent( SlotRecord::MAIN );
 			$ncontent = $de->getNewRevision()->getContent( SlotRecord::MAIN );
-			$otext = ContentHandler::getContentText( $ocontent );
-			$ntext = ContentHandler::getContentText( $ncontent );
+			$otext = $ocontent instanceof TextContent ? $ocontent->getText() : '';
+			$ntext = $ncontent instanceof TextContent ? $ncontent->getText() : '';
 			$ota = explode( "\n", $contLang->segmentForDiff( $otext ) );
 			$nta = explode( "\n", $contLang->segmentForDiff( $ntext ) );
 			$diffs = new Diff( $ota, $nta );
