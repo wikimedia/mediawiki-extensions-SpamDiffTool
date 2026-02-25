@@ -4,14 +4,15 @@
 			"Jack Phoenix",
 			"Les Meloures",
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"spamdifftool": "Gestioun vun der schwaarzer Lëscht vum Spam",
 	"spamdifftool-desc": "Gëtt d'Méiglechkeet fir aus de Versiounsënnerscheeder nei Elementer op déi schwaarz Lëscht vum Spam derbäizesetzen",
 	"spamdifftool-block": "Spär:",
 	"spamdifftool-cant-edit": "Pardon - Dir hutt net déi néideg Rechter fir d'Schwaarz Lëscht vum Spam z'änneren.",
-	"spamdifftool-confirm": "Confirméiert datt Dir dës Elementer op déi Schwaarz Lëscht vum Spam dobäisetze wëllt.\n([$1 E Probleem mellen])",
+	"spamdifftool-confirm": "Confirméiert, datt Dir dës Elementer op déi Schwaarz Lëscht vum Spam dobäisetze wëllt. ([$1 E Problem mellen].)",
 	"spamdifftool-no-text": "Et gëtt keen Text fir op d'Schwaarz Lëscht vum Spam derbäizesetzen.",
 	"spamdifftool-no-title": "'''Feeler:''' et gouf kee Säitentitel uginn.",
 	"spamdifftool-no-urls-detected": "Et goufe keng URLe fonnt.",
