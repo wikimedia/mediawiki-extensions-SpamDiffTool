@@ -265,7 +265,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			] );
 
 			$oouiForm->appendContent( $fields );
-			$out->addHTML( $oouiForm );
+			$out->addHTML( (string)$oouiForm );
 
 			return;
 		}
