@@ -79,7 +79,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		$target = $request->getVal( 'target', $par );
 		if ( !$target ) {
 			$out->setPageTitle( $this->msg( 'badtitle' )->text() );
-			$out->addHTML( $this->msg( 'badtitletext' ) );
+			$out->addHTML( $this->msg( 'badtitletext' )->parse() );
 			return;
 		}
 
@@ -98,7 +98,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		// can the user even edit the Spam Blacklist page?
 		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
 		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
-			$out->addHTML( $this->msg( 'spamdifftool-cant-edit' ) );
+			$out->addHTML( $this->msg( 'spamdifftool-cant-edit' )->parse() );
 			return;
 		}
 
@@ -159,7 +159,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				} else {
 					// Something went wrong with the edit; display the returned
 					// error message to the user
-					$out->addHTML( $status->getMessage() );
+					$out->addHTML( $status->getMessage()->parse() );
 				}
 
 				return;
