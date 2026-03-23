@@ -9,7 +9,7 @@
 	"spamdifftool": "Upravljanje s crnim spiskom spama",
 	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki u crni spisak spama sa uspoređenih stranica (verzija)",
 	"spamdifftool-block": "Blokiranje:",
-	"spamdifftool-cant-edit": "Nemate ovlaštenje da uređujete listu neželjenog sadržaja.",
+	"spamdifftool-cant-edit": "Nemate dopuštenje da uređujete listu neželjenog sadržaja.",
 	"spamdifftool-confirm": "Potvrdite da zaista želite dodati ove stavke na listu zabranjenih sajtova. ([$1 Prijavi problem].)",
 	"spamdifftool-no-text": "Nema teksta za dodavanje na listu zabranjenih sajtova.",
 	"spamdifftool-no-title": "'''Greška:''' nije bio određen naslov stranicate.",
