@@ -6,8 +6,8 @@
 			"Winston Sung"
 		]
 	},
-	"spamdifftool": "Upravljanje s crnim spiskom spama",
-	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki u crni spisak spama sa uspoređenih stranica (verzija)",
+	"spamdifftool": "Upravljaj listom nepoželjnog spama",
+	"spamdifftool-desc": "Omogućuje osnovni način dodavanja novih stavki u listu nedopuštenog spama sa uspoređenih stranica (verzija)",
 	"spamdifftool-block": "Blokiranje:",
 	"spamdifftool-cant-edit": "Nemate dopuštenje da uređujete listu neželjenog sadržaja.",
 	"spamdifftool-confirm": "Potvrdite da zaista želite dodati ove stavke na listu zabranjenih sajtova. ([$1 Prijavi problem].)",
@@ -20,7 +20,7 @@
 	"spamdifftool-option-none": "ništa",
 	"spamdifftool-spam-link-text": "dodaj kao neželjenu poštu",
 	"spamdifftool-submit": "Unesi",
-	"spamdifftool-summary": "Dodaj na crn spisak neželjenog sadržaja",
+	"spamdifftool-summary": "Dodaj na listu nedopuštenog spama",
 	"spamdifftool-tool": "Alat protiv spama",
-	"spamdifftool-urls-detected": "Sljedeći URL-ovi su otkriveni u izmjeni/nama.\nKoji od njih dakate dodati na spisak neželjenog sadržaja?\nOva prilagođavanja su poredane od više ograničavajućih ka manje ograničavajućim, i ako blokirate cijelu domenu će blokirati i sve linkove te sve drugo što dolazi s te domene.\n\nProvijerite da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
+	"spamdifftool-urls-detected": "Sljedeći URL-ovi su otkriveni u izmjeni/nama.\nKoji od njih želite dodati na listu nedopuštenog spama?\nOva prilagođavanja su poredane od više ograničavajućih ka manje ograničavajućim, i ako blokirate cijelu domenu će blokirati i sve linkove te sve drugo što dolazi s te domene.\n\nProvijerite da ne blokirate cijele domene koje pružaju korisničke račune, poput blogspot.com, shoutwiki.com i sl."
 }
