@@ -2,9 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Jerrykim306",
-			"Ykhwong"
+			"Ykhwong",
+			"Tensama0415"
 		]
 	},
+	"spamdifftool": "스팸 차단 목록 관리",
 	"spamdifftool-block": "차단:",
 	"spamdifftool-submit": "제출",
 	"spamdifftool-tool": "스팸 도구"
