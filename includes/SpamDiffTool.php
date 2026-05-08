@@ -332,7 +332,8 @@ class SpamDiffTool extends UnlistedSpecialPage {
 			}
 		} else {
 			$page = $services->getWikiPageFactory()->newFromTitle( $title );
-			$text = $page->getContent()->getNativeData();
+			$content = $page->getContent();
+			$text = $content instanceof TextContent ? $content->getText() : '';
 		}
 
 		$matches = [];
