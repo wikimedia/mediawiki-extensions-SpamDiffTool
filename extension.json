@@ -34,8 +34,13 @@
 	"SpecialPages": {
 		"SpamDiffTool": "SpamDiffTool"
 	},
+	"HookHandlers": {
+		"main": {
+			"class": "SpamDiffToolHooks"
+		}
+	},
 	"Hooks": {
-		"DifferenceEngineViewHeader": "SpamDiffToolHooks::onDifferenceEngineViewHeader"
+		"DifferenceEngineViewHeader": "main"
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "",

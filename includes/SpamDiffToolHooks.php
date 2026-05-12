@@ -1,17 +1,20 @@
 <?php
+
+use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
+
 /**
  * Hooked functions used by SpamDiffTool.
  *
  * @file
  */
-class SpamDiffToolHooks {
+class SpamDiffToolHooks implements DifferenceEngineViewHeaderHook {
 
 	/**
 	 * Adds the "add to spam [blacklist]" link to the diff view.
 	 *
 	 * @param DifferenceEngine $diffEngine
 	 */
-	public static function onDifferenceEngineViewHeader( $diffEngine ) {
+	public function onDifferenceEngineViewHeader( $diffEngine ) {
 		global $wgSpamBlacklistArticle;
 
 		$services = MediaWiki\MediaWikiServices::getInstance();
