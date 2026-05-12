@@ -1,6 +1,9 @@
 <?php
 
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
+use MediaWiki\Linker\LinkRenderer;
+use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\Title\Title;
 
 /**
  * Hooked functions used by SpamDiffTool.
@@ -8,6 +11,12 @@ use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
  * @file
  */
 class SpamDiffToolHooks implements DifferenceEngineViewHeaderHook {
+
+	public function __construct(
+		private readonly LinkRenderer $linkRenderer,
+		private readonly PermissionManager $permissionManager,
+	) {
+	}
 
 	/**
 	 * Adds the "add to spam [blacklist]" link to the diff view.
@@ -17,11 +26,10 @@ class SpamDiffToolHooks implements DifferenceEngineViewHeaderHook {
 	public function onDifferenceEngineViewHeader( $diffEngine ) {
 		global $wgSpamBlacklistArticle;
 
-		$services = MediaWiki\MediaWikiServices::getInstance();
-		$sb = MediaWiki\Title\Title::newFromDBKey( $wgSpamBlacklistArticle );
+		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
 		$user = $diffEngine->getUser();
 		// Don't add the link if the user cannot edit the Spam Blacklist
-		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
+		if ( !$this->permissionManager->userCan( 'edit', $user, $sb ) ) {
 			return;
 		}
 
@@ -50,7 +58,7 @@ class SpamDiffToolHooks implements DifferenceEngineViewHeaderHook {
 		$diffEngine->getOutput()->addHTML(
 			'<table style="width:100%"><tr><td style="width:50%"></td><td style="width:50%">
 			<div style="text-align:center">[' .
-			$services->getLinkRenderer()->makeKnownLink(
+			$this->linkRenderer->makeKnownLink(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
 				[],

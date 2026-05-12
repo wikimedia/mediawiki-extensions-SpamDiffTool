@@ -32,11 +32,26 @@
 		"SpamDiffToolHooks": "includes/SpamDiffToolHooks.php"
 	},
 	"SpecialPages": {
-		"SpamDiffTool": "SpamDiffTool"
+		"SpamDiffTool": {
+			"class": "SpamDiffTool",
+			"services": [
+				"ActorNormalization",
+				"ConnectionProvider",
+				"ContentLanguage",
+				"PermissionManager",
+				"RevisionLookup",
+				"UrlUtils",
+				"WikiPageFactory"
+			]
+		}
 	},
 	"HookHandlers": {
 		"main": {
-			"class": "SpamDiffToolHooks"
+			"class": "SpamDiffToolHooks",
+			"services": [
+				"LinkRenderer",
+				"PermissionManager"
+			]
 		}
 	},
 	"Hooks": {

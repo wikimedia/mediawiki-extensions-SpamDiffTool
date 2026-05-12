@@ -14,13 +14,27 @@
 
 use MediaWiki\Content\TextContent;
 use MediaWiki\Html\Html;
-use MediaWiki\MediaWikiServices;
+use MediaWiki\Language\Language;
+use MediaWiki\Page\WikiPageFactory;
+use MediaWiki\Permissions\PermissionManager;
+use MediaWiki\Revision\RevisionLookup;
 use MediaWiki\Revision\SlotRecord;
 use MediaWiki\Title\Title;
+use MediaWiki\User\ActorNormalization;
+use MediaWiki\Utils\UrlUtils;
+use Wikimedia\Rdbms\IConnectionProvider;
 
 class SpamDiffTool extends UnlistedSpecialPage {
 
-	public function __construct() {
+	public function __construct(
+		private readonly ActorNormalization $actorNormalization,
+		private readonly IConnectionProvider $dbProvider,
+		private readonly Language $contLang,
+		private readonly PermissionManager $permissionManager,
+		private readonly RevisionLookup $revisionLookup,
+		private readonly UrlUtils $urlUtils,
+		private readonly WikiPageFactory $wikiPageFactory,
+	) {
 		parent::__construct( 'SpamDiffTool' );
 	}
 
@@ -54,12 +68,11 @@ class SpamDiffTool extends UnlistedSpecialPage {
 
 		$out->setHTMLTitle( $this->msg( 'pagetitle', $this->msg( 'spamdifftool-tool' ) ) );
 
-		$services = MediaWikiServices::getInstance();
-		$urlProtocols = $services->getUrlUtils()->validProtocols();
+		$urlProtocols = $this->urlUtils->validProtocols();
 
 		// can the user even edit the Spam Blacklist page?
 		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
-		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
+		if ( !$this->permissionManager->userCan( 'edit', $user, $sb ) ) {
 			$out->addHTML( $this->msg( 'spamdifftool-cant-edit' )->parse() );
 			return;
 		}
@@ -69,7 +82,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		// do the processing
 		if ( $request->wasPosted() ) {
 			if ( $request->getCheck( 'confirm' ) ) {
-				$wp = $services->getWikiPageFactory()->newFromTitle( $sb );
+				$wp = $this->wikiPageFactory->newFromTitle( $sb );
 				$content = $wp->getContent();
 				$text = $content instanceof TextContent ? $content->getText() : '';
 				$blacklistPageId = $wp->getId();
@@ -240,10 +253,10 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		if ( $diff !== null ) {
 			// Get the last edit not by this user
 			// @todo FIXME: This *can* return null...handle that!
-			$current = $services->getRevisionLookup()->getRevisionByTitle( $title );
-			$dbw = MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
+			$current = $this->revisionLookup->getRevisionByTitle( $title );
+			$dbw = $this->dbProvider->getPrimaryDatabase();
 
-			$actorId = $services->getActorNormalization()->findActorId( $current->getUser(), $dbw );
+			$actorId = $this->actorNormalization->findActorId( $current->getUser(), $dbw );
 
 			$s = $dbw->selectRow(
 				[ 'revision', 'actor' ],
@@ -275,15 +288,14 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				$oldid = $request->getInt( 'oldid2' );
 			}
 
-			$contLang = $services->getContentLanguage();
 			$de = new DifferenceEngine( $this->getContext(), $oldid, $diff, $rcid );
 			$de->loadText();
 			$ocontent = $de->getOldRevision()->getContent( SlotRecord::MAIN );
 			$ncontent = $de->getNewRevision()->getContent( SlotRecord::MAIN );
 			$otext = $ocontent instanceof TextContent ? $ocontent->getText() : '';
 			$ntext = $ncontent instanceof TextContent ? $ncontent->getText() : '';
-			$ota = explode( "\n", $contLang->segmentForDiff( $otext ) );
-			$nta = explode( "\n", $contLang->segmentForDiff( $ntext ) );
+			$ota = explode( "\n", $this->contLang->segmentForDiff( $otext ) );
+			$nta = explode( "\n", $this->contLang->segmentForDiff( $ntext ) );
 			$diffs = new Diff( $ota, $nta );
 			// iterate over the edits and get all of the changed text
 			$text = '';
@@ -293,7 +305,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 				}
 			}
 		} else {
-			$page = $services->getWikiPageFactory()->newFromTitle( $title );
+			$page = $this->wikiPageFactory->newFromTitle( $title );
 			$content = $page->getContent();
 			$text = $content instanceof TextContent ? $content->getText() : '';
 		}
