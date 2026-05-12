@@ -25,44 +25,6 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	}
 
 	/**
-	 * This...isn't actually used anywhere anymore, as far as I can see?
-	 * --ashley 7 December 2014
-	 *
-	 * I think it was used in some wikiHow thing (maybe the default skin?)
-	 * nearly or well over a decade ago. --ashley, 1 January 2020
-	 *
-	 * @param Title $title
-	 * @return string
-	 */
-	public static function getDiffLink( $title ) {
-		global $wgRequest, $wgSpamBlacklistArticle;
-
-		$services = MediaWikiServices::getInstance();
-
-		// can the user even edit this?
-		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
-		$user = RequestContext::getMain()->getUser();
-		if ( !$services->getPermissionManager()->userCan( 'edit', $user, $sb ) ) {
-			return '';
-		}
-
-		$link = '[' .
-			$services->getLinkRenderer()->makeKnownLink(
-				SpecialPage::getTitleFor( 'SpamDiffTool' ),
-				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
-				[],
-				[
-					'target' => $title->getPrefixedURL(),
-					'oldid2' => $wgRequest->getVal( 'oldid' ),
-					'rcid' => $wgRequest->getVal( 'rcid' ),
-					'diff2' => $wgRequest->getVal( 'diff' ),
-					'returnto' => $_SERVER['QUERY_STRING']
-				]
-			) . ']';
-		return $link;
-	}
-
-	/**
 	 * Show the special page
 	 *
 	 * @param string|null $par Parameter passed to the special page (target page name), if any

@@ -47,9 +47,6 @@ class SpamDiffToolHooks {
 		$diffEngine->getOutput()->addHTML(
 			'<table style="width:100%"><tr><td style="width:50%"></td><td style="width:50%">
 			<div style="text-align:center">[' .
-			// The parameters used here are slightly different than those used in
-			// SpamDiffTool::getDiffLink(), hence why this reimplements some of its
-			// functionality. Eventually this should also be cleaned up.
 			$services->getLinkRenderer()->makeKnownLink(
 				SpecialPage::getTitleFor( 'SpamDiffTool' ),
 				wfMessage( 'spamdifftool-spam-link-text' )->plain(),
