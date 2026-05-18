@@ -7,7 +7,10 @@
 		]
 	},
 	"spamdifftool": "스팸 차단 목록 관리",
+	"spamdifftool-desc": "차이 문서에서 스팸 차단 목록에 새 항목을 추가하는 기본적인 방법을 제공합니다",
 	"spamdifftool-block": "차단:",
+	"spamdifftool-cant-edit": "죄송합니다. 스팸 차단 목록을 편집할 권한이 없습니다",
+	"spamdifftool-confirm": "스팸 차단 목록에 이 항목들을 추가하시겠습니까? ([$1 문제 보고].)",
 	"spamdifftool-no-text": "스팸 차단 목록에 추가할 텍스트가 없습니다.",
 	"spamdifftool-no-title": "'''오류:''' 문서 제목이 지정되지 않았습니다.",
 	"spamdifftool-no-urls-detected": "감지된 URL이 없습니다.",
@@ -18,5 +21,6 @@
 	"spamdifftool-spam-link-text": "스팸에 추가",
 	"spamdifftool-submit": "제출",
 	"spamdifftool-summary": "스팸 차단 목록에 추가",
-	"spamdifftool-tool": "스팸 도구"
+	"spamdifftool-tool": "스팸 도구",
+	"spamdifftool-urls-detected": "편집사항에서 다음과 같은 URL이 감지되었습니다. 스팸 차단 목록에 추가하시오. 아래 옵션은 차단 강도가 높은 순서부터 낮은 순서대로 나열되어 있으며, 도메인 전체를 차단하면 해당 도메인에서 오는 모든 링크가 차단됩니다.<br /><br /> blogspot.com, shoutwiki.com 등 사용자 계정을 호스팅하는 도메인 전체를 차단하지 않도록 주의하세요."
 }
