@@ -4,7 +4,8 @@
 			"Helix84",
 			"Jack Phoenix",
 			"Luky001",
-			"Teslaton"
+			"Teslaton",
+			"Wizzard"
 		]
 	},
 	"spamdifftool": "Spravovať Čiernu listinu spamu",
@@ -22,5 +23,6 @@
 	"spamdifftool-spam-link-text": "pridať medzi spam",
 	"spamdifftool-submit": "Odoslať",
 	"spamdifftool-summary": "Pridanie na Čiernu listinu spamu",
+	"spamdifftool-tool": "Nástroj proti spamu",
 	"spamdifftool-urls-detected": "V úprave boli zistené nasledovné URL.\nKtoré z nich chcete pridať na čiernu listinu spamu?\nTieto voľby sú v poradí od najreštriktívnejších po menej reštriktívne. Zablokovanie celej domény zablokuje všetky odkazy na danú doménu.\n\nUrčite nezablokujte celé domény, ktoré úmožňujú tvorbu používateľských účtov ako blogspot.com, shoutwiki.com atď."
 }
