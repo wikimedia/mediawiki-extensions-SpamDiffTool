@@ -5,7 +5,8 @@
 			"Fryed-peach",
 			"Hosiryuhosi",
 			"Jack Phoenix",
-			"Shirayuki"
+			"Shirayuki",
+			"Tensama0415"
 		]
 	},
 	"spamdifftool": "スパム用ブラックリストの管理",
@@ -23,5 +24,6 @@
 	"spamdifftool-spam-link-text": "スパムに追加",
 	"spamdifftool-submit": "送信",
 	"spamdifftool-summary": "スパム用ブラックリストに追加中",
+	"spamdifftool-tool": "スパム対策ツール",
 	"spamdifftool-urls-detected": "以下のURLが編集から検出されました。\nスパム用ブラックリストに追加したいのはどれですか？\n\n各オプションは制限が強い順に並んでいます。ドメイン全体のブロックはそのドメインに属するあらゆるリンクをブロックします。\n\n利用者アカウントを提供するもの（例：blogspot.com、shoutwiki.com）はドメイン全体をブロックしないように注意してください。"
 }
