@@ -1,5 +1,6 @@
 <?php
 
+use MediaWiki\Config\Config;
 use MediaWiki\Diff\Hook\DifferenceEngineViewHeaderHook;
 use MediaWiki\Linker\LinkRenderer;
 use MediaWiki\Permissions\PermissionManager;
@@ -13,6 +14,7 @@ use MediaWiki\Title\Title;
 class SpamDiffToolHooks implements DifferenceEngineViewHeaderHook {
 
 	public function __construct(
+		private readonly Config $config,
 		private readonly LinkRenderer $linkRenderer,
 		private readonly PermissionManager $permissionManager,
 	) {
@@ -24,9 +26,7 @@ class SpamDiffToolHooks implements DifferenceEngineViewHeaderHook {
 	 * @param DifferenceEngine $diffEngine
 	 */
 	public function onDifferenceEngineViewHeader( $diffEngine ) {
-		global $wgSpamBlacklistArticle;
-
-		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
+		$sb = Title::newFromDBKey( $this->config->get( 'SpamBlacklistArticle' ) );
 		$user = $diffEngine->getUser();
 		// Don't add the link if the user cannot edit the Spam Blacklist
 		if ( !$this->permissionManager->userCan( 'edit', $user, $sb ) ) {

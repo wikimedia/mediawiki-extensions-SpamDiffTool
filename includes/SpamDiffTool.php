@@ -44,8 +44,6 @@ class SpamDiffTool extends UnlistedSpecialPage {
 	 * @param string|null $par Parameter passed to the special page (target page name), if any
 	 */
 	public function execute( $par ) {
-		global $wgSpamBlacklistArticle;
-
 		$out = $this->getOutput();
 		$user = $this->getUser();
 
@@ -71,7 +69,7 @@ class SpamDiffTool extends UnlistedSpecialPage {
 		$urlProtocols = $this->urlUtils->validProtocols();
 
 		// can the user even edit the Spam Blacklist page?
-		$sb = Title::newFromDBKey( $wgSpamBlacklistArticle );
+		$sb = Title::newFromDBKey( $this->getConfig()->get( 'SpamBlacklistArticle' ) );
 		if ( !$this->permissionManager->userCan( 'edit', $user, $sb ) ) {
 			$out->addHTML( $this->msg( 'spamdifftool-cant-edit' )->parse() );
 			return;

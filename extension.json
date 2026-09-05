@@ -49,6 +49,7 @@
 		"main": {
 			"class": "SpamDiffToolHooks",
 			"services": [
+				"MainConfig",
 				"LinkRenderer",
 				"PermissionManager"
 			]
