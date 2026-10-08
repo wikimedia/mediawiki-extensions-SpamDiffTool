@@ -4,12 +4,13 @@
 			"An13sa",
 			"Jack Phoenix",
 			"Kobazulo",
-			"Sator"
+			"Sator",
+			"Xabier Armendaritz"
 		]
 	},
 	"spamdifftool-block": "Blokeatu:",
 	"spamdifftool-no-urls-detected": "Ez da URL-rik detektatu.",
-	"spamdifftool-option-none": "ezer",
+	"spamdifftool-option-none": "ezer ez",
 	"spamdifftool-spam-link-text": "spamera gehitu",
 	"spamdifftool-submit": "Bidali",
 	"spamdifftool-tool": "Spam tresna"
