@@ -14,8 +14,8 @@
 	"spamdifftool": "Spam-Negativliste bearbeiten",
 	"spamdifftool-desc": "Ermöglicht das Hinzufügen neuer Einträge zur Spamblacklist aus Versionsunterschieden",
 	"spamdifftool-block": "Sperre:",
-	"spamdifftool-cant-edit": "Du hast nicht die Berechtigung, die Spam-Negativliste zu bearbeiten.",
-	"spamdifftool-confirm": "Bestätige, dass du diese Einträge der Spam-Negativliste hinzufügen möchtest ([$1 ein Problem melden]).",
+	"spamdifftool-cant-edit": "{{#FORMAL:Du hast|Sie haben}} nicht die Berechtigung, die Spam-Negativliste zu bearbeiten.",
+	"spamdifftool-confirm": "{{#FORMAL:Bestätige|Bestätigen Sie}}, dass {{#FORMAL:du|Sie}} diese Einträge der Spam-Negativliste hinzufügen {{#FORMAL:möchtest|möchten}} ([$1 ein Problem melden]).",
 	"spamdifftool-no-text": "Es gibt keinen Text, welcher der Spam-Negativliste hinzugefügt werden könnte.",
 	"spamdifftool-no-title": "'''Fehler:''' es wurde kein Seitentitel angegeben.",
 	"spamdifftool-no-urls-detected": "Es wurden keine URLs gefunden.",
@@ -27,5 +27,5 @@
 	"spamdifftool-submit": "Speichern",
 	"spamdifftool-summary": "Zur Spam-Negativliste hinzufügen",
 	"spamdifftool-tool": "Spam-Werkzeug",
-	"spamdifftool-urls-detected": "Die folgenden URLs wurden in der Bearbeitung gefunden, welche davon möchtest du der Spam-Negativliste hinzufügen?\n\nDie Reihenfolge geht von sehr einschränkend bis weniger einschränkend, das Eintragen einer ganzen Domain blockiert alle Links, die von dieser Domain kommen.\n\nStelle sicher, dass du nicht komplette Domains blockierst, die separate Benutzerinhalte bereitstellen, wie z. B. blogspot.com, shoutwiki.com usw."
+	"spamdifftool-urls-detected": "Die folgenden URLs wurden in der Bearbeitung gefunden, welche davon {{#FORMAL:möchtest du|möchten Sie}} der Spam-Negativliste hinzufügen?\n \nDie Reihenfolge geht von sehr einschränkend bis weniger einschränkend, das Eintragen einer ganzen Domain blockiert alle Links, die von dieser Domain kommen.\n\nStelle sicher, dass du nicht komplette Domains blockierst, die separate Benutzerinhalte bereitstellen, wie z. B. blogspot.com, shoutwiki.com usw."
 }
